@@ -93,9 +93,10 @@ def getEmbeddings():
     
     print("\nVector embedding for the resource 'Chicago Bulls':")
     
-    data = ["http://dbpedia.org/resource/Chicago_Bulls"]
-    data = {'entities' : str(data)}
-    r = requests.get('http://www.kgvec2go.org/rest/rdf2vec-light/dbpedia/250/cbow/250', headers=data) 
+    #http://dbpedia.org/resource/Chicago_Bulls
+    kg_entity = "Chicago_Bulls"
+    
+    r = requests.get('http://www.kgvec2go.org/rest/get-vector/dbpedia/' + kg_entity) 
     
     print(r.text)
 
