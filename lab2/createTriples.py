@@ -18,19 +18,22 @@ def createTriples():
     g = Graph()
     
     city = Namespace("http://www.example.org/university/london/city#")
+    dbpo = Namespace("https://dbpedia.org/ontology/")
        
     #Prefixes
     g.bind("foaf", FOAF) #FOAF is given as defaulty namespace
-    g.bind("city", city) #city is a newly created namespace 
+    g.bind("city", city) #city is a newly created namespace
+    g.bind("dbpo", dbpo) #dbpo is a newly created namespace 
     
     #These lines are equivalent    
     #ernesto = URIRef("http://www.example.org/university/london/city#ernesto")
     #city.ernesto
     #print(city.ernesto)
     
-    #bnode = BNode()  # a GUID is generated
+    bnode = BNode()  # a GUID is generated
 
     name = Literal('Ernesto Jimenez-Ruiz', datatype=XSD.string)  # lang="en" for language tags
+    year = Literal('2021', datatype=XSD.gYear)  # lang="en" for language tags
    
 
     g.add((city.inm713, RDF.type, city.Module))
@@ -38,11 +41,19 @@ def createTriples():
     g.add((city.ernesto, FOAF.name, name))
     g.add((city.ernesto, city.teaches, city.inm713))
     
+    g.add((bnode, RDF.type, RDF.Statement ))
+    g.add((bnode, RDF.subject, city.ernesto ))
+    g.add((bnode, RDF.predicate, city.teaches ))
+    g.add((bnode, RDF.object, city.inm713 ))
+    g.add((bnode, dbpo.year, year ))
     
-    print("Saving graph to 'lab2_rdflib.ttl':")
+    
+    
+    
+    print("Saving graph to 'lab2_task5.1_rdflib.ttl':")
     
     print(g.serialize(format="turtle").decode("utf-8"))    
-    g.serialize(destination='lab2_rdflib.ttl', format='ttl')
+    g.serialize(destination='lab2_task5.1_rdflib.ttl', format='ttl')
 
 
 

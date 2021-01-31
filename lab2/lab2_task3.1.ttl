@@ -1,0 +1,23 @@
+@prefix dbpo:  <https://dbpedia.org/ontology/> .
+@prefix dbp:   <https://dbpedia.org/resource/> .
+@prefix city:  <http://www.example.org/university/london/city#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+[ a               rdf:Statement ;
+  rdf:object      dbp:City_University_of_London ;
+  rdf:predicate   dbpo:empolyer ;
+  rdf:subject     city:ernesto ;
+  dbpo:startDate  "2019-09-23T00:00:00"^^xsd:date
+] .
+
+city:ernesto  a               foaf:Person ;
+        city:speaks           ( dbp:Spanish_language dbp:Italian_language dbp:English_language ) ;
+        foaf:family_name      "Jimenez-Ruiz" ;
+        foaf:givenname        "Ernesto" ;
+        dbpo:birthPlace       dbp:Castellón_de_la_Plana ;
+        dbpo:employer         dbp:City_University_of_London ;
+        dbpo:locationCountry  dbp:Spain .
