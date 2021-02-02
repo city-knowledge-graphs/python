@@ -17,6 +17,7 @@ def createTriples():
     #Empty graph
     g = Graph()
     
+    #Special namspaces to create  
     city = Namespace("http://www.example.org/university/london/city#")
     dbpo = Namespace("https://dbpedia.org/ontology/")
        
@@ -25,9 +26,10 @@ def createTriples():
     g.bind("city", city) #city is a newly created namespace
     g.bind("dbpo", dbpo) #dbpo is a newly created namespace 
     
-    #These lines are equivalent    
+    #These lines are equivalent:    
     #ernesto = URIRef("http://www.example.org/university/london/city#ernesto")
     #city.ernesto
+    
     #print(city.ernesto)
     
     bnode = BNode()  # a GUID is generated
