@@ -6,6 +6,7 @@ Created on 19 Jan 2021
 
 from SPARQLWrapper import SPARQLWrapper, JSON, XML
 from pprint import pprint
+import time
 
 
 
