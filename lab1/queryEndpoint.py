@@ -5,8 +5,7 @@ Created on 19 Jan 2021
 '''
 
 from SPARQLWrapper import SPARQLWrapper, JSON
-
-
+import time
 
 
 def queryRemoteGraph(endpoint_url, query, attempts=3):
