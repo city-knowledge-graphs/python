@@ -13,7 +13,7 @@ def RDFSInference():
     print("Loaded '" + str(len(g)) + "' triples.")
     
     #Performs RDFS reasoning
-    owlrl.DeductiveClosure(owlrl.RDFS_Semantics).expand(g)
+    owlrl.DeductiveClosure(owlrl.RDFS_Semantics, axiomatic_triples=True, datatype_axioms=False).expand(g)
     
     
     print("After inference rules: '" + str(len(g)) + "' triples.")
