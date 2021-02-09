@@ -9,4 +9,6 @@
 - [Owlready2](https://pypi.org/project/Owlready2/)
 - [SPARQLWrapper](https://pypi.org/project/SPARQLWrapper/)
 - [RDFlib](https://pypi.org/project/rdflib/)
+- [OWL-RL](https://pypi.org/project/owlrl/5.2.1/)
 - [requests](https://pypi.org/project/requests/)
+
