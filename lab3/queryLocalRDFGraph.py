@@ -11,9 +11,13 @@ def queryLocalGraph():
    
     g = Graph()
     g.parse("playground.ttl", format="ttl")
+  
     
     
     print("Loaded '" + str(len(g)) + "' triples.")
+    
+    #for s, p, o in g:
+    #    print((s.n3(), p.n3(), o.n3()))
     
         
     print("Females:")
