@@ -11,4 +11,5 @@
 - [RDFlib](https://pypi.org/project/rdflib/)
 - [OWL-RL](https://pypi.org/project/owlrl/5.2.1/)
 - [requests](https://pypi.org/project/requests/)
+- [logging](https://pypi.org/project/logging/)
 
