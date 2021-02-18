@@ -43,18 +43,18 @@ def checkEntailments(g):
     triple8 = ":Mother rdfs:subClassOf :Person ."
     
     
-    runQuery(g, triple1)
-    runQuery(g, triple2)
-    runQuery(g, triple3)
-    runQuery(g, triple4)
-    runQuery(g, triple5)
-    runQuery(g, triple6)
-    runQuery(g, triple7)
-    runQuery(g, triple8)
+    checkEntailment(g, triple1)
+    checkEntailment(g, triple2)
+    checkEntailment(g, triple3)
+    checkEntailment(g, triple4)
+    checkEntailment(g, triple5)
+    checkEntailment(g, triple6)
+    checkEntailment(g, triple7)
+    checkEntailment(g, triple8)
     
     
     
-def runQuery(g, triple):
+def checkEntailment(g, triple):
     
     #We use an ASK query instead of a select. It could be done with SELETCT and then checking that the results are not empty 
     qres = g.query(
