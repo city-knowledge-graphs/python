@@ -3,6 +3,9 @@
 - **Laboratory 1**: Set up.
 - **Laboratory 2**: Creating simple RDF-based Knowledge Graphs.
 - **Laboratory 3**: Querying RDF-based Knowledge Graphs via SPARQL 1.0.
+- **Laboratory 4**: Reasoning with RDFS Semantics. Updated with solutions.
+- **Laboratory 5**: Modelling Ontologies with OWL 2 and Protégé.
+- **Laboratory 6**: Exposing Tabular Data as an RDF-based Knowledge Graph.
 
 ### Dependencies
 - [Python 3](https://www.python.org/)
@@ -12,4 +15,6 @@
 - [OWL-RL](https://pypi.org/project/owlrl/5.2.1/)
 - [requests](https://pypi.org/project/requests/)
 - [logging](https://pypi.org/project/logging/)
+- [pandas](https://pypi.org/project/pandas/)
+- [python-Levenshtein](https://pypi.org/project/python-Levenshtein/)
 
