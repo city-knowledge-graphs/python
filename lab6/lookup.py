@@ -80,7 +80,8 @@ class DBpediaLookup(Lookup):
         #return "http://lookup.dbpedia.org/api/search/KeywordSearch"
         
         #NEW lookup: https://github.com/dbpedia/lookup-application
-        return "http://akswnc7.informatik.uni-leipzig.de/lookup/api/search"
+        #return "http://akswnc7.informatik.uni-leipzig.de/lookup/api/search"
+        return "http://lookup.dbpedia.org/api/search"
         
         #TODO: prefix search allows for partial searches
         #return "http://lookup.dbpedia.org/api/search/PrefixSearch"
