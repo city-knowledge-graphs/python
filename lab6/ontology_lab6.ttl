@@ -1,0 +1,226 @@
+@prefix : <http://www.semanticweb.org/ernesto/inm713/lab6/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lab6: <http://www.semanticweb.org/ernesto/inm713/lab6/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/ernesto/inm713/lab6/> .
+
+<http://www.semanticweb.org/ernesto/inm713/lab6/> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/lat
+lab6:lat rdf:type owl:AnnotationProperty .
+
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/long
+lab6:long rdf:type owl:AnnotationProperty .
+
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/population
+lab6:population rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/cityIsLocatedIn
+lab6:cityIsLocatedIn rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf lab6:isLocatedIn ;
+                     owl:inverseOf lab6:hasCity ;
+                     rdf:type owl:FunctionalProperty ;
+                     rdfs:domain lab6:City ;
+                     rdfs:range lab6:Country .
+
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/hasAdminCapital
+lab6:hasAdminCapital rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf lab6:hasCity ;
+                     owl:inverseOf lab6:isAdminCapitalOf ;
+                     rdfs:domain lab6:Country ;
+                     rdfs:range lab6:AdminCapitalCity .
+
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/hasCapital
+lab6:hasCapital rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf lab6:hasCity ;
+                owl:inverseOf lab6:isCapitalOf ;
+                rdf:type owl:FunctionalProperty ;
+                rdfs:domain lab6:Country ;
+                rdfs:range lab6:CapitalCity .
+
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/hasCity
+lab6:hasCity rdf:type owl:ObjectProperty ;
+             rdfs:domain lab6:Country ;
+             rdfs:range lab6:City .
+
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/isAdminCapitalOf
+lab6:isAdminCapitalOf rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf lab6:cityIsLocatedIn ;
+                      rdfs:domain lab6:AdminCapitalCity ;
+                      rdfs:range lab6:Country .
+
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/isCapitalOf
+lab6:isCapitalOf rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf lab6:cityIsLocatedIn ;
+                 rdf:type owl:FunctionalProperty ;
+                 rdfs:domain lab6:CapitalCity ;
+                 rdfs:range lab6:Country .
+
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/isFirstLevelAdminCapitalOf
+lab6:isFirstLevelAdminCapitalOf rdf:type owl:ObjectProperty ;
+                                rdfs:subPropertyOf lab6:isAdminCapitalOf ;
+                                rdfs:domain lab6:FirstLevelAdminCapitalCity ;
+                                rdfs:range lab6:Country .
+
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/isLocatedIn
+lab6:isLocatedIn rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/isSecondLevelAdminCapitalOf
+lab6:isSecondLevelAdminCapitalOf rdf:type owl:ObjectProperty ;
+                                 rdfs:subPropertyOf lab6:isAdminCapitalOf ;
+                                 rdfs:domain lab6:SecondLevelAdminCapitalCity ;
+                                 rdfs:range lab6:Country .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/admin_name
+lab6:admin_name rdf:type owl:DatatypeProperty ;
+                rdfs:range xsd:string ;
+                rdfs:comment "Administrative name of a city" .
+
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/iso2code
+lab6:iso2code rdf:type owl:DatatypeProperty ;
+              rdfs:range xsd:string ;
+              rdfs:comment "ISO 3166-1 code with 2 characters: https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes" .
+
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/iso3code
+lab6:iso3code rdf:type owl:DatatypeProperty ;
+              rdfs:range xsd:string ;
+              rdfs:comment "ISO 3166-1 code with 3 characters: https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes" .
+
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/latitude
+lab6:latitude rdf:type owl:DatatypeProperty ;
+              rdfs:range xsd:float ;
+              rdfs:label "lat" .
+
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/longitude
+lab6:longitude rdf:type owl:DatatypeProperty ;
+               rdfs:range xsd:float ;
+               rdfs:label "long" .
+
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/name
+lab6:name rdf:type owl:DatatypeProperty ;
+          rdfs:range xsd:string ;
+          rdfs:seeAlso lab6:admin_name .
+
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/name_ascii
+lab6:name_ascii rdf:type owl:DatatypeProperty ;
+                rdfs:range xsd:string ;
+                rdfs:comment "Name using only ascii characters" .
+
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/pupulation
+lab6:pupulation rdf:type owl:DatatypeProperty ;
+                rdfs:range xsd:long ;
+                rdfs:comment "population of a city" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/AdminCapitalCity
+lab6:AdminCapitalCity rdf:type owl:Class ;
+                      rdfs:subClassOf lab6:City .
+
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/CapitalCity
+lab6:CapitalCity rdf:type owl:Class ;
+                 rdfs:subClassOf lab6:City ;
+                 rdfs:comment "primary - country's capital (e.g. Washington D.C.)" .
+
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/City
+lab6:City rdf:type owl:Class ;
+          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                            owl:onProperty lab6:cityIsLocatedIn ;
+                            owl:someValuesFrom lab6:Country
+                          ] .
+
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/Country
+lab6:Country rdf:type owl:Class ;
+             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                               owl:onProperty lab6:hasCapital ;
+                               owl:someValuesFrom lab6:City
+                             ] .
+
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/FirstLevelAdminCapitalCity
+lab6:FirstLevelAdminCapitalCity rdf:type owl:Class ;
+                                rdfs:subClassOf lab6:AdminCapitalCity ;
+                                rdfs:comment "admin - first-level admin capital (e.g. Little Rock, AR)" .
+
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/SecondLevelAdminCapitalCity
+lab6:SecondLevelAdminCapitalCity rdf:type owl:Class ;
+                                 rdfs:subClassOf lab6:AdminCapitalCity ;
+                                 rdfs:comment "minor - lower-level admin capital (e.g. Fayetteville, AR)" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/london
+lab6:london rdf:type owl:NamedIndividual ,
+                     lab6:City ;
+            lab6:isCapitalOf lab6:united_kingdom ;
+            lab6:admin_name "London, City of"^^xsd:string ;
+            lab6:name "London"^^xsd:string ;
+            lab6:name_ascii "London"^^xsd:string ;
+            lab6:lat "51.5072"^^xsd:float ;
+            lab6:long "-0.1275"^^xsd:float ;
+            lab6:population "10979000"^^xsd:long .
+
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/oxford
+lab6:oxford rdf:type owl:NamedIndividual ;
+            lab6:cityIsLocatedIn lab6:united_kingdom ;
+            lab6:latitude "51.751163"^^xsd:float ;
+            lab6:longitude "-1.2546656"^^xsd:float ;
+            lab6:name "Oxford" ;
+            lab6:name_ascii "Oxford" ;
+            lab6:pupulation "177676"^^xsd:long .
+
+
+###  http://www.semanticweb.org/ernesto/inm713/lab6/united_kingdom
+lab6:united_kingdom rdf:type owl:NamedIndividual ,
+                             lab6:Country ;
+                    lab6:iso2code "GB"^^xsd:string ;
+                    lab6:iso3code "GBR"^^xsd:string ;
+                    lab6:name "United Kingdom"^^xsd:string .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

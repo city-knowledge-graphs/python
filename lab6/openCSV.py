@@ -20,8 +20,11 @@ def using_pandas(file):
     
     data_frame = pd.read_csv(file, sep=',', quotechar='"',escapechar="\\")    
     
-    for row in data_frame.itertuples(index=True, name='Pandas'):
-        print(row)
+    for cell in data_frame['city_ascii']:
+        print(cell)
+    
+    #for row in data_frame.itertuples(index=True, name='Pandas'):
+    #    print(row)
         
 
 
