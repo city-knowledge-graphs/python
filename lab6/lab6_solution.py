@@ -295,7 +295,7 @@ class Lab6Solution(object):
               ?city rdf:type lab6:City .
               ?city lab6:isCapitalOf ?country .
               ?city lab6:population ?pop .
-              FILTER (?pop > xsd:integer("5000000"))
+              FILTER (xsd:integer(?pop) > 5000000)
         }
         ORDER BY DESC(?pop)
         """)
@@ -337,8 +337,8 @@ if __name__ == '__main__':
     
     solution = Lab6Solution(file)
     
-    #task = "task3"
-    task = "task4"
+    task = "task3"
+    #task = "task4"
     
     #Create RDF triples
     if task == "task3":
