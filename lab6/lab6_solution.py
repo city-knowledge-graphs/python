@@ -7,6 +7,7 @@ from rdflib import Graph
 from rdflib import URIRef, BNode, Literal
 from rdflib import Namespace
 from rdflib.namespace import OWL, RDF, RDFS, FOAF, XSD
+from rdflib.util import guess_format
 import pandas as pd
 from stringcmp import isub
 from lookup import DBpediaLookup
@@ -110,10 +111,10 @@ class Lab6Solution(object):
         
             
             if 'lat' in self.data_frame:
-                self.mappingToCreateLiteralTriple('city_ascii', 'lat', self.lab6.lat, XSD.float)
+                self.mappingToCreateLiteralTriple('city_ascii', 'lat', self.lab6.latitude, XSD.float)
                 
             if 'lng' in self.data_frame:
-                self.mappingToCreateLiteralTriple('city_ascii', 'lng', self.lab6.long, XSD.float)
+                self.mappingToCreateLiteralTriple('city_ascii', 'lng', self.lab6.longitude, XSD.float)
                 
             if 'population' in self.data_frame:
                 self.mappingToCreateLiteralTriple('city_ascii', 'population', self.lab6.population, XSD.long)
@@ -275,7 +276,8 @@ class Lab6Solution(object):
     
     
         #We should load the ontology first
-        self.g.load(ontology_file,  format="ttl")
+        print(guess_format(ontology_file))
+        self.g.load(ontology_file,  format=guess_format(ontology_file)) #e.g., format=ttl
         
         
         print("Triples including ontology: '" + str(len(self.g)) + "'.")
@@ -351,6 +353,7 @@ if __name__ == '__main__':
     
     #OWL 2 RL reasoning
     solution.performReasoning("ontology_lab6.ttl") ##ttl format
+    #solution.performReasoning("ontology_lab6.owl") ##owl (rdf/xml) format
     
     #Graph with ontology triples and entailed triples
     solution.saveGraph(file.replace(".csv", "-"+task)+"-reasoning.ttl")

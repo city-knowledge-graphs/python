@@ -9,20 +9,6 @@
 
 <http://www.semanticweb.org/ernesto/inm713/lab6/> rdf:type owl:Ontology .
 
-#################################################################
-#    Annotation properties
-#################################################################
-
-###  http://www.semanticweb.org/ernesto/inm713/lab6/lat
-lab6:lat rdf:type owl:AnnotationProperty .
-
-
-###  http://www.semanticweb.org/ernesto/inm713/lab6/long
-lab6:long rdf:type owl:AnnotationProperty .
-
-
-###  http://www.semanticweb.org/ernesto/inm713/lab6/population
-lab6:population rdf:type owl:AnnotationProperty .
 
 
 #################################################################
@@ -157,7 +143,11 @@ lab6:AdminCapitalCity rdf:type owl:Class ;
 
 ###  http://www.semanticweb.org/ernesto/inm713/lab6/CapitalCity
 lab6:CapitalCity rdf:type owl:Class ;
-                 rdfs:subClassOf lab6:City ;
+                 rdfs:subClassOf lab6:City ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty lab6:isCapitalOf ;
+                                   owl:someValuesFrom lab6:Country
+                                 ] ;
                  rdfs:comment "primary - country's capital (e.g. Washington D.C.)" .
 
 
@@ -179,13 +169,21 @@ lab6:Country rdf:type owl:Class ;
 
 ###  http://www.semanticweb.org/ernesto/inm713/lab6/FirstLevelAdminCapitalCity
 lab6:FirstLevelAdminCapitalCity rdf:type owl:Class ;
-                                rdfs:subClassOf lab6:AdminCapitalCity ;
+                                rdfs:subClassOf lab6:AdminCapitalCity ,
+                                                [ rdf:type owl:Restriction ;
+                                                  owl:onProperty lab6:isFirstLevelAdminCapitalOf ;
+                                                  owl:someValuesFrom lab6:Country
+                                                ] ;
                                 rdfs:comment "admin - first-level admin capital (e.g. Little Rock, AR)" .
 
 
 ###  http://www.semanticweb.org/ernesto/inm713/lab6/SecondLevelAdminCapitalCity
 lab6:SecondLevelAdminCapitalCity rdf:type owl:Class ;
-                                 rdfs:subClassOf lab6:AdminCapitalCity ;
+                                 rdfs:subClassOf lab6:AdminCapitalCity ,
+                                                 [ rdf:type owl:Restriction ;
+                                                   owl:onProperty lab6:isSecondLevelAdminCapitalOf ;
+                                                   owl:someValuesFrom lab6:Country
+                                                 ] ;
                                  rdfs:comment "minor - lower-level admin capital (e.g. Fayetteville, AR)" .
 
 
@@ -198,11 +196,11 @@ lab6:london rdf:type owl:NamedIndividual ,
                      lab6:City ;
             lab6:isCapitalOf lab6:united_kingdom ;
             lab6:admin_name "London, City of"^^xsd:string ;
+            lab6:latitude "51.5072"^^xsd:float ;
+            lab6:longitude "-0.1275"^^xsd:float ;
             lab6:name "London"^^xsd:string ;
             lab6:name_ascii "London"^^xsd:string ;
-            lab6:lat "51.5072"^^xsd:float ;
-            lab6:long "-0.1275"^^xsd:float ;
-            lab6:population "10979000"^^xsd:long .
+            lab6:pupulation "10979000"^^xsd:long .
 
 
 ###  http://www.semanticweb.org/ernesto/inm713/lab6/oxford

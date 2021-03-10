@@ -18,4 +18,5 @@ def loadOntology(urionto):
 
 #Load ontology
 urionto="http://protege.stanford.edu/ontologies/pizza/pizza.owl"
+urionto="../lab6/ontology_lab6.owl"
 loadOntology(urionto)
