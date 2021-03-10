@@ -7,11 +7,12 @@ def OWLRLInference():
     
     g = Graph()
     
-    g.parse("http://protege.stanford.edu/ontologies/pizza/pizza.owl")
+    #g.parse("http://protege.stanford.edu/ontologies/pizza/pizza.owl")
+    g.parse("lab7.ttl", format="ttl")
     
     print("Loaded '" + str(len(g)) + "' triples.")
     
-    #Performs RDFS reasoning
+    #Performs OWL 2 RL  reasoning
     owlrl.DeductiveClosure(owlrl.OWLRL_Semantics, axiomatic_triples=True, datatype_axioms=False).expand(g)
     
     
@@ -19,11 +20,11 @@ def OWLRLInference():
     
     
     #Check if entailments hold
-    #checkEntailments(g)
+    checkEntailments(g)
 
     
-    #print("\nSaving extended graph")
-    #g.serialize(destination='pizza_inference.ttl', format='ttl')
+    print("\nSaving extended graph")
+    g.serialize(destination='lab7_inference.ttl', format='ttl')
 
     
 
@@ -32,10 +33,11 @@ def checkEntailments(g):
     
     print("\nChecking entailments: ")
     
-    triple1 = "" 
-       
+    triple1 = ":Carl :hasChild :Ann ."
+    triple2 = ":Ann rdf:type :Child ."
     
     checkEntailment(g, triple1)
+    checkEntailment(g, triple2)
     
     
     
