@@ -4,888 +4,931 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://dbpedia.org/resource/Ahmadabad> a lab6:City ;
+lab6:ahmadabad a lab6:City ;
     lab6:admin_name "Gujarāt"^^xsd:string ;
-    lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/India> ;
+    lab6:isSecondLevelAdminCapitalOf lab6:india ;
     lab6:latitude "23.03"^^xsd:float ;
     lab6:longitude "72.58"^^xsd:float ;
     lab6:name "Ahmadābād"^^xsd:string ;
     lab6:name_ascii "Ahmadabad"^^xsd:string ;
     lab6:population "7410000"^^xsd:long .
 
-<http://dbpedia.org/resource/Bangalore> a lab6:City ;
+lab6:bangalore a lab6:City ;
     lab6:admin_name "Karnātaka"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/India> ;
+    lab6:isFirstLevelAdminCapitalOf lab6:india ;
     lab6:latitude "12.9699"^^xsd:float ;
     lab6:longitude "77.598"^^xsd:float ;
     lab6:name "Bangalore"^^xsd:string ;
     lab6:name_ascii "Bangalore"^^xsd:string ;
     lab6:population "13707000"^^xsd:long .
 
-<http://dbpedia.org/resource/Bangkok> a lab6:City ;
+lab6:bangkok a lab6:City ;
     lab6:admin_name "Krung Thep Maha Nakhon"^^xsd:string ;
-    lab6:isCapitalOf <http://dbpedia.org/resource/Thailand> ;
+    lab6:isCapitalOf lab6:thailand ;
     lab6:latitude "13.75"^^xsd:float ;
     lab6:longitude "100.5167"^^xsd:float ;
     lab6:name "Bangkok"^^xsd:string ;
     lab6:name_ascii "Bangkok"^^xsd:string ;
     lab6:population "17066000"^^xsd:long .
 
-<http://dbpedia.org/resource/Baoding> a lab6:City ;
+lab6:baoding a lab6:City ;
     lab6:admin_name "Hebei"^^xsd:string ;
-    lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
+    lab6:cityIsLocatedIn lab6:china ;
     lab6:latitude "38.8671"^^xsd:float ;
     lab6:longitude "115.4845"^^xsd:float ;
     lab6:name "Baoding"^^xsd:string ;
     lab6:name_ascii "Baoding"^^xsd:string ;
     lab6:population "10700000"^^xsd:long .
 
-<http://dbpedia.org/resource/Beijing> a lab6:City ;
+lab6:beijing a lab6:City ;
     lab6:admin_name "Beijing"^^xsd:string ;
-    lab6:isCapitalOf <http://dbpedia.org/resource/China> ;
+    lab6:isCapitalOf lab6:china ;
     lab6:latitude "39.905"^^xsd:float ;
     lab6:longitude "116.3914"^^xsd:float ;
     lab6:name "Beijing"^^xsd:string ;
     lab6:name_ascii "Beijing"^^xsd:string ;
     lab6:population "19433000"^^xsd:long .
 
-<http://dbpedia.org/resource/Bijie> a lab6:City ;
+lab6:bijie a lab6:City ;
     lab6:admin_name "Guizhou"^^xsd:string ;
-    lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
+    lab6:cityIsLocatedIn lab6:china ;
     lab6:latitude "27.3019"^^xsd:float ;
     lab6:longitude "105.2863"^^xsd:float ;
     lab6:name "Bijie"^^xsd:string ;
     lab6:name_ascii "Bijie"^^xsd:string ;
     lab6:population "6537498"^^xsd:long .
 
-<http://dbpedia.org/resource/Bogota,_New_Jersey> a lab6:City ;
+lab6:bogota a lab6:City ;
     lab6:admin_name "Bogotá"^^xsd:string ;
-    lab6:isCapitalOf <http://dbpedia.org/resource/Colombia> ;
+    lab6:isCapitalOf lab6:colombia ;
     lab6:latitude "4.6126"^^xsd:float ;
     lab6:longitude "-74.0705"^^xsd:float ;
     lab6:name "Bogotá"^^xsd:string ;
     lab6:name_ascii "Bogota"^^xsd:string ;
     lab6:population "9464000"^^xsd:long .
 
-<http://dbpedia.org/resource/Buenos_Aires> a lab6:City ;
+lab6:buenos_aires a lab6:City ;
     lab6:admin_name "Buenos Aires, Ciudad Autónoma de"^^xsd:string ;
-    lab6:isCapitalOf <http://dbpedia.org/resource/Argentina> ;
+    lab6:isCapitalOf lab6:argentina ;
     lab6:latitude "-34.5997"^^xsd:float ;
     lab6:longitude "-58.3819"^^xsd:float ;
     lab6:name "Buenos Aires"^^xsd:string ;
     lab6:name_ascii "Buenos Aires"^^xsd:string ;
     lab6:population "16157000"^^xsd:long .
 
-<http://dbpedia.org/resource/Cairo> a lab6:City ;
+lab6:cairo a lab6:City ;
     lab6:admin_name "Al Qāhirah"^^xsd:string ;
-    lab6:isCapitalOf <http://dbpedia.org/resource/Egypt> ;
+    lab6:isCapitalOf lab6:egypt ;
     lab6:latitude "30.0561"^^xsd:float ;
     lab6:longitude "31.2394"^^xsd:float ;
     lab6:name "Cairo"^^xsd:string ;
     lab6:name_ascii "Cairo"^^xsd:string ;
     lab6:population "19372000"^^xsd:long .
 
-<http://dbpedia.org/resource/Cangzhou> a lab6:City ;
+lab6:cangzhou a lab6:City ;
     lab6:admin_name "Hebei"^^xsd:string ;
-    lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
+    lab6:cityIsLocatedIn lab6:china ;
     lab6:latitude "38.3037"^^xsd:float ;
     lab6:longitude "116.8452"^^xsd:float ;
     lab6:name "Cangzhou"^^xsd:string ;
     lab6:name_ascii "Cangzhou"^^xsd:string ;
     lab6:population "6800000"^^xsd:long .
 
-<http://dbpedia.org/resource/Changchun> a lab6:City ;
+lab6:changchun a lab6:City ;
     lab6:admin_name "Jilin"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
+    lab6:isFirstLevelAdminCapitalOf lab6:china ;
     lab6:latitude "43.9"^^xsd:float ;
     lab6:longitude "125.2"^^xsd:float ;
     lab6:name "Changchun"^^xsd:string ;
     lab6:name_ascii "Changchun"^^xsd:string ;
     lab6:population "7674439"^^xsd:long .
 
-<http://dbpedia.org/resource/Changsha> a lab6:City ;
+lab6:changsha a lab6:City ;
     lab6:admin_name "Hunan"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
+    lab6:isFirstLevelAdminCapitalOf lab6:china ;
     lab6:latitude "28.1987"^^xsd:float ;
     lab6:longitude "112.9709"^^xsd:float ;
     lab6:name "Changsha"^^xsd:string ;
     lab6:name_ascii "Changsha"^^xsd:string ;
     lab6:population "7044118"^^xsd:long .
 
-<http://dbpedia.org/resource/Chengdu> a lab6:City ;
+lab6:chengdu a lab6:City ;
     lab6:admin_name "Sichuan"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
+    lab6:isFirstLevelAdminCapitalOf lab6:china ;
     lab6:latitude "30.6636"^^xsd:float ;
     lab6:longitude "104.0667"^^xsd:float ;
     lab6:name "Chengdu"^^xsd:string ;
     lab6:name_ascii "Chengdu"^^xsd:string ;
     lab6:population "11309000"^^xsd:long .
 
-<http://dbpedia.org/resource/Chennai> a lab6:City ;
+lab6:chennai a lab6:City ;
     lab6:admin_name "Tamil Nādu"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/India> ;
+    lab6:isFirstLevelAdminCapitalOf lab6:india ;
     lab6:latitude "13.0825"^^xsd:float ;
     lab6:longitude "80.275"^^xsd:float ;
     lab6:name "Chennai"^^xsd:string ;
     lab6:name_ascii "Chennai"^^xsd:string ;
     lab6:population "11324000"^^xsd:long .
 
-<http://dbpedia.org/resource/Chicago> a lab6:City ;
+lab6:chicago a lab6:City ;
     lab6:admin_name "Illinois"^^xsd:string ;
-    lab6:cityIsLocatedIn <http://dbpedia.org/resource/United_States> ;
+    lab6:cityIsLocatedIn lab6:united_states ;
     lab6:latitude "41.8373"^^xsd:float ;
     lab6:longitude "-87.6862"^^xsd:float ;
     lab6:name "Chicago"^^xsd:string ;
     lab6:name_ascii "Chicago"^^xsd:string ;
     lab6:population "8604203"^^xsd:long .
 
-<http://dbpedia.org/resource/Chongqing> a lab6:City ;
+lab6:chongqing a lab6:City ;
     lab6:admin_name "Chongqing"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
+    lab6:isFirstLevelAdminCapitalOf lab6:china ;
     lab6:latitude "29.55"^^xsd:float ;
     lab6:longitude "106.5069"^^xsd:float ;
     lab6:name "Chongqing"^^xsd:string ;
     lab6:name_ascii "Chongqing"^^xsd:string ;
     lab6:population "7739000"^^xsd:long .
 
-<http://dbpedia.org/resource/Dar_es_Salaam> a lab6:City ;
+lab6:dar_es_salaam a lab6:City ;
     lab6:admin_name "Dar es Salaam"^^xsd:string ;
-    lab6:isCapitalOf <http://dbpedia.org/resource/Tanzania> ;
+    lab6:isCapitalOf lab6:tanzania ;
     lab6:latitude "-6.8"^^xsd:float ;
     lab6:longitude "39.2833"^^xsd:float ;
     lab6:name "Dar es Salaam"^^xsd:string ;
     lab6:name_ascii "Dar es Salaam"^^xsd:string ;
     lab6:population "6698000"^^xsd:long .
 
-<http://dbpedia.org/resource/Delhi> a lab6:City ;
+lab6:delhi a lab6:City ;
     lab6:admin_name "Delhi"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/India> ;
+    lab6:isFirstLevelAdminCapitalOf lab6:india ;
     lab6:latitude "28.66"^^xsd:float ;
     lab6:longitude "77.23"^^xsd:float ;
     lab6:name "Delhi"^^xsd:string ;
     lab6:name_ascii "Delhi"^^xsd:string ;
     lab6:population "29617000"^^xsd:long .
 
-<http://dbpedia.org/resource/Dhaka> a lab6:City ;
+lab6:dhaka a lab6:City ;
     lab6:admin_name "Dhaka"^^xsd:string ;
-    lab6:isCapitalOf <http://dbpedia.org/resource/Bangladesh> ;
+    lab6:isCapitalOf lab6:bangladesh ;
     lab6:latitude "23.7161"^^xsd:float ;
     lab6:longitude "90.3961"^^xsd:float ;
     lab6:name "Dhaka"^^xsd:string ;
     lab6:name_ascii "Dhaka"^^xsd:string ;
     lab6:population "15443000"^^xsd:long .
 
-<http://dbpedia.org/resource/Dongguan> a lab6:City ;
+lab6:dongguan a lab6:City ;
     lab6:admin_name "Guangdong"^^xsd:string ;
-    lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
+    lab6:isSecondLevelAdminCapitalOf lab6:china ;
     lab6:latitude "23.0475"^^xsd:float ;
     lab6:longitude "113.7493"^^xsd:float ;
     lab6:name "Dongguan"^^xsd:string ;
     lab6:name_ascii "Dongguan"^^xsd:string ;
     lab6:population "7981000"^^xsd:long .
 
-<http://dbpedia.org/resource/Foshan> a lab6:City ;
+lab6:foshan a lab6:City ;
     lab6:admin_name "Guangdong"^^xsd:string ;
-    lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
+    lab6:isSecondLevelAdminCapitalOf lab6:china ;
     lab6:latitude "23.0292"^^xsd:float ;
     lab6:longitude "113.1056"^^xsd:float ;
     lab6:name "Foshan"^^xsd:string ;
     lab6:name_ascii "Foshan"^^xsd:string ;
     lab6:population "7194311"^^xsd:long .
 
-<http://dbpedia.org/resource/Fuyang> a lab6:City ;
+lab6:fuyang a lab6:City ;
     lab6:admin_name "Anhui"^^xsd:string ;
-    lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
+    lab6:cityIsLocatedIn lab6:china ;
     lab6:latitude "32.8986"^^xsd:float ;
     lab6:longitude "115.8045"^^xsd:float ;
     lab6:name "Fuyang"^^xsd:string ;
     lab6:name_ascii "Fuyang"^^xsd:string ;
     lab6:population "8360000"^^xsd:long .
 
-<http://dbpedia.org/resource/Ganzhou> a lab6:City ;
+lab6:ganzhou a lab6:City ;
     lab6:admin_name "Jiangxi"^^xsd:string ;
-    lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
+    lab6:isSecondLevelAdminCapitalOf lab6:china ;
     lab6:latitude "25.8292"^^xsd:float ;
     lab6:longitude "114.9336"^^xsd:float ;
     lab6:name "Ganzhou"^^xsd:string ;
     lab6:name_ascii "Ganzhou"^^xsd:string ;
     lab6:population "8677600"^^xsd:long .
 
-<http://dbpedia.org/resource/Guangzhou> a lab6:City ;
+lab6:guangzhou a lab6:City ;
     lab6:admin_name "Guangdong"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
+    lab6:isFirstLevelAdminCapitalOf lab6:china ;
     lab6:latitude "23.1288"^^xsd:float ;
     lab6:longitude "113.259"^^xsd:float ;
     lab6:name "Guangzhou"^^xsd:string ;
     lab6:name_ascii "Guangzhou"^^xsd:string ;
     lab6:population "20902000"^^xsd:long .
 
-<http://dbpedia.org/resource/Handan> a lab6:City ;
+lab6:handan a lab6:City ;
     lab6:admin_name "Hebei"^^xsd:string ;
-    lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
+    lab6:cityIsLocatedIn lab6:china ;
     lab6:latitude "36.6116"^^xsd:float ;
     lab6:longitude "114.4894"^^xsd:float ;
     lab6:name "Handan"^^xsd:string ;
     lab6:name_ascii "Handan"^^xsd:string ;
     lab6:population "8499000"^^xsd:long .
 
-<http://dbpedia.org/resource/Hangzhou> a lab6:City ;
+lab6:hangzhou a lab6:City ;
     lab6:admin_name "Zhejiang"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
+    lab6:isFirstLevelAdminCapitalOf lab6:china ;
     lab6:latitude "30.25"^^xsd:float ;
     lab6:longitude "120.1675"^^xsd:float ;
     lab6:name "Hangzhou"^^xsd:string ;
     lab6:name_ascii "Hangzhou"^^xsd:string ;
     lab6:population "6446000"^^xsd:long .
 
-<http://dbpedia.org/resource/Hanoi> a lab6:City ;
+lab6:hanoi a lab6:City ;
     lab6:admin_name "Hà Nội"^^xsd:string ;
-    lab6:isCapitalOf <http://dbpedia.org/resource/Vietnam> ;
+    lab6:isCapitalOf lab6:vietnam ;
     lab6:latitude "21.0245"^^xsd:float ;
     lab6:longitude "105.8412"^^xsd:float ;
     lab6:name "Hanoi"^^xsd:string ;
     lab6:name_ascii "Hanoi"^^xsd:string ;
     lab6:population "7785000"^^xsd:long .
 
-<http://dbpedia.org/resource/Hefei> a lab6:City ;
+lab6:hefei a lab6:City ;
     lab6:admin_name "Anhui"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
+    lab6:isFirstLevelAdminCapitalOf lab6:china ;
     lab6:latitude "31.8639"^^xsd:float ;
     lab6:longitude "117.2808"^^xsd:float ;
     lab6:name "Hefei"^^xsd:string ;
     lab6:name_ascii "Hefei"^^xsd:string ;
     lab6:population "7457027"^^xsd:long .
 
-<http://dbpedia.org/resource/Hengyang> a lab6:City ;
+lab6:hengyang a lab6:City ;
     lab6:admin_name "Hunan"^^xsd:string ;
-    lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
+    lab6:cityIsLocatedIn lab6:china ;
     lab6:latitude "26.8968"^^xsd:float ;
     lab6:longitude "112.5857"^^xsd:float ;
     lab6:name "Hengyang"^^xsd:string ;
     lab6:name_ascii "Hengyang"^^xsd:string ;
     lab6:population "7148344"^^xsd:long .
 
-<http://dbpedia.org/resource/Heze> a lab6:City ;
+lab6:heze a lab6:City ;
     lab6:admin_name "Shandong"^^xsd:string ;
-    lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
+    lab6:isSecondLevelAdminCapitalOf lab6:china ;
     lab6:latitude "35.2333"^^xsd:float ;
     lab6:longitude "115.4333"^^xsd:float ;
     lab6:name "Heze"^^xsd:string ;
     lab6:name_ascii "Heze"^^xsd:string ;
     lab6:population "8750000"^^xsd:long .
 
-<http://dbpedia.org/resource/Huanggang> a lab6:City ;
-    lab6:admin_name "Hubei"^^xsd:string ;
-    lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:latitude "30.45"^^xsd:float ;
-    lab6:longitude "114.875"^^xsd:float ;
-    lab6:name "Huanggang"^^xsd:string ;
-    lab6:name_ascii "Huanggang"^^xsd:string ;
-    lab6:population "6667000"^^xsd:long .
-
-<http://dbpedia.org/resource/Hyderabad> a lab6:City ;
-    lab6:admin_name "Telangana"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/India> ;
-    lab6:latitude "17.3667"^^xsd:float ;
-    lab6:longitude "78.4667"^^xsd:float ;
-    lab6:name "Hyderābād"^^xsd:string ;
-    lab6:name_ascii "Hyderabad"^^xsd:string ;
-    lab6:population "9746000"^^xsd:long .
-
-<http://dbpedia.org/resource/Istanbul> a lab6:City ;
-    lab6:admin_name "İstanbul"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/Turkey> ;
-    lab6:latitude "41.01"^^xsd:float ;
-    lab6:longitude "28.9603"^^xsd:float ;
-    lab6:name "Istanbul"^^xsd:string ;
-    lab6:name_ascii "Istanbul"^^xsd:string ;
-    lab6:population "15154000"^^xsd:long .
-
-<http://dbpedia.org/resource/Jakarta> a lab6:City ;
-    lab6:admin_name "Jakarta"^^xsd:string ;
-    lab6:isCapitalOf <http://dbpedia.org/resource/Indonesia> ;
-    lab6:latitude "-6.2146"^^xsd:float ;
-    lab6:longitude "106.8451"^^xsd:float ;
-    lab6:name "Jakarta"^^xsd:string ;
-    lab6:name_ascii "Jakarta"^^xsd:string ;
-    lab6:population "34540000"^^xsd:long .
-
-<http://dbpedia.org/resource/Jining> a lab6:City ;
-    lab6:admin_name "Shandong"^^xsd:string ;
-    lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:latitude "35.4"^^xsd:float ;
-    lab6:longitude "116.5667"^^xsd:float ;
-    lab6:name "Jining"^^xsd:string ;
-    lab6:name_ascii "Jining"^^xsd:string ;
-    lab6:population "8023000"^^xsd:long .
-
-<http://dbpedia.org/resource/Karachi> a lab6:City ;
-    lab6:admin_name "Sindh"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/Pakistan> ;
-    lab6:latitude "24.86"^^xsd:float ;
-    lab6:longitude "67.01"^^xsd:float ;
-    lab6:name "Karachi"^^xsd:string ;
-    lab6:name_ascii "Karachi"^^xsd:string ;
-    lab6:population "14835000"^^xsd:long .
-
-<http://dbpedia.org/resource/Khartoum> a lab6:City ;
-    lab6:admin_name "Khartoum"^^xsd:string ;
-    lab6:isCapitalOf <http://dbpedia.org/resource/Sudan> ;
-    lab6:latitude "15.6031"^^xsd:float ;
-    lab6:longitude "32.5265"^^xsd:float ;
-    lab6:name "Khartoum"^^xsd:string ;
-    lab6:name_ascii "Khartoum"^^xsd:string ;
-    lab6:population "7282000"^^xsd:long .
-
-<http://dbpedia.org/resource/Kolkata> a lab6:City ;
-    lab6:admin_name "West Bengal"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/India> ;
-    lab6:latitude "22.5411"^^xsd:float ;
-    lab6:longitude "88.3378"^^xsd:float ;
-    lab6:name "Kolkāta"^^xsd:string ;
-    lab6:name_ascii "Kolkata"^^xsd:string ;
-    lab6:population "17560000"^^xsd:long .
-
-<http://dbpedia.org/resource/Kuala_Lumpur> a lab6:City ;
-    lab6:admin_name "Kuala Lumpur"^^xsd:string ;
-    lab6:isCapitalOf <http://dbpedia.org/resource/Malaysia> ;
-    lab6:latitude "3.1478"^^xsd:float ;
-    lab6:longitude "101.6953"^^xsd:float ;
-    lab6:name "Kuala Lumpur"^^xsd:string ;
-    lab6:name_ascii "Kuala Lumpur"^^xsd:string ;
-    lab6:population "8285000"^^xsd:long .
-
-<http://dbpedia.org/resource/Kunming> a lab6:City ;
-    lab6:admin_name "Yunnan"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:latitude "25.0433"^^xsd:float ;
-    lab6:longitude "102.7061"^^xsd:float ;
-    lab6:name "Kunming"^^xsd:string ;
-    lab6:name_ascii "Kunming"^^xsd:string ;
-    lab6:population "6250000"^^xsd:long .
-
-<http://dbpedia.org/resource/Lagos> a lab6:City ;
-    lab6:admin_name "Lagos"^^xsd:string ;
-    lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/Nigeria> ;
-    lab6:latitude "6.45"^^xsd:float ;
-    lab6:longitude "3.4"^^xsd:float ;
-    lab6:name "Lagos"^^xsd:string ;
-    lab6:name_ascii "Lagos"^^xsd:string ;
-    lab6:population "15279000"^^xsd:long .
-
-<http://dbpedia.org/resource/Lahore> a lab6:City ;
-    lab6:admin_name "Punjab"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/Pakistan> ;
-    lab6:latitude "31.5497"^^xsd:float ;
-    lab6:longitude "74.3436"^^xsd:float ;
-    lab6:name "Lahore"^^xsd:string ;
-    lab6:name_ascii "Lahore"^^xsd:string ;
-    lab6:population "11021000"^^xsd:long .
-
-<http://dbpedia.org/resource/Lima> a lab6:City ;
-    lab6:admin_name "Lima"^^xsd:string ;
-    lab6:isCapitalOf <http://dbpedia.org/resource/Peru> ;
-    lab6:latitude "-12.05"^^xsd:float ;
-    lab6:longitude "-77.0333"^^xsd:float ;
-    lab6:name "Lima"^^xsd:string ;
-    lab6:name_ascii "Lima"^^xsd:string ;
-    lab6:population "9848000"^^xsd:long .
-
-<http://dbpedia.org/resource/Linyi> a lab6:City ;
-    lab6:admin_name "Shandong"^^xsd:string ;
-    lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:latitude "35.0606"^^xsd:float ;
-    lab6:longitude "118.3425"^^xsd:float ;
-    lab6:name "Linyi"^^xsd:string ;
-    lab6:name_ascii "Linyi"^^xsd:string ;
-    lab6:population "10820000"^^xsd:long .
-
-<http://dbpedia.org/resource/London> a lab6:City ;
-    lab6:admin_name "London, City of"^^xsd:string ;
-    lab6:isCapitalOf <http://dbpedia.org/resource/United_Kingdom> ;
-    lab6:latitude "51.5072"^^xsd:float ;
-    lab6:longitude "-0.1275"^^xsd:float ;
-    lab6:name "London"^^xsd:string ;
-    lab6:name_ascii "London"^^xsd:string ;
-    lab6:population "10979000"^^xsd:long .
-
-<http://dbpedia.org/resource/Los_Angeles> a lab6:City ;
-    lab6:admin_name "California"^^xsd:string ;
-    lab6:cityIsLocatedIn <http://dbpedia.org/resource/United_States> ;
-    lab6:latitude "34.1139"^^xsd:float ;
-    lab6:longitude "-118.4068"^^xsd:float ;
-    lab6:name "Los Angeles"^^xsd:string ;
-    lab6:name_ascii "Los Angeles"^^xsd:string ;
-    lab6:population "12750807"^^xsd:long .
-
-<http://dbpedia.org/resource/Lu'an> a lab6:City ;
-    lab6:admin_name "Anhui"^^xsd:string ;
-    lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:latitude "31.7542"^^xsd:float ;
-    lab6:longitude "116.5078"^^xsd:float ;
-    lab6:name "Lu’an"^^xsd:string ;
-    lab6:name_ascii "Lu'an"^^xsd:string ;
-    lab6:population "6090000"^^xsd:long .
-
-<http://dbpedia.org/resource/Luanda> a lab6:City ;
-    lab6:admin_name "Luanda"^^xsd:string ;
-    lab6:isCapitalOf <http://dbpedia.org/resource/Angola> ;
-    lab6:latitude "-8.8383"^^xsd:float ;
-    lab6:longitude "13.2344"^^xsd:float ;
-    lab6:name "Luanda"^^xsd:string ;
-    lab6:name_ascii "Luanda"^^xsd:string ;
-    lab6:population "8417000"^^xsd:long .
-
-<http://dbpedia.org/resource/Luoyang> a lab6:City ;
-    lab6:admin_name "Henan"^^xsd:string ;
-    lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:latitude "34.6587"^^xsd:float ;
-    lab6:longitude "112.4245"^^xsd:float ;
-    lab6:name "Luoyang"^^xsd:string ;
-    lab6:name_ascii "Luoyang"^^xsd:string ;
-    lab6:population "6549941"^^xsd:long .
-
-<http://dbpedia.org/resource/Manila> a lab6:City ;
-    lab6:admin_name "Manila"^^xsd:string ;
-    lab6:isCapitalOf <http://dbpedia.org/resource/Philippines> ;
-    lab6:latitude "14.5958"^^xsd:float ;
-    lab6:longitude "120.9772"^^xsd:float ;
-    lab6:name "Manila"^^xsd:string ;
-    lab6:name_ascii "Manila"^^xsd:string ;
-    lab6:population "23088000"^^xsd:long .
-
-<http://dbpedia.org/resource/Maoming> a lab6:City ;
-    lab6:admin_name "Guangdong"^^xsd:string ;
-    lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:latitude "21.6618"^^xsd:float ;
-    lab6:longitude "110.9178"^^xsd:float ;
-    lab6:name "Maoming"^^xsd:string ;
-    lab6:name_ascii "Maoming"^^xsd:string ;
-    lab6:population "6706000"^^xsd:long .
-
-<http://dbpedia.org/resource/Mexico_City> a lab6:City ;
-    lab6:admin_name "Ciudad de México"^^xsd:string ;
-    lab6:isCapitalOf <http://dbpedia.org/resource/Mexico> ;
-    lab6:latitude "19.4333"^^xsd:float ;
-    lab6:longitude "-99.1333"^^xsd:float ;
-    lab6:name "Mexico City"^^xsd:string ;
-    lab6:name_ascii "Mexico City"^^xsd:string ;
-    lab6:population "20996000"^^xsd:long .
-
-<http://dbpedia.org/resource/Miami> a lab6:City ;
-    lab6:admin_name "Florida"^^xsd:string ;
-    lab6:cityIsLocatedIn <http://dbpedia.org/resource/United_States> ;
-    lab6:latitude "25.7839"^^xsd:float ;
-    lab6:longitude "-80.2102"^^xsd:float ;
-    lab6:name "Miami"^^xsd:string ;
-    lab6:name_ascii "Miami"^^xsd:string ;
-    lab6:population "6445545"^^xsd:long .
-
-<http://dbpedia.org/resource/Moscow> a lab6:City ;
-    lab6:admin_name "Moskva"^^xsd:string ;
-    lab6:isCapitalOf <http://dbpedia.org/resource/Russia> ;
-    lab6:latitude "55.7558"^^xsd:float ;
-    lab6:longitude "37.6178"^^xsd:float ;
-    lab6:name "Moscow"^^xsd:string ;
-    lab6:name_ascii "Moscow"^^xsd:string ;
-    lab6:population "17125000"^^xsd:long .
-
-<http://dbpedia.org/resource/Mumbai> a lab6:City ;
-    lab6:admin_name "Mahārāshtra"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/India> ;
-    lab6:latitude "18.9667"^^xsd:float ;
-    lab6:longitude "72.8333"^^xsd:float ;
-    lab6:name "Mumbai"^^xsd:string ;
-    lab6:name_ascii "Mumbai"^^xsd:string ;
-    lab6:population "23355000"^^xsd:long .
-
-<http://dbpedia.org/resource/Nagoya> a lab6:City ;
-    lab6:admin_name "Aichi"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/Japan> ;
-    lab6:latitude "35.1167"^^xsd:float ;
-    lab6:longitude "136.9333"^^xsd:float ;
-    lab6:name "Nagoya"^^xsd:string ;
-    lab6:name_ascii "Nagoya"^^xsd:string ;
-    lab6:population "9113000"^^xsd:long .
-
-<http://dbpedia.org/resource/Nanchong> a lab6:City ;
-    lab6:admin_name "Sichuan"^^xsd:string ;
-    lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:latitude "30.7991"^^xsd:float ;
-    lab6:longitude "106.0784"^^xsd:float ;
-    lab6:name "Nanchong"^^xsd:string ;
-    lab6:name_ascii "Nanchong"^^xsd:string ;
-    lab6:population "6183000"^^xsd:long .
-
-<http://dbpedia.org/resource/Nanjing> a lab6:City ;
-    lab6:admin_name "Jiangsu"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:latitude "32.05"^^xsd:float ;
-    lab6:longitude "118.7667"^^xsd:float ;
-    lab6:name "Nanjing"^^xsd:string ;
-    lab6:name_ascii "Nanjing"^^xsd:string ;
-    lab6:population "7496000"^^xsd:long .
-
-<http://dbpedia.org/resource/Nanning> a lab6:City ;
-    lab6:admin_name "Guangxi"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:latitude "22.8192"^^xsd:float ;
-    lab6:longitude "108.315"^^xsd:float ;
-    lab6:name "Nanning"^^xsd:string ;
-    lab6:name_ascii "Nanning"^^xsd:string ;
-    lab6:population "7153300"^^xsd:long .
-
-<http://dbpedia.org/resource/Nantong> a lab6:City ;
-    lab6:admin_name "Jiangsu"^^xsd:string ;
-    lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:latitude "31.9829"^^xsd:float ;
-    lab6:longitude "120.8873"^^xsd:float ;
-    lab6:name "Nantong"^^xsd:string ;
-    lab6:name_ascii "Nantong"^^xsd:string ;
-    lab6:population "7282835"^^xsd:long .
-
-<http://dbpedia.org/resource/Nanyang> a lab6:City ;
-    lab6:admin_name "Henan"^^xsd:string ;
-    lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:latitude "32.9987"^^xsd:float ;
-    lab6:longitude "112.5292"^^xsd:float ;
-    lab6:name "Nanyang"^^xsd:string ;
-    lab6:name_ascii "Nanyang"^^xsd:string ;
-    lab6:population "12010000"^^xsd:long .
-
-<http://dbpedia.org/resource/New_York_City> a lab6:City ;
-    lab6:admin_name "New York"^^xsd:string ;
-    lab6:cityIsLocatedIn <http://dbpedia.org/resource/United_States> ;
-    lab6:latitude "40.6943"^^xsd:float ;
-    lab6:longitude "-73.9249"^^xsd:float ;
-    lab6:name "New York"^^xsd:string ;
-    lab6:name_ascii "New York"^^xsd:string ;
-    lab6:population "18713220"^^xsd:long .
-
-<http://dbpedia.org/resource/Ningbo> a lab6:City ;
-    lab6:admin_name "Zhejiang"^^xsd:string ;
-    lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:latitude "29.875"^^xsd:float ;
-    lab6:longitude "121.5492"^^xsd:float ;
-    lab6:name "Ningbo"^^xsd:string ;
-    lab6:name_ascii "Ningbo"^^xsd:string ;
-    lab6:population "7639000"^^xsd:long .
-
-<http://dbpedia.org/resource/Onitsha> a lab6:City ;
-    lab6:admin_name "Anambra"^^xsd:string ;
-    lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/Nigeria> ;
-    lab6:latitude "6.1667"^^xsd:float ;
-    lab6:longitude "6.7833"^^xsd:float ;
-    lab6:name "Onitsha"^^xsd:string ;
-    lab6:name_ascii "Onitsha"^^xsd:string ;
-    lab6:population "7635000"^^xsd:long .
-
-<http://dbpedia.org/resource/Osaka> a lab6:City ;
-    lab6:admin_name "Ōsaka"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/Japan> ;
-    lab6:latitude "34.6936"^^xsd:float ;
-    lab6:longitude "135.5019"^^xsd:float ;
-    lab6:name "Ōsaka"^^xsd:string ;
-    lab6:name_ascii "Osaka"^^xsd:string ;
-    lab6:population "14977000"^^xsd:long .
-
-<http://dbpedia.org/resource/Paris> a lab6:City ;
-    lab6:admin_name "Île-de-France"^^xsd:string ;
-    lab6:isCapitalOf <http://dbpedia.org/resource/France> ;
-    lab6:latitude "48.8566"^^xsd:float ;
-    lab6:longitude "2.3522"^^xsd:float ;
-    lab6:name "Paris"^^xsd:string ;
-    lab6:name_ascii "Paris"^^xsd:string ;
-    lab6:population "11020000"^^xsd:long .
-
-<http://dbpedia.org/resource/Pune> a lab6:City ;
-    lab6:admin_name "Mahārāshtra"^^xsd:string ;
-    lab6:cityIsLocatedIn <http://dbpedia.org/resource/India> ;
-    lab6:latitude "18.5196"^^xsd:float ;
-    lab6:longitude "73.8553"^^xsd:float ;
-    lab6:name "Pune"^^xsd:string ;
-    lab6:name_ascii "Pune"^^xsd:string ;
-    lab6:population "7764000"^^xsd:long .
-
-<http://dbpedia.org/resource/Quanzhou> a lab6:City ;
-    lab6:admin_name "Fujian"^^xsd:string ;
-    lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:latitude "24.9139"^^xsd:float ;
-    lab6:longitude "118.5858"^^xsd:float ;
-    lab6:name "Quanzhou"^^xsd:string ;
-    lab6:name_ascii "Quanzhou"^^xsd:string ;
-    lab6:population "6480000"^^xsd:long .
-
-<http://dbpedia.org/resource/Rio_de_Janeiro> a lab6:City ;
-    lab6:admin_name "Rio de Janeiro"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/Brazil> ;
-    lab6:latitude "-22.9083"^^xsd:float ;
-    lab6:longitude "-43.1964"^^xsd:float ;
-    lab6:name "Rio de Janeiro"^^xsd:string ;
-    lab6:name_ascii "Rio de Janeiro"^^xsd:string ;
-    lab6:population "12272000"^^xsd:long .
-
-<http://dbpedia.org/resource/Riyadh> a lab6:City ;
-    lab6:admin_name "Ar Riyāḑ"^^xsd:string ;
-    lab6:isCapitalOf <http://dbpedia.org/resource/Saudi_Arabia> ;
-    lab6:latitude "24.65"^^xsd:float ;
-    lab6:longitude "46.71"^^xsd:float ;
-    lab6:name "Riyadh"^^xsd:string ;
-    lab6:name_ascii "Riyadh"^^xsd:string ;
-    lab6:population "6881000"^^xsd:long .
-
-<http://dbpedia.org/resource/Roman_Catholic_Archdiocese_of_Ho_Chi_Minh_City> a lab6:City ;
+lab6:ho_chi_minh_city a lab6:City ;
     lab6:admin_name "Hồ Chí Minh"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/Vietnam> ;
+    lab6:isFirstLevelAdminCapitalOf lab6:vietnam ;
     lab6:latitude "10.8167"^^xsd:float ;
     lab6:longitude "106.6333"^^xsd:float ;
     lab6:name "Ho Chi Minh City"^^xsd:string ;
     lab6:name_ascii "Ho Chi Minh City"^^xsd:string ;
     lab6:population "13312000"^^xsd:long .
 
-<http://dbpedia.org/resource/Santiago> a lab6:City ;
+lab6:huanggang a lab6:City ;
+    lab6:admin_name "Hubei"^^xsd:string ;
+    lab6:isSecondLevelAdminCapitalOf lab6:china ;
+    lab6:latitude "30.45"^^xsd:float ;
+    lab6:longitude "114.875"^^xsd:float ;
+    lab6:name "Huanggang"^^xsd:string ;
+    lab6:name_ascii "Huanggang"^^xsd:string ;
+    lab6:population "6667000"^^xsd:long .
+
+lab6:hyderabad a lab6:City ;
+    lab6:admin_name "Telangana"^^xsd:string ;
+    lab6:isFirstLevelAdminCapitalOf lab6:india ;
+    lab6:latitude "17.3667"^^xsd:float ;
+    lab6:longitude "78.4667"^^xsd:float ;
+    lab6:name "Hyderābād"^^xsd:string ;
+    lab6:name_ascii "Hyderabad"^^xsd:string ;
+    lab6:population "9746000"^^xsd:long .
+
+lab6:istanbul a lab6:City ;
+    lab6:admin_name "İstanbul"^^xsd:string ;
+    lab6:isFirstLevelAdminCapitalOf lab6:turkey ;
+    lab6:latitude "41.01"^^xsd:float ;
+    lab6:longitude "28.9603"^^xsd:float ;
+    lab6:name "Istanbul"^^xsd:string ;
+    lab6:name_ascii "Istanbul"^^xsd:string ;
+    lab6:population "15154000"^^xsd:long .
+
+lab6:jakarta a lab6:City ;
+    lab6:admin_name "Jakarta"^^xsd:string ;
+    lab6:isCapitalOf lab6:indonesia ;
+    lab6:latitude "-6.2146"^^xsd:float ;
+    lab6:longitude "106.8451"^^xsd:float ;
+    lab6:name "Jakarta"^^xsd:string ;
+    lab6:name_ascii "Jakarta"^^xsd:string ;
+    lab6:population "34540000"^^xsd:long .
+
+lab6:jining a lab6:City ;
+    lab6:admin_name "Shandong"^^xsd:string ;
+    lab6:cityIsLocatedIn lab6:china ;
+    lab6:latitude "35.4"^^xsd:float ;
+    lab6:longitude "116.5667"^^xsd:float ;
+    lab6:name "Jining"^^xsd:string ;
+    lab6:name_ascii "Jining"^^xsd:string ;
+    lab6:population "8023000"^^xsd:long .
+
+lab6:karachi a lab6:City ;
+    lab6:admin_name "Sindh"^^xsd:string ;
+    lab6:isFirstLevelAdminCapitalOf lab6:pakistan ;
+    lab6:latitude "24.86"^^xsd:float ;
+    lab6:longitude "67.01"^^xsd:float ;
+    lab6:name "Karachi"^^xsd:string ;
+    lab6:name_ascii "Karachi"^^xsd:string ;
+    lab6:population "14835000"^^xsd:long .
+
+lab6:khartoum a lab6:City ;
+    lab6:admin_name "Khartoum"^^xsd:string ;
+    lab6:isCapitalOf lab6:sudan ;
+    lab6:latitude "15.6031"^^xsd:float ;
+    lab6:longitude "32.5265"^^xsd:float ;
+    lab6:name "Khartoum"^^xsd:string ;
+    lab6:name_ascii "Khartoum"^^xsd:string ;
+    lab6:population "7282000"^^xsd:long .
+
+lab6:kinshasa a lab6:City ;
+    lab6:admin_name "Kinshasa"^^xsd:string ;
+    lab6:isCapitalOf <http://www.semanticweb.org/ernesto/inm713/lab6/congo_(kinshasa)> ;
+    lab6:latitude "-4.3317"^^xsd:float ;
+    lab6:longitude "15.3139"^^xsd:float ;
+    lab6:name "Kinshasa"^^xsd:string ;
+    lab6:name_ascii "Kinshasa"^^xsd:string ;
+    lab6:population "13528000"^^xsd:long .
+
+lab6:kolkata a lab6:City ;
+    lab6:admin_name "West Bengal"^^xsd:string ;
+    lab6:isFirstLevelAdminCapitalOf lab6:india ;
+    lab6:latitude "22.5411"^^xsd:float ;
+    lab6:longitude "88.3378"^^xsd:float ;
+    lab6:name "Kolkāta"^^xsd:string ;
+    lab6:name_ascii "Kolkata"^^xsd:string ;
+    lab6:population "17560000"^^xsd:long .
+
+lab6:kuala_lumpur a lab6:City ;
+    lab6:admin_name "Kuala Lumpur"^^xsd:string ;
+    lab6:isCapitalOf lab6:malaysia ;
+    lab6:latitude "3.1478"^^xsd:float ;
+    lab6:longitude "101.6953"^^xsd:float ;
+    lab6:name "Kuala Lumpur"^^xsd:string ;
+    lab6:name_ascii "Kuala Lumpur"^^xsd:string ;
+    lab6:population "8285000"^^xsd:long .
+
+lab6:kunming a lab6:City ;
+    lab6:admin_name "Yunnan"^^xsd:string ;
+    lab6:isFirstLevelAdminCapitalOf lab6:china ;
+    lab6:latitude "25.0433"^^xsd:float ;
+    lab6:longitude "102.7061"^^xsd:float ;
+    lab6:name "Kunming"^^xsd:string ;
+    lab6:name_ascii "Kunming"^^xsd:string ;
+    lab6:population "6250000"^^xsd:long .
+
+lab6:lagos a lab6:City ;
+    lab6:admin_name "Lagos"^^xsd:string ;
+    lab6:isSecondLevelAdminCapitalOf lab6:nigeria ;
+    lab6:latitude "6.45"^^xsd:float ;
+    lab6:longitude "3.4"^^xsd:float ;
+    lab6:name "Lagos"^^xsd:string ;
+    lab6:name_ascii "Lagos"^^xsd:string ;
+    lab6:population "15279000"^^xsd:long .
+
+lab6:lahore a lab6:City ;
+    lab6:admin_name "Punjab"^^xsd:string ;
+    lab6:isFirstLevelAdminCapitalOf lab6:pakistan ;
+    lab6:latitude "31.5497"^^xsd:float ;
+    lab6:longitude "74.3436"^^xsd:float ;
+    lab6:name "Lahore"^^xsd:string ;
+    lab6:name_ascii "Lahore"^^xsd:string ;
+    lab6:population "11021000"^^xsd:long .
+
+lab6:lima a lab6:City ;
+    lab6:admin_name "Lima"^^xsd:string ;
+    lab6:isCapitalOf lab6:peru ;
+    lab6:latitude "-12.05"^^xsd:float ;
+    lab6:longitude "-77.0333"^^xsd:float ;
+    lab6:name "Lima"^^xsd:string ;
+    lab6:name_ascii "Lima"^^xsd:string ;
+    lab6:population "9848000"^^xsd:long .
+
+lab6:linyi a lab6:City ;
+    lab6:admin_name "Shandong"^^xsd:string ;
+    lab6:cityIsLocatedIn lab6:china ;
+    lab6:latitude "35.0606"^^xsd:float ;
+    lab6:longitude "118.3425"^^xsd:float ;
+    lab6:name "Linyi"^^xsd:string ;
+    lab6:name_ascii "Linyi"^^xsd:string ;
+    lab6:population "10820000"^^xsd:long .
+
+lab6:london a lab6:City ;
+    lab6:admin_name "London, City of"^^xsd:string ;
+    lab6:isCapitalOf lab6:united_kingdom ;
+    lab6:latitude "51.5072"^^xsd:float ;
+    lab6:longitude "-0.1275"^^xsd:float ;
+    lab6:name "London"^^xsd:string ;
+    lab6:name_ascii "London"^^xsd:string ;
+    lab6:population "10979000"^^xsd:long .
+
+lab6:los_angeles a lab6:City ;
+    lab6:admin_name "California"^^xsd:string ;
+    lab6:cityIsLocatedIn lab6:united_states ;
+    lab6:latitude "34.1139"^^xsd:float ;
+    lab6:longitude "-118.4068"^^xsd:float ;
+    lab6:name "Los Angeles"^^xsd:string ;
+    lab6:name_ascii "Los Angeles"^^xsd:string ;
+    lab6:population "12750807"^^xsd:long .
+
+<http://www.semanticweb.org/ernesto/inm713/lab6/lu'an> a lab6:City ;
+    lab6:admin_name "Anhui"^^xsd:string ;
+    lab6:isSecondLevelAdminCapitalOf lab6:china ;
+    lab6:latitude "31.7542"^^xsd:float ;
+    lab6:longitude "116.5078"^^xsd:float ;
+    lab6:name "Lu’an"^^xsd:string ;
+    lab6:name_ascii "Lu'an"^^xsd:string ;
+    lab6:population "6090000"^^xsd:long .
+
+lab6:luanda a lab6:City ;
+    lab6:admin_name "Luanda"^^xsd:string ;
+    lab6:isCapitalOf lab6:angola ;
+    lab6:latitude "-8.8383"^^xsd:float ;
+    lab6:longitude "13.2344"^^xsd:float ;
+    lab6:name "Luanda"^^xsd:string ;
+    lab6:name_ascii "Luanda"^^xsd:string ;
+    lab6:population "8417000"^^xsd:long .
+
+lab6:luoyang a lab6:City ;
+    lab6:admin_name "Henan"^^xsd:string ;
+    lab6:cityIsLocatedIn lab6:china ;
+    lab6:latitude "34.6587"^^xsd:float ;
+    lab6:longitude "112.4245"^^xsd:float ;
+    lab6:name "Luoyang"^^xsd:string ;
+    lab6:name_ascii "Luoyang"^^xsd:string ;
+    lab6:population "6549941"^^xsd:long .
+
+lab6:manila a lab6:City ;
+    lab6:admin_name "Manila"^^xsd:string ;
+    lab6:isCapitalOf lab6:philippines ;
+    lab6:latitude "14.5958"^^xsd:float ;
+    lab6:longitude "120.9772"^^xsd:float ;
+    lab6:name "Manila"^^xsd:string ;
+    lab6:name_ascii "Manila"^^xsd:string ;
+    lab6:population "23088000"^^xsd:long .
+
+lab6:maoming a lab6:City ;
+    lab6:admin_name "Guangdong"^^xsd:string ;
+    lab6:isSecondLevelAdminCapitalOf lab6:china ;
+    lab6:latitude "21.6618"^^xsd:float ;
+    lab6:longitude "110.9178"^^xsd:float ;
+    lab6:name "Maoming"^^xsd:string ;
+    lab6:name_ascii "Maoming"^^xsd:string ;
+    lab6:population "6706000"^^xsd:long .
+
+lab6:mexico_city a lab6:City ;
+    lab6:admin_name "Ciudad de México"^^xsd:string ;
+    lab6:isCapitalOf lab6:mexico ;
+    lab6:latitude "19.4333"^^xsd:float ;
+    lab6:longitude "-99.1333"^^xsd:float ;
+    lab6:name "Mexico City"^^xsd:string ;
+    lab6:name_ascii "Mexico City"^^xsd:string ;
+    lab6:population "20996000"^^xsd:long .
+
+lab6:miami a lab6:City ;
+    lab6:admin_name "Florida"^^xsd:string ;
+    lab6:cityIsLocatedIn lab6:united_states ;
+    lab6:latitude "25.7839"^^xsd:float ;
+    lab6:longitude "-80.2102"^^xsd:float ;
+    lab6:name "Miami"^^xsd:string ;
+    lab6:name_ascii "Miami"^^xsd:string ;
+    lab6:population "6445545"^^xsd:long .
+
+lab6:moscow a lab6:City ;
+    lab6:admin_name "Moskva"^^xsd:string ;
+    lab6:isCapitalOf lab6:russia ;
+    lab6:latitude "55.7558"^^xsd:float ;
+    lab6:longitude "37.6178"^^xsd:float ;
+    lab6:name "Moscow"^^xsd:string ;
+    lab6:name_ascii "Moscow"^^xsd:string ;
+    lab6:population "17125000"^^xsd:long .
+
+lab6:mumbai a lab6:City ;
+    lab6:admin_name "Mahārāshtra"^^xsd:string ;
+    lab6:isFirstLevelAdminCapitalOf lab6:india ;
+    lab6:latitude "18.9667"^^xsd:float ;
+    lab6:longitude "72.8333"^^xsd:float ;
+    lab6:name "Mumbai"^^xsd:string ;
+    lab6:name_ascii "Mumbai"^^xsd:string ;
+    lab6:population "23355000"^^xsd:long .
+
+lab6:nagoya a lab6:City ;
+    lab6:admin_name "Aichi"^^xsd:string ;
+    lab6:isFirstLevelAdminCapitalOf lab6:japan ;
+    lab6:latitude "35.1167"^^xsd:float ;
+    lab6:longitude "136.9333"^^xsd:float ;
+    lab6:name "Nagoya"^^xsd:string ;
+    lab6:name_ascii "Nagoya"^^xsd:string ;
+    lab6:population "9113000"^^xsd:long .
+
+lab6:nanchong a lab6:City ;
+    lab6:admin_name "Sichuan"^^xsd:string ;
+    lab6:isSecondLevelAdminCapitalOf lab6:china ;
+    lab6:latitude "30.7991"^^xsd:float ;
+    lab6:longitude "106.0784"^^xsd:float ;
+    lab6:name "Nanchong"^^xsd:string ;
+    lab6:name_ascii "Nanchong"^^xsd:string ;
+    lab6:population "6183000"^^xsd:long .
+
+lab6:nanjing a lab6:City ;
+    lab6:admin_name "Jiangsu"^^xsd:string ;
+    lab6:isFirstLevelAdminCapitalOf lab6:china ;
+    lab6:latitude "32.05"^^xsd:float ;
+    lab6:longitude "118.7667"^^xsd:float ;
+    lab6:name "Nanjing"^^xsd:string ;
+    lab6:name_ascii "Nanjing"^^xsd:string ;
+    lab6:population "7496000"^^xsd:long .
+
+lab6:nanning a lab6:City ;
+    lab6:admin_name "Guangxi"^^xsd:string ;
+    lab6:isFirstLevelAdminCapitalOf lab6:china ;
+    lab6:latitude "22.8192"^^xsd:float ;
+    lab6:longitude "108.315"^^xsd:float ;
+    lab6:name "Nanning"^^xsd:string ;
+    lab6:name_ascii "Nanning"^^xsd:string ;
+    lab6:population "7153300"^^xsd:long .
+
+lab6:nantong a lab6:City ;
+    lab6:admin_name "Jiangsu"^^xsd:string ;
+    lab6:isSecondLevelAdminCapitalOf lab6:china ;
+    lab6:latitude "31.9829"^^xsd:float ;
+    lab6:longitude "120.8873"^^xsd:float ;
+    lab6:name "Nantong"^^xsd:string ;
+    lab6:name_ascii "Nantong"^^xsd:string ;
+    lab6:population "7282835"^^xsd:long .
+
+lab6:nanyang a lab6:City ;
+    lab6:admin_name "Henan"^^xsd:string ;
+    lab6:cityIsLocatedIn lab6:china ;
+    lab6:latitude "32.9987"^^xsd:float ;
+    lab6:longitude "112.5292"^^xsd:float ;
+    lab6:name "Nanyang"^^xsd:string ;
+    lab6:name_ascii "Nanyang"^^xsd:string ;
+    lab6:population "12010000"^^xsd:long .
+
+lab6:new_york a lab6:City ;
+    lab6:admin_name "New York"^^xsd:string ;
+    lab6:cityIsLocatedIn lab6:united_states ;
+    lab6:latitude "40.6943"^^xsd:float ;
+    lab6:longitude "-73.9249"^^xsd:float ;
+    lab6:name "New York"^^xsd:string ;
+    lab6:name_ascii "New York"^^xsd:string ;
+    lab6:population "18713220"^^xsd:long .
+
+lab6:ningbo a lab6:City ;
+    lab6:admin_name "Zhejiang"^^xsd:string ;
+    lab6:isSecondLevelAdminCapitalOf lab6:china ;
+    lab6:latitude "29.875"^^xsd:float ;
+    lab6:longitude "121.5492"^^xsd:float ;
+    lab6:name "Ningbo"^^xsd:string ;
+    lab6:name_ascii "Ningbo"^^xsd:string ;
+    lab6:population "7639000"^^xsd:long .
+
+lab6:onitsha a lab6:City ;
+    lab6:admin_name "Anambra"^^xsd:string ;
+    lab6:isSecondLevelAdminCapitalOf lab6:nigeria ;
+    lab6:latitude "6.1667"^^xsd:float ;
+    lab6:longitude "6.7833"^^xsd:float ;
+    lab6:name "Onitsha"^^xsd:string ;
+    lab6:name_ascii "Onitsha"^^xsd:string ;
+    lab6:population "7635000"^^xsd:long .
+
+lab6:osaka a lab6:City ;
+    lab6:admin_name "Ōsaka"^^xsd:string ;
+    lab6:isFirstLevelAdminCapitalOf lab6:japan ;
+    lab6:latitude "34.6936"^^xsd:float ;
+    lab6:longitude "135.5019"^^xsd:float ;
+    lab6:name "Ōsaka"^^xsd:string ;
+    lab6:name_ascii "Osaka"^^xsd:string ;
+    lab6:population "14977000"^^xsd:long .
+
+lab6:paris a lab6:City ;
+    lab6:admin_name "Île-de-France"^^xsd:string ;
+    lab6:isCapitalOf lab6:france ;
+    lab6:latitude "48.8566"^^xsd:float ;
+    lab6:longitude "2.3522"^^xsd:float ;
+    lab6:name "Paris"^^xsd:string ;
+    lab6:name_ascii "Paris"^^xsd:string ;
+    lab6:population "11020000"^^xsd:long .
+
+lab6:pune a lab6:City ;
+    lab6:admin_name "Mahārāshtra"^^xsd:string ;
+    lab6:cityIsLocatedIn lab6:india ;
+    lab6:latitude "18.5196"^^xsd:float ;
+    lab6:longitude "73.8553"^^xsd:float ;
+    lab6:name "Pune"^^xsd:string ;
+    lab6:name_ascii "Pune"^^xsd:string ;
+    lab6:population "7764000"^^xsd:long .
+
+lab6:quanzhou a lab6:City ;
+    lab6:admin_name "Fujian"^^xsd:string ;
+    lab6:isSecondLevelAdminCapitalOf lab6:china ;
+    lab6:latitude "24.9139"^^xsd:float ;
+    lab6:longitude "118.5858"^^xsd:float ;
+    lab6:name "Quanzhou"^^xsd:string ;
+    lab6:name_ascii "Quanzhou"^^xsd:string ;
+    lab6:population "6480000"^^xsd:long .
+
+lab6:rio_de_janeiro a lab6:City ;
+    lab6:admin_name "Rio de Janeiro"^^xsd:string ;
+    lab6:isFirstLevelAdminCapitalOf lab6:brazil ;
+    lab6:latitude "-22.9083"^^xsd:float ;
+    lab6:longitude "-43.1964"^^xsd:float ;
+    lab6:name "Rio de Janeiro"^^xsd:string ;
+    lab6:name_ascii "Rio de Janeiro"^^xsd:string ;
+    lab6:population "12272000"^^xsd:long .
+
+lab6:riyadh a lab6:City ;
+    lab6:admin_name "Ar Riyāḑ"^^xsd:string ;
+    lab6:isCapitalOf lab6:saudi_arabia ;
+    lab6:latitude "24.65"^^xsd:float ;
+    lab6:longitude "46.71"^^xsd:float ;
+    lab6:name "Riyadh"^^xsd:string ;
+    lab6:name_ascii "Riyadh"^^xsd:string ;
+    lab6:population "6881000"^^xsd:long .
+
+lab6:santiago a lab6:City ;
     lab6:admin_name "Región Metropolitana"^^xsd:string ;
-    lab6:isCapitalOf <http://dbpedia.org/resource/Chile> ;
+    lab6:isCapitalOf lab6:chile ;
     lab6:latitude "-33.45"^^xsd:float ;
     lab6:longitude "-70.6667"^^xsd:float ;
     lab6:name "Santiago"^^xsd:string ;
     lab6:name_ascii "Santiago"^^xsd:string ;
     lab6:population "7007000"^^xsd:long .
 
-<http://dbpedia.org/resource/Seoul> a lab6:City ;
-    lab6:admin_name "Seoul"^^xsd:string ;
-    lab6:isCapitalOf <http://dbpedia.org/resource/South_Korea> ;
-    lab6:latitude "37.5833"^^xsd:float ;
-    lab6:longitude "127.0"^^xsd:float ;
-    lab6:name "Seoul"^^xsd:string ;
-    lab6:name_ascii "Seoul"^^xsd:string ;
-    lab6:population "21794000"^^xsd:long .
-
-<http://dbpedia.org/resource/Shanghai> a lab6:City ;
-    lab6:admin_name "Shanghai"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:latitude "31.1667"^^xsd:float ;
-    lab6:longitude "121.4667"^^xsd:float ;
-    lab6:name "Shanghai"^^xsd:string ;
-    lab6:name_ascii "Shanghai"^^xsd:string ;
-    lab6:population "22120000"^^xsd:long .
-
-<http://dbpedia.org/resource/Shangrao> a lab6:City ;
-    lab6:admin_name "Jiangxi"^^xsd:string ;
-    lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:latitude "28.4419"^^xsd:float ;
-    lab6:longitude "117.9633"^^xsd:float ;
-    lab6:name "Shangrao"^^xsd:string ;
-    lab6:name_ascii "Shangrao"^^xsd:string ;
-    lab6:population "6579714"^^xsd:long .
-
-<http://dbpedia.org/resource/Shaoyang> a lab6:City ;
-    lab6:admin_name "Hunan"^^xsd:string ;
-    lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:latitude "27.2418"^^xsd:float ;
-    lab6:longitude "111.4725"^^xsd:float ;
-    lab6:name "Shaoyang"^^xsd:string ;
-    lab6:name_ascii "Shaoyang"^^xsd:string ;
-    lab6:population "7071000"^^xsd:long .
-
-<http://dbpedia.org/resource/Shenyang> a lab6:City ;
-    lab6:admin_name "Liaoning"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:latitude "41.8039"^^xsd:float ;
-    lab6:longitude "123.4258"^^xsd:float ;
-    lab6:name "Shenyang"^^xsd:string ;
-    lab6:name_ascii "Shenyang"^^xsd:string ;
-    lab6:population "7105000"^^xsd:long .
-
-<http://dbpedia.org/resource/Shenzhen> a lab6:City ;
-    lab6:admin_name "Guangdong"^^xsd:string ;
-    lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:latitude "22.535"^^xsd:float ;
-    lab6:longitude "114.054"^^xsd:float ;
-    lab6:name "Shenzhen"^^xsd:string ;
-    lab6:name_ascii "Shenzhen"^^xsd:string ;
-    lab6:population "15929000"^^xsd:long .
-
-<http://dbpedia.org/resource/Shijiazhuang> a lab6:City ;
-    lab6:admin_name "Hebei"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:latitude "38.0422"^^xsd:float ;
-    lab6:longitude "114.5086"^^xsd:float ;
-    lab6:name "Shijiazhuang"^^xsd:string ;
-    lab6:name_ascii "Shijiazhuang"^^xsd:string ;
-    lab6:population "10784600"^^xsd:long .
-
-<http://dbpedia.org/resource/São_Paulo> a lab6:City ;
+lab6:sao_paulo a lab6:City ;
     lab6:admin_name "São Paulo"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/Brazil> ;
+    lab6:isFirstLevelAdminCapitalOf lab6:brazil ;
     lab6:latitude "-23.5504"^^xsd:float ;
     lab6:longitude "-46.6339"^^xsd:float ;
     lab6:name "São Paulo"^^xsd:string ;
     lab6:name_ascii "Sao Paulo"^^xsd:string ;
     lab6:population "22046000"^^xsd:long .
 
-<http://dbpedia.org/resource/Tangshan> a lab6:City ;
+lab6:seoul a lab6:City ;
+    lab6:admin_name "Seoul"^^xsd:string ;
+    lab6:isCapitalOf <http://www.semanticweb.org/ernesto/inm713/lab6/korea,_south> ;
+    lab6:latitude "37.5833"^^xsd:float ;
+    lab6:longitude "127.0"^^xsd:float ;
+    lab6:name "Seoul"^^xsd:string ;
+    lab6:name_ascii "Seoul"^^xsd:string ;
+    lab6:population "21794000"^^xsd:long .
+
+lab6:shanghai a lab6:City ;
+    lab6:admin_name "Shanghai"^^xsd:string ;
+    lab6:isFirstLevelAdminCapitalOf lab6:china ;
+    lab6:latitude "31.1667"^^xsd:float ;
+    lab6:longitude "121.4667"^^xsd:float ;
+    lab6:name "Shanghai"^^xsd:string ;
+    lab6:name_ascii "Shanghai"^^xsd:string ;
+    lab6:population "22120000"^^xsd:long .
+
+lab6:shangrao a lab6:City ;
+    lab6:admin_name "Jiangxi"^^xsd:string ;
+    lab6:isSecondLevelAdminCapitalOf lab6:china ;
+    lab6:latitude "28.4419"^^xsd:float ;
+    lab6:longitude "117.9633"^^xsd:float ;
+    lab6:name "Shangrao"^^xsd:string ;
+    lab6:name_ascii "Shangrao"^^xsd:string ;
+    lab6:population "6579714"^^xsd:long .
+
+lab6:shaoyang a lab6:City ;
+    lab6:admin_name "Hunan"^^xsd:string ;
+    lab6:cityIsLocatedIn lab6:china ;
+    lab6:latitude "27.2418"^^xsd:float ;
+    lab6:longitude "111.4725"^^xsd:float ;
+    lab6:name "Shaoyang"^^xsd:string ;
+    lab6:name_ascii "Shaoyang"^^xsd:string ;
+    lab6:population "7071000"^^xsd:long .
+
+lab6:shenyang a lab6:City ;
+    lab6:admin_name "Liaoning"^^xsd:string ;
+    lab6:isFirstLevelAdminCapitalOf lab6:china ;
+    lab6:latitude "41.8039"^^xsd:float ;
+    lab6:longitude "123.4258"^^xsd:float ;
+    lab6:name "Shenyang"^^xsd:string ;
+    lab6:name_ascii "Shenyang"^^xsd:string ;
+    lab6:population "7105000"^^xsd:long .
+
+lab6:shenzhen a lab6:City ;
+    lab6:admin_name "Guangdong"^^xsd:string ;
+    lab6:isSecondLevelAdminCapitalOf lab6:china ;
+    lab6:latitude "22.535"^^xsd:float ;
+    lab6:longitude "114.054"^^xsd:float ;
+    lab6:name "Shenzhen"^^xsd:string ;
+    lab6:name_ascii "Shenzhen"^^xsd:string ;
+    lab6:population "15929000"^^xsd:long .
+
+lab6:shijiazhuang a lab6:City ;
     lab6:admin_name "Hebei"^^xsd:string ;
-    lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
+    lab6:isFirstLevelAdminCapitalOf lab6:china ;
+    lab6:latitude "38.0422"^^xsd:float ;
+    lab6:longitude "114.5086"^^xsd:float ;
+    lab6:name "Shijiazhuang"^^xsd:string ;
+    lab6:name_ascii "Shijiazhuang"^^xsd:string ;
+    lab6:population "10784600"^^xsd:long .
+
+lab6:tangshan a lab6:City ;
+    lab6:admin_name "Hebei"^^xsd:string ;
+    lab6:cityIsLocatedIn lab6:china ;
     lab6:latitude "39.6292"^^xsd:float ;
     lab6:longitude "118.1742"^^xsd:float ;
     lab6:name "Tangshan"^^xsd:string ;
     lab6:name_ascii "Tangshan"^^xsd:string ;
     lab6:population "7100000"^^xsd:long .
 
-<http://dbpedia.org/resource/Tianjin> a lab6:City ;
+lab6:tehran a lab6:City ;
+    lab6:admin_name "Tehrān"^^xsd:string ;
+    lab6:isCapitalOf lab6:iran ;
+    lab6:latitude "35.7"^^xsd:float ;
+    lab6:longitude "51.4167"^^xsd:float ;
+    lab6:name "Tehran"^^xsd:string ;
+    lab6:name_ascii "Tehran"^^xsd:string ;
+    lab6:population "13633000"^^xsd:long .
+
+lab6:tianjin a lab6:City ;
     lab6:admin_name "Tianjin"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
+    lab6:isFirstLevelAdminCapitalOf lab6:china ;
     lab6:latitude "39.1467"^^xsd:float ;
     lab6:longitude "117.2056"^^xsd:float ;
     lab6:name "Tianjin"^^xsd:string ;
     lab6:name_ascii "Tianjin"^^xsd:string ;
     lab6:population "10800000"^^xsd:long .
 
-<http://dbpedia.org/resource/Tokyo> a lab6:City ;
+lab6:tokyo a lab6:City ;
     lab6:admin_name "Tōkyō"^^xsd:string ;
-    lab6:isCapitalOf <http://dbpedia.org/resource/Japan> ;
+    lab6:isCapitalOf lab6:japan ;
     lab6:latitude "35.6897"^^xsd:float ;
     lab6:longitude "139.6922"^^xsd:float ;
     lab6:name "Tokyo"^^xsd:string ;
     lab6:name_ascii "Tokyo"^^xsd:string ;
     lab6:population "37977000"^^xsd:long .
 
-<http://dbpedia.org/resource/Tongshan> a lab6:City ;
+lab6:tongshan a lab6:City ;
     lab6:admin_name "Jiangsu"^^xsd:string ;
-    lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
+    lab6:isSecondLevelAdminCapitalOf lab6:china ;
     lab6:latitude "34.260999999999996"^^xsd:float ;
     lab6:longitude "117.1859"^^xsd:float ;
     lab6:name "Tongshan"^^xsd:string ;
     lab6:name_ascii "Tongshan"^^xsd:string ;
     lab6:population "8669000"^^xsd:long .
 
-<http://dbpedia.org/resource/Weifang> a lab6:City ;
+lab6:weifang a lab6:City ;
     lab6:admin_name "Shandong"^^xsd:string ;
-    lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
+    lab6:cityIsLocatedIn lab6:china ;
     lab6:latitude "36.7167"^^xsd:float ;
     lab6:longitude "119.1"^^xsd:float ;
     lab6:name "Weifang"^^xsd:string ;
     lab6:name_ascii "Weifang"^^xsd:string ;
     lab6:population "9373000"^^xsd:long .
 
-<http://dbpedia.org/resource/Wuhan> a lab6:City ;
+lab6:wuhan a lab6:City ;
     lab6:admin_name "Hubei"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
+    lab6:isFirstLevelAdminCapitalOf lab6:china ;
     lab6:latitude "30.5872"^^xsd:float ;
     lab6:longitude "114.2881"^^xsd:float ;
     lab6:name "Wuhan"^^xsd:string ;
     lab6:name_ascii "Wuhan"^^xsd:string ;
     lab6:population "8962000"^^xsd:long .
 
-<http://dbpedia.org/resource/Xi'an> a lab6:City ;
+<http://www.semanticweb.org/ernesto/inm713/lab6/xi'an> a lab6:City ;
     lab6:admin_name "Shaanxi"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
+    lab6:isFirstLevelAdminCapitalOf lab6:china ;
     lab6:latitude "34.2667"^^xsd:float ;
     lab6:longitude "108.9"^^xsd:float ;
     lab6:name "Xi’an"^^xsd:string ;
     lab6:name_ascii "Xi'an"^^xsd:string ;
     lab6:population "7135000"^^xsd:long .
 
-<http://dbpedia.org/resource/Xinyang> a lab6:City ;
+lab6:xinyang a lab6:City ;
     lab6:admin_name "Henan"^^xsd:string ;
-    lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
+    lab6:cityIsLocatedIn lab6:china ;
     lab6:latitude "32.1264"^^xsd:float ;
     lab6:longitude "114.0672"^^xsd:float ;
     lab6:name "Xinyang"^^xsd:string ;
     lab6:name_ascii "Xinyang"^^xsd:string ;
     lab6:population "6634000"^^xsd:long .
 
-<http://dbpedia.org/resource/Yancheng> a lab6:City ;
+lab6:yancheng a lab6:City ;
     lab6:admin_name "Jiangsu"^^xsd:string ;
-    lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
+    lab6:isSecondLevelAdminCapitalOf lab6:china ;
     lab6:latitude "33.3936"^^xsd:float ;
     lab6:longitude "120.1339"^^xsd:float ;
     lab6:name "Yancheng"^^xsd:string ;
     lab6:name_ascii "Yancheng"^^xsd:string ;
     lab6:population "7260240"^^xsd:long .
 
-<http://dbpedia.org/resource/Yantai> a lab6:City ;
+lab6:yantai a lab6:City ;
     lab6:admin_name "Shandong"^^xsd:string ;
-    lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
+    lab6:cityIsLocatedIn lab6:china ;
     lab6:latitude "37.3997"^^xsd:float ;
     lab6:longitude "121.2664"^^xsd:float ;
     lab6:name "Yantai"^^xsd:string ;
     lab6:name_ascii "Yantai"^^xsd:string ;
     lab6:population "6516900"^^xsd:long .
 
-<http://dbpedia.org/resource/Yichun> a lab6:City ;
+lab6:yichun a lab6:City ;
     lab6:admin_name "Jiangxi"^^xsd:string ;
-    lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
+    lab6:isSecondLevelAdminCapitalOf lab6:china ;
     lab6:latitude "27.8041"^^xsd:float ;
     lab6:longitude "114.383"^^xsd:float ;
     lab6:name "Yichun"^^xsd:string ;
     lab6:name_ascii "Yichun"^^xsd:string ;
     lab6:population "6048700"^^xsd:long .
 
-<http://dbpedia.org/resource/Zhanjiang> a lab6:City ;
+lab6:zhanjiang a lab6:City ;
     lab6:admin_name "Guangdong"^^xsd:string ;
-    lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
+    lab6:isSecondLevelAdminCapitalOf lab6:china ;
     lab6:latitude "21.1967"^^xsd:float ;
     lab6:longitude "110.4031"^^xsd:float ;
     lab6:name "Zhanjiang"^^xsd:string ;
     lab6:name_ascii "Zhanjiang"^^xsd:string ;
     lab6:population "6900000"^^xsd:long .
 
-<http://dbpedia.org/resource/Zhengzhou> a lab6:City ;
+lab6:zhengzhou a lab6:City ;
     lab6:admin_name "Henan"^^xsd:string ;
-    lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
+    lab6:isFirstLevelAdminCapitalOf lab6:china ;
     lab6:latitude "34.7492"^^xsd:float ;
     lab6:longitude "113.6605"^^xsd:float ;
     lab6:name "Zhengzhou"^^xsd:string ;
     lab6:name_ascii "Zhengzhou"^^xsd:string ;
     lab6:population "7005000"^^xsd:long .
 
-<http://dbpedia.org/resource/Zhoukou> a lab6:City ;
+lab6:zhoukou a lab6:City ;
     lab6:admin_name "Henan"^^xsd:string ;
-    lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
+    lab6:isSecondLevelAdminCapitalOf lab6:china ;
     lab6:latitude "33.625"^^xsd:float ;
     lab6:longitude "114.6418"^^xsd:float ;
     lab6:name "Zhoukou"^^xsd:string ;
     lab6:name_ascii "Zhoukou"^^xsd:string ;
     lab6:population "9901000"^^xsd:long .
 
-<http://dbpedia.org/resource/Zhumadian> a lab6:City ;
+lab6:zhumadian a lab6:City ;
     lab6:admin_name "Henan"^^xsd:string ;
-    lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
+    lab6:cityIsLocatedIn lab6:china ;
     lab6:latitude "32.9773"^^xsd:float ;
     lab6:longitude "114.0253"^^xsd:float ;
     lab6:name "Zhumadian"^^xsd:string ;
     lab6:name_ascii "Zhumadian"^^xsd:string ;
     lab6:population "7640000"^^xsd:long .
 
-<http://dbpedia.org/resource/Zunyi> a lab6:City ;
+lab6:zunyi a lab6:City ;
     lab6:admin_name "Guizhou"^^xsd:string ;
-    lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
+    lab6:cityIsLocatedIn lab6:china ;
     lab6:latitude "27.705"^^xsd:float ;
     lab6:longitude "106.9336"^^xsd:float ;
     lab6:name "Zunyi"^^xsd:string ;
     lab6:name_ascii "Zunyi"^^xsd:string ;
     lab6:population "6127009"^^xsd:long .
 
-<http://dbpedia.org/resource/Angola> a lab6:Country ;
+lab6:angola a lab6:Country ;
     lab6:iso2code "AO"^^xsd:string ;
     lab6:iso3code "AGO"^^xsd:string ;
     lab6:name "Angola"^^xsd:string .
 
-<http://dbpedia.org/resource/Argentina> a lab6:Country ;
+lab6:argentina a lab6:Country ;
     lab6:iso2code "AR"^^xsd:string ;
     lab6:iso3code "ARG"^^xsd:string ;
     lab6:name "Argentina"^^xsd:string .
 
-<http://dbpedia.org/resource/Bangladesh> a lab6:Country ;
+lab6:bangladesh a lab6:Country ;
     lab6:iso2code "BD"^^xsd:string ;
     lab6:iso3code "BGD"^^xsd:string ;
     lab6:name "Bangladesh"^^xsd:string .
 
-<http://dbpedia.org/resource/British_Hong_Kong> a lab6:City,
+lab6:chile a lab6:Country ;
+    lab6:iso2code "CL"^^xsd:string ;
+    lab6:iso3code "CHL"^^xsd:string ;
+    lab6:name "Chile"^^xsd:string .
+
+lab6:colombia a lab6:Country ;
+    lab6:iso2code "CO"^^xsd:string ;
+    lab6:iso3code "COL"^^xsd:string ;
+    lab6:name "Colombia"^^xsd:string .
+
+<http://www.semanticweb.org/ernesto/inm713/lab6/congo_(kinshasa)> a lab6:Country ;
+    lab6:iso2code "CD"^^xsd:string ;
+    lab6:iso3code "COD"^^xsd:string ;
+    lab6:name "Congo (Kinshasa)"^^xsd:string .
+
+lab6:egypt a lab6:Country ;
+    lab6:iso2code "EG"^^xsd:string ;
+    lab6:iso3code "EGY"^^xsd:string ;
+    lab6:name "Egypt"^^xsd:string .
+
+lab6:france a lab6:Country ;
+    lab6:iso2code "FR"^^xsd:string ;
+    lab6:iso3code "FRA"^^xsd:string ;
+    lab6:name "France"^^xsd:string .
+
+lab6:hong_kong a lab6:City,
         lab6:Country ;
-    lab6:cityIsLocatedIn <http://dbpedia.org/resource/British_Hong_Kong> ;
+    lab6:cityIsLocatedIn lab6:hong_kong ;
     lab6:iso2code "HK"^^xsd:string ;
     lab6:iso3code "HKG"^^xsd:string ;
     lab6:latitude "22.305"^^xsd:float ;
@@ -894,153 +937,112 @@
     lab6:name_ascii "Hong Kong"^^xsd:string ;
     lab6:population "7347000"^^xsd:long .
 
-<http://dbpedia.org/resource/Chile> a lab6:Country ;
-    lab6:iso2code "CL"^^xsd:string ;
-    lab6:iso3code "CHL"^^xsd:string ;
-    lab6:name "Chile"^^xsd:string .
-
-<http://dbpedia.org/resource/Colombia> a lab6:Country ;
-    lab6:iso2code "CO"^^xsd:string ;
-    lab6:iso3code "COL"^^xsd:string ;
-    lab6:name "Colombia"^^xsd:string .
-
-<http://dbpedia.org/resource/Egypt> a lab6:Country ;
-    lab6:iso2code "EG"^^xsd:string ;
-    lab6:iso3code "EGY"^^xsd:string ;
-    lab6:name "Egypt"^^xsd:string .
-
-<http://dbpedia.org/resource/France> a lab6:Country ;
-    lab6:iso2code "FR"^^xsd:string ;
-    lab6:iso3code "FRA"^^xsd:string ;
-    lab6:name "France"^^xsd:string .
-
-<http://dbpedia.org/resource/Indonesia> a lab6:Country ;
+lab6:indonesia a lab6:Country ;
     lab6:iso2code "ID"^^xsd:string ;
     lab6:iso3code "IDN"^^xsd:string ;
     lab6:name "Indonesia"^^xsd:string .
 
-<http://dbpedia.org/resource/Kinshasa> a lab6:City,
-        lab6:Country ;
-    lab6:admin_name "Kinshasa"^^xsd:string ;
-    lab6:isCapitalOf <http://dbpedia.org/resource/Kinshasa> ;
-    lab6:iso2code "CD"^^xsd:string ;
-    lab6:iso3code "COD"^^xsd:string ;
-    lab6:latitude "-4.3317"^^xsd:float ;
-    lab6:longitude "15.3139"^^xsd:float ;
-    lab6:name "Congo (Kinshasa)"^^xsd:string,
-        "Kinshasa"^^xsd:string ;
-    lab6:name_ascii "Kinshasa"^^xsd:string ;
-    lab6:population "13528000"^^xsd:long .
+lab6:iran a lab6:Country ;
+    lab6:iso2code "IR"^^xsd:string ;
+    lab6:iso3code "IRN"^^xsd:string ;
+    lab6:name "Iran"^^xsd:string .
 
-<http://dbpedia.org/resource/Malaysia> a lab6:Country ;
-    lab6:iso2code "MY"^^xsd:string ;
-    lab6:iso3code "MYS"^^xsd:string ;
-    lab6:name "Malaysia"^^xsd:string .
-
-<http://dbpedia.org/resource/Mexico> a lab6:Country ;
-    lab6:iso2code "MX"^^xsd:string ;
-    lab6:iso3code "MEX"^^xsd:string ;
-    lab6:name "Mexico"^^xsd:string .
-
-<http://dbpedia.org/resource/Peru> a lab6:Country ;
-    lab6:iso2code "PE"^^xsd:string ;
-    lab6:iso3code "PER"^^xsd:string ;
-    lab6:name "Peru"^^xsd:string .
-
-<http://dbpedia.org/resource/Philippines> a lab6:Country ;
-    lab6:iso2code "PH"^^xsd:string ;
-    lab6:iso3code "PHL"^^xsd:string ;
-    lab6:name "Philippines"^^xsd:string .
-
-<http://dbpedia.org/resource/Russia> a lab6:Country ;
-    lab6:iso2code "RU"^^xsd:string ;
-    lab6:iso3code "RUS"^^xsd:string ;
-    lab6:name "Russia"^^xsd:string .
-
-<http://dbpedia.org/resource/Saudi_Arabia> a lab6:Country ;
-    lab6:iso2code "SA"^^xsd:string ;
-    lab6:iso3code "SAU"^^xsd:string ;
-    lab6:name "Saudi Arabia"^^xsd:string .
-
-<http://dbpedia.org/resource/South_Korea> a lab6:Country ;
+<http://www.semanticweb.org/ernesto/inm713/lab6/korea,_south> a lab6:Country ;
     lab6:iso2code "KR"^^xsd:string ;
     lab6:iso3code "KOR"^^xsd:string ;
     lab6:name "Korea, South"^^xsd:string .
 
-<http://dbpedia.org/resource/Sudan> a lab6:Country ;
+lab6:malaysia a lab6:Country ;
+    lab6:iso2code "MY"^^xsd:string ;
+    lab6:iso3code "MYS"^^xsd:string ;
+    lab6:name "Malaysia"^^xsd:string .
+
+lab6:mexico a lab6:Country ;
+    lab6:iso2code "MX"^^xsd:string ;
+    lab6:iso3code "MEX"^^xsd:string ;
+    lab6:name "Mexico"^^xsd:string .
+
+lab6:peru a lab6:Country ;
+    lab6:iso2code "PE"^^xsd:string ;
+    lab6:iso3code "PER"^^xsd:string ;
+    lab6:name "Peru"^^xsd:string .
+
+lab6:philippines a lab6:Country ;
+    lab6:iso2code "PH"^^xsd:string ;
+    lab6:iso3code "PHL"^^xsd:string ;
+    lab6:name "Philippines"^^xsd:string .
+
+lab6:russia a lab6:Country ;
+    lab6:iso2code "RU"^^xsd:string ;
+    lab6:iso3code "RUS"^^xsd:string ;
+    lab6:name "Russia"^^xsd:string .
+
+lab6:saudi_arabia a lab6:Country ;
+    lab6:iso2code "SA"^^xsd:string ;
+    lab6:iso3code "SAU"^^xsd:string ;
+    lab6:name "Saudi Arabia"^^xsd:string .
+
+lab6:sudan a lab6:Country ;
     lab6:iso2code "SD"^^xsd:string ;
     lab6:iso3code "SDN"^^xsd:string ;
     lab6:name "Sudan"^^xsd:string .
 
-<http://dbpedia.org/resource/Tanzania> a lab6:Country ;
+lab6:tanzania a lab6:Country ;
     lab6:iso2code "TZ"^^xsd:string ;
     lab6:iso3code "TZA"^^xsd:string ;
     lab6:name "Tanzania"^^xsd:string .
 
-<http://dbpedia.org/resource/Tehran> a lab6:City,
-        lab6:Country ;
-    lab6:admin_name "Tehrān"^^xsd:string ;
-    lab6:isCapitalOf <http://dbpedia.org/resource/Tehran> ;
-    lab6:iso2code "IR"^^xsd:string ;
-    lab6:iso3code "IRN"^^xsd:string ;
-    lab6:latitude "35.7"^^xsd:float ;
-    lab6:longitude "51.4167"^^xsd:float ;
-    lab6:name "Iran"^^xsd:string,
-        "Tehran"^^xsd:string ;
-    lab6:name_ascii "Tehran"^^xsd:string ;
-    lab6:population "13633000"^^xsd:long .
-
-<http://dbpedia.org/resource/Thailand> a lab6:Country ;
+lab6:thailand a lab6:Country ;
     lab6:iso2code "TH"^^xsd:string ;
     lab6:iso3code "THA"^^xsd:string ;
     lab6:name "Thailand"^^xsd:string .
 
-<http://dbpedia.org/resource/Turkey> a lab6:Country ;
+lab6:turkey a lab6:Country ;
     lab6:iso2code "TR"^^xsd:string ;
     lab6:iso3code "TUR"^^xsd:string ;
     lab6:name "Turkey"^^xsd:string .
 
-<http://dbpedia.org/resource/United_Kingdom> a lab6:Country ;
+lab6:united_kingdom a lab6:Country ;
     lab6:iso2code "GB"^^xsd:string ;
     lab6:iso3code "GBR"^^xsd:string ;
     lab6:name "United Kingdom"^^xsd:string .
 
-<http://dbpedia.org/resource/Brazil> a lab6:Country ;
+lab6:brazil a lab6:Country ;
     lab6:iso2code "BR"^^xsd:string ;
     lab6:iso3code "BRA"^^xsd:string ;
     lab6:name "Brazil"^^xsd:string .
 
-<http://dbpedia.org/resource/Nigeria> a lab6:Country ;
+lab6:nigeria a lab6:Country ;
     lab6:iso2code "NG"^^xsd:string ;
     lab6:iso3code "NGA"^^xsd:string ;
     lab6:name "Nigeria"^^xsd:string .
 
-<http://dbpedia.org/resource/Pakistan> a lab6:Country ;
+lab6:pakistan a lab6:Country ;
     lab6:iso2code "PK"^^xsd:string ;
     lab6:iso3code "PAK"^^xsd:string ;
     lab6:name "Pakistan"^^xsd:string .
 
-<http://dbpedia.org/resource/Vietnam> a lab6:Country ;
+lab6:vietnam a lab6:Country ;
     lab6:iso2code "VN"^^xsd:string ;
     lab6:iso3code "VNM"^^xsd:string ;
     lab6:name "Vietnam"^^xsd:string .
 
-<http://dbpedia.org/resource/Japan> a lab6:Country ;
+lab6:japan a lab6:Country ;
     lab6:iso2code "JP"^^xsd:string ;
     lab6:iso3code "JPN"^^xsd:string ;
     lab6:name "Japan"^^xsd:string .
 
-<http://dbpedia.org/resource/United_States> a lab6:Country ;
+lab6:united_states a lab6:Country ;
     lab6:iso2code "US"^^xsd:string ;
     lab6:iso3code "USA"^^xsd:string ;
     lab6:name "United States"^^xsd:string .
 
-<http://dbpedia.org/resource/India> a lab6:Country ;
+lab6:india a lab6:Country ;
     lab6:iso2code "IN"^^xsd:string ;
     lab6:iso3code "IND"^^xsd:string ;
     lab6:name "India"^^xsd:string .
 
-<http://dbpedia.org/resource/China> a lab6:Country ;
+lab6:china a lab6:Country ;
     lab6:iso2code "CN"^^xsd:string ;
     lab6:iso3code "CHN"^^xsd:string ;
     lab6:name "China"^^xsd:string .

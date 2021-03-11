@@ -9,14 +9,7 @@
 lab6: a owl:Ontology ;
     owl:sameAs lab6: .
 
-lab6:lat a owl:AnnotationProperty ;
-    owl:sameAs lab6:lat .
-
-lab6:long a owl:AnnotationProperty ;
-    owl:sameAs lab6:long .
-
-lab6:population a owl:AnnotationProperty ;
-    owl:sameAs lab6:population .
+lab6:population owl:sameAs lab6:population .
 
 rdf:HTML a rdfs:Datatype ;
     owl:sameAs rdf:HTML .
@@ -162,293 +155,293 @@ owl:someValuesFrom owl:sameAs owl:someValuesFrom .
 owl:versionInfo a owl:AnnotationProperty ;
     owl:sameAs owl:versionInfo .
 
-<http://dbpedia.org/resource/Baoding> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Baoding> a _:ub1bL155C27,
         lab6:City,
         owl:Thing ;
     lab6:admin_name "Hebei"^^xsd:string ;
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "38.8671"^^xsd:float ;
-    lab6:long "115.4845"^^xsd:float ;
+    lab6:latitude "38.8671"^^xsd:float ;
+    lab6:longitude "115.4845"^^xsd:float ;
     lab6:name "Baoding"^^xsd:string ;
     lab6:name_ascii "Baoding"^^xsd:string ;
     lab6:population "10700000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Baoding> .
 
-<http://dbpedia.org/resource/Bijie> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Bijie> a _:ub1bL155C27,
         lab6:City,
         owl:Thing ;
     lab6:admin_name "Guizhou"^^xsd:string ;
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "27.3019"^^xsd:float ;
-    lab6:long "105.2863"^^xsd:float ;
+    lab6:latitude "27.3019"^^xsd:float ;
+    lab6:longitude "105.2863"^^xsd:float ;
     lab6:name "Bijie"^^xsd:string ;
     lab6:name_ascii "Bijie"^^xsd:string ;
     lab6:population "6537498"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Bijie> .
 
-<http://dbpedia.org/resource/Cangzhou> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Cangzhou> a _:ub1bL155C27,
         lab6:City,
         owl:Thing ;
     lab6:admin_name "Hebei"^^xsd:string ;
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "38.3037"^^xsd:float ;
-    lab6:long "116.8452"^^xsd:float ;
+    lab6:latitude "38.3037"^^xsd:float ;
+    lab6:longitude "116.8452"^^xsd:float ;
     lab6:name "Cangzhou"^^xsd:string ;
     lab6:name_ascii "Cangzhou"^^xsd:string ;
     lab6:population "6800000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Cangzhou> .
 
-<http://dbpedia.org/resource/Chicago> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Chicago> a _:ub1bL155C27,
         lab6:City,
         owl:Thing ;
     lab6:admin_name "Illinois"^^xsd:string ;
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/United_States> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/United_States> ;
-    lab6:lat "41.8373"^^xsd:float ;
-    lab6:long "-87.6862"^^xsd:float ;
+    lab6:latitude "41.8373"^^xsd:float ;
+    lab6:longitude "-87.6862"^^xsd:float ;
     lab6:name "Chicago"^^xsd:string ;
     lab6:name_ascii "Chicago"^^xsd:string ;
     lab6:population "8604203"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Chicago> .
 
-<http://dbpedia.org/resource/Fuyang> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Fuyang> a _:ub1bL155C27,
         lab6:City,
         owl:Thing ;
     lab6:admin_name "Anhui"^^xsd:string ;
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "32.8986"^^xsd:float ;
-    lab6:long "115.8045"^^xsd:float ;
+    lab6:latitude "32.8986"^^xsd:float ;
+    lab6:longitude "115.8045"^^xsd:float ;
     lab6:name "Fuyang"^^xsd:string ;
     lab6:name_ascii "Fuyang"^^xsd:string ;
     lab6:population "8360000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Fuyang> .
 
-<http://dbpedia.org/resource/Handan> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Handan> a _:ub1bL155C27,
         lab6:City,
         owl:Thing ;
     lab6:admin_name "Hebei"^^xsd:string ;
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "36.6116"^^xsd:float ;
-    lab6:long "114.4894"^^xsd:float ;
+    lab6:latitude "36.6116"^^xsd:float ;
+    lab6:longitude "114.4894"^^xsd:float ;
     lab6:name "Handan"^^xsd:string ;
     lab6:name_ascii "Handan"^^xsd:string ;
     lab6:population "8499000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Handan> .
 
-<http://dbpedia.org/resource/Hengyang> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Hengyang> a _:ub1bL155C27,
         lab6:City,
         owl:Thing ;
     lab6:admin_name "Hunan"^^xsd:string ;
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "26.8968"^^xsd:float ;
-    lab6:long "112.5857"^^xsd:float ;
+    lab6:latitude "26.8968"^^xsd:float ;
+    lab6:longitude "112.5857"^^xsd:float ;
     lab6:name "Hengyang"^^xsd:string ;
     lab6:name_ascii "Hengyang"^^xsd:string ;
     lab6:population "7148344"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Hengyang> .
 
-<http://dbpedia.org/resource/Jining> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Jining> a _:ub1bL155C27,
         lab6:City,
         owl:Thing ;
     lab6:admin_name "Shandong"^^xsd:string ;
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "35.4"^^xsd:float ;
-    lab6:long "116.5667"^^xsd:float ;
+    lab6:latitude "35.4"^^xsd:float ;
+    lab6:longitude "116.5667"^^xsd:float ;
     lab6:name "Jining"^^xsd:string ;
     lab6:name_ascii "Jining"^^xsd:string ;
     lab6:population "8023000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Jining> .
 
-<http://dbpedia.org/resource/Linyi> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Linyi> a _:ub1bL155C27,
         lab6:City,
         owl:Thing ;
     lab6:admin_name "Shandong"^^xsd:string ;
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "35.0606"^^xsd:float ;
-    lab6:long "118.3425"^^xsd:float ;
+    lab6:latitude "35.0606"^^xsd:float ;
+    lab6:longitude "118.3425"^^xsd:float ;
     lab6:name "Linyi"^^xsd:string ;
     lab6:name_ascii "Linyi"^^xsd:string ;
     lab6:population "10820000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Linyi> .
 
-<http://dbpedia.org/resource/Los_Angeles> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Los_Angeles> a _:ub1bL155C27,
         lab6:City,
         owl:Thing ;
     lab6:admin_name "California"^^xsd:string ;
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/United_States> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/United_States> ;
-    lab6:lat "34.1139"^^xsd:float ;
-    lab6:long "-118.4068"^^xsd:float ;
+    lab6:latitude "34.1139"^^xsd:float ;
+    lab6:longitude "-118.4068"^^xsd:float ;
     lab6:name "Los Angeles"^^xsd:string ;
     lab6:name_ascii "Los Angeles"^^xsd:string ;
     lab6:population "12750807"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Los_Angeles> .
 
-<http://dbpedia.org/resource/Luoyang> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Luoyang> a _:ub1bL155C27,
         lab6:City,
         owl:Thing ;
     lab6:admin_name "Henan"^^xsd:string ;
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "34.6587"^^xsd:float ;
-    lab6:long "112.4245"^^xsd:float ;
+    lab6:latitude "34.6587"^^xsd:float ;
+    lab6:longitude "112.4245"^^xsd:float ;
     lab6:name "Luoyang"^^xsd:string ;
     lab6:name_ascii "Luoyang"^^xsd:string ;
     lab6:population "6549941"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Luoyang> .
 
-<http://dbpedia.org/resource/Miami> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Miami> a _:ub1bL155C27,
         lab6:City,
         owl:Thing ;
     lab6:admin_name "Florida"^^xsd:string ;
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/United_States> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/United_States> ;
-    lab6:lat "25.7839"^^xsd:float ;
-    lab6:long "-80.2102"^^xsd:float ;
+    lab6:latitude "25.7839"^^xsd:float ;
+    lab6:longitude "-80.2102"^^xsd:float ;
     lab6:name "Miami"^^xsd:string ;
     lab6:name_ascii "Miami"^^xsd:string ;
     lab6:population "6445545"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Miami> .
 
-<http://dbpedia.org/resource/Nanyang> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Nanyang> a _:ub1bL155C27,
         lab6:City,
         owl:Thing ;
     lab6:admin_name "Henan"^^xsd:string ;
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "32.9987"^^xsd:float ;
-    lab6:long "112.5292"^^xsd:float ;
+    lab6:latitude "32.9987"^^xsd:float ;
+    lab6:longitude "112.5292"^^xsd:float ;
     lab6:name "Nanyang"^^xsd:string ;
     lab6:name_ascii "Nanyang"^^xsd:string ;
     lab6:population "12010000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Nanyang> .
 
-<http://dbpedia.org/resource/New_York_City> a _:ub1bL165C27,
+<http://dbpedia.org/resource/New_York_City> a _:ub1bL155C27,
         lab6:City,
         owl:Thing ;
     lab6:admin_name "New York"^^xsd:string ;
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/United_States> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/United_States> ;
-    lab6:lat "40.6943"^^xsd:float ;
-    lab6:long "-73.9249"^^xsd:float ;
+    lab6:latitude "40.6943"^^xsd:float ;
+    lab6:longitude "-73.9249"^^xsd:float ;
     lab6:name "New York"^^xsd:string ;
     lab6:name_ascii "New York"^^xsd:string ;
     lab6:population "18713220"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/New_York_City> .
 
-<http://dbpedia.org/resource/Pune> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Pune> a _:ub1bL155C27,
         lab6:City,
         owl:Thing ;
     lab6:admin_name "Mahārāshtra"^^xsd:string ;
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/India> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/India> ;
-    lab6:lat "18.5196"^^xsd:float ;
-    lab6:long "73.8553"^^xsd:float ;
+    lab6:latitude "18.5196"^^xsd:float ;
+    lab6:longitude "73.8553"^^xsd:float ;
     lab6:name "Pune"^^xsd:string ;
     lab6:name_ascii "Pune"^^xsd:string ;
     lab6:population "7764000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Pune> .
 
-<http://dbpedia.org/resource/Shaoyang> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Shaoyang> a _:ub1bL155C27,
         lab6:City,
         owl:Thing ;
     lab6:admin_name "Hunan"^^xsd:string ;
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "27.2418"^^xsd:float ;
-    lab6:long "111.4725"^^xsd:float ;
+    lab6:latitude "27.2418"^^xsd:float ;
+    lab6:longitude "111.4725"^^xsd:float ;
     lab6:name "Shaoyang"^^xsd:string ;
     lab6:name_ascii "Shaoyang"^^xsd:string ;
     lab6:population "7071000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Shaoyang> .
 
-<http://dbpedia.org/resource/Tangshan> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Tangshan> a _:ub1bL155C27,
         lab6:City,
         owl:Thing ;
     lab6:admin_name "Hebei"^^xsd:string ;
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "39.6292"^^xsd:float ;
-    lab6:long "118.1742"^^xsd:float ;
+    lab6:latitude "39.6292"^^xsd:float ;
+    lab6:longitude "118.1742"^^xsd:float ;
     lab6:name "Tangshan"^^xsd:string ;
     lab6:name_ascii "Tangshan"^^xsd:string ;
     lab6:population "7100000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Tangshan> .
 
-<http://dbpedia.org/resource/Weifang> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Weifang> a _:ub1bL155C27,
         lab6:City,
         owl:Thing ;
     lab6:admin_name "Shandong"^^xsd:string ;
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "36.7167"^^xsd:float ;
-    lab6:long "119.1"^^xsd:float ;
+    lab6:latitude "36.7167"^^xsd:float ;
+    lab6:longitude "119.1"^^xsd:float ;
     lab6:name "Weifang"^^xsd:string ;
     lab6:name_ascii "Weifang"^^xsd:string ;
     lab6:population "9373000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Weifang> .
 
-<http://dbpedia.org/resource/Xinyang> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Xinyang> a _:ub1bL155C27,
         lab6:City,
         owl:Thing ;
     lab6:admin_name "Henan"^^xsd:string ;
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "32.1264"^^xsd:float ;
-    lab6:long "114.0672"^^xsd:float ;
+    lab6:latitude "32.1264"^^xsd:float ;
+    lab6:longitude "114.0672"^^xsd:float ;
     lab6:name "Xinyang"^^xsd:string ;
     lab6:name_ascii "Xinyang"^^xsd:string ;
     lab6:population "6634000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Xinyang> .
 
-<http://dbpedia.org/resource/Yantai> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Yantai> a _:ub1bL155C27,
         lab6:City,
         owl:Thing ;
     lab6:admin_name "Shandong"^^xsd:string ;
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "37.3997"^^xsd:float ;
-    lab6:long "121.2664"^^xsd:float ;
+    lab6:latitude "37.3997"^^xsd:float ;
+    lab6:longitude "121.2664"^^xsd:float ;
     lab6:name "Yantai"^^xsd:string ;
     lab6:name_ascii "Yantai"^^xsd:string ;
     lab6:population "6516900"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Yantai> .
 
-<http://dbpedia.org/resource/Zhumadian> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Zhumadian> a _:ub1bL155C27,
         lab6:City,
         owl:Thing ;
     lab6:admin_name "Henan"^^xsd:string ;
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "32.9773"^^xsd:float ;
-    lab6:long "114.0253"^^xsd:float ;
+    lab6:latitude "32.9773"^^xsd:float ;
+    lab6:longitude "114.0253"^^xsd:float ;
     lab6:name "Zhumadian"^^xsd:string ;
     lab6:name_ascii "Zhumadian"^^xsd:string ;
     lab6:population "7640000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Zhumadian> .
 
-<http://dbpedia.org/resource/Zunyi> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Zunyi> a _:ub1bL155C27,
         lab6:City,
         owl:Thing ;
     lab6:admin_name "Guizhou"^^xsd:string ;
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "27.705"^^xsd:float ;
-    lab6:long "106.9336"^^xsd:float ;
+    lab6:latitude "27.705"^^xsd:float ;
+    lab6:longitude "106.9336"^^xsd:float ;
     lab6:name "Zunyi"^^xsd:string ;
     lab6:name_ascii "Zunyi"^^xsd:string ;
     lab6:population "6127009"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Zunyi> .
 
-lab6:oxford a _:ub1bL165C27,
+lab6:oxford a _:ub1bL155C27,
         lab6:City,
         owl:NamedIndividual,
         owl:Thing ;
@@ -1971,7 +1964,8 @@ owl:Ontology owl:sameAs owl:Ontology .
 "İstanbul"^^xsd:string a xsd:string ;
     owl:sameAs "İstanbul"^^xsd:string .
 
-<http://dbpedia.org/resource/Ahmadabad> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Ahmadabad> a _:ub1bL155C27,
+        _:ub1bL182C50,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:SecondLevelAdminCapitalCity,
@@ -1981,14 +1975,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/India> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/India> ;
     lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/India> ;
-    lab6:lat "23.03"^^xsd:float ;
-    lab6:long "72.58"^^xsd:float ;
+    lab6:latitude "23.03"^^xsd:float ;
+    lab6:longitude "72.58"^^xsd:float ;
     lab6:name "Ahmadābād"^^xsd:string ;
     lab6:name_ascii "Ahmadabad"^^xsd:string ;
     lab6:population "7410000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Ahmadabad> .
 
-<http://dbpedia.org/resource/Bangalore> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Bangalore> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -1998,14 +1993,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/India> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/India> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/India> ;
-    lab6:lat "12.9699"^^xsd:float ;
-    lab6:long "77.598"^^xsd:float ;
+    lab6:latitude "12.9699"^^xsd:float ;
+    lab6:longitude "77.598"^^xsd:float ;
     lab6:name "Bangalore"^^xsd:string ;
     lab6:name_ascii "Bangalore"^^xsd:string ;
     lab6:population "13707000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Bangalore> .
 
-<http://dbpedia.org/resource/Bangkok> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Bangkok> a _:ub1bL146C34,
+        _:ub1bL155C27,
         lab6:CapitalCity,
         lab6:City,
         owl:Thing ;
@@ -2013,14 +2009,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/Thailand> ;
     lab6:isCapitalOf <http://dbpedia.org/resource/Thailand> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/Thailand> ;
-    lab6:lat "13.75"^^xsd:float ;
-    lab6:long "100.5167"^^xsd:float ;
+    lab6:latitude "13.75"^^xsd:float ;
+    lab6:longitude "100.5167"^^xsd:float ;
     lab6:name "Bangkok"^^xsd:string ;
     lab6:name_ascii "Bangkok"^^xsd:string ;
     lab6:population "17066000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Bangkok> .
 
-<http://dbpedia.org/resource/Beijing> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Beijing> a _:ub1bL146C34,
+        _:ub1bL155C27,
         lab6:CapitalCity,
         lab6:City,
         owl:Thing ;
@@ -2028,14 +2025,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "39.905"^^xsd:float ;
-    lab6:long "116.3914"^^xsd:float ;
+    lab6:latitude "39.905"^^xsd:float ;
+    lab6:longitude "116.3914"^^xsd:float ;
     lab6:name "Beijing"^^xsd:string ;
     lab6:name_ascii "Beijing"^^xsd:string ;
     lab6:population "19433000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Beijing> .
 
-<http://dbpedia.org/resource/Bogota,_New_Jersey> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Bogota,_New_Jersey> a _:ub1bL146C34,
+        _:ub1bL155C27,
         lab6:CapitalCity,
         lab6:City,
         owl:Thing ;
@@ -2043,14 +2041,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/Colombia> ;
     lab6:isCapitalOf <http://dbpedia.org/resource/Colombia> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/Colombia> ;
-    lab6:lat "4.6126"^^xsd:float ;
-    lab6:long "-74.0705"^^xsd:float ;
+    lab6:latitude "4.6126"^^xsd:float ;
+    lab6:longitude "-74.0705"^^xsd:float ;
     lab6:name "Bogotá"^^xsd:string ;
     lab6:name_ascii "Bogota"^^xsd:string ;
     lab6:population "9464000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Bogota,_New_Jersey> .
 
-<http://dbpedia.org/resource/Buenos_Aires> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Buenos_Aires> a _:ub1bL146C34,
+        _:ub1bL155C27,
         lab6:CapitalCity,
         lab6:City,
         owl:Thing ;
@@ -2058,14 +2057,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/Argentina> ;
     lab6:isCapitalOf <http://dbpedia.org/resource/Argentina> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/Argentina> ;
-    lab6:lat "-34.5997"^^xsd:float ;
-    lab6:long "-58.3819"^^xsd:float ;
+    lab6:latitude "-34.5997"^^xsd:float ;
+    lab6:longitude "-58.3819"^^xsd:float ;
     lab6:name "Buenos Aires"^^xsd:string ;
     lab6:name_ascii "Buenos Aires"^^xsd:string ;
     lab6:population "16157000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Buenos_Aires> .
 
-<http://dbpedia.org/resource/Cairo> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Cairo> a _:ub1bL146C34,
+        _:ub1bL155C27,
         lab6:CapitalCity,
         lab6:City,
         owl:Thing ;
@@ -2073,14 +2073,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/Egypt> ;
     lab6:isCapitalOf <http://dbpedia.org/resource/Egypt> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/Egypt> ;
-    lab6:lat "30.0561"^^xsd:float ;
-    lab6:long "31.2394"^^xsd:float ;
+    lab6:latitude "30.0561"^^xsd:float ;
+    lab6:longitude "31.2394"^^xsd:float ;
     lab6:name "Cairo"^^xsd:string ;
     lab6:name_ascii "Cairo"^^xsd:string ;
     lab6:population "19372000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Cairo> .
 
-<http://dbpedia.org/resource/Changchun> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Changchun> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -2090,14 +2091,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "43.9"^^xsd:float ;
-    lab6:long "125.2"^^xsd:float ;
+    lab6:latitude "43.9"^^xsd:float ;
+    lab6:longitude "125.2"^^xsd:float ;
     lab6:name "Changchun"^^xsd:string ;
     lab6:name_ascii "Changchun"^^xsd:string ;
     lab6:population "7674439"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Changchun> .
 
-<http://dbpedia.org/resource/Changsha> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Changsha> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -2107,14 +2109,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "28.1987"^^xsd:float ;
-    lab6:long "112.9709"^^xsd:float ;
+    lab6:latitude "28.1987"^^xsd:float ;
+    lab6:longitude "112.9709"^^xsd:float ;
     lab6:name "Changsha"^^xsd:string ;
     lab6:name_ascii "Changsha"^^xsd:string ;
     lab6:population "7044118"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Changsha> .
 
-<http://dbpedia.org/resource/Chengdu> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Chengdu> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -2124,14 +2127,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "30.6636"^^xsd:float ;
-    lab6:long "104.0667"^^xsd:float ;
+    lab6:latitude "30.6636"^^xsd:float ;
+    lab6:longitude "104.0667"^^xsd:float ;
     lab6:name "Chengdu"^^xsd:string ;
     lab6:name_ascii "Chengdu"^^xsd:string ;
     lab6:population "11309000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Chengdu> .
 
-<http://dbpedia.org/resource/Chennai> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Chennai> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -2141,14 +2145,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/India> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/India> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/India> ;
-    lab6:lat "13.0825"^^xsd:float ;
-    lab6:long "80.275"^^xsd:float ;
+    lab6:latitude "13.0825"^^xsd:float ;
+    lab6:longitude "80.275"^^xsd:float ;
     lab6:name "Chennai"^^xsd:string ;
     lab6:name_ascii "Chennai"^^xsd:string ;
     lab6:population "11324000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Chennai> .
 
-<http://dbpedia.org/resource/Chongqing> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Chongqing> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -2158,14 +2163,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "29.55"^^xsd:float ;
-    lab6:long "106.5069"^^xsd:float ;
+    lab6:latitude "29.55"^^xsd:float ;
+    lab6:longitude "106.5069"^^xsd:float ;
     lab6:name "Chongqing"^^xsd:string ;
     lab6:name_ascii "Chongqing"^^xsd:string ;
     lab6:population "7739000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Chongqing> .
 
-<http://dbpedia.org/resource/Dar_es_Salaam> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Dar_es_Salaam> a _:ub1bL146C34,
+        _:ub1bL155C27,
         lab6:CapitalCity,
         lab6:City,
         owl:Thing ;
@@ -2173,14 +2179,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/Tanzania> ;
     lab6:isCapitalOf <http://dbpedia.org/resource/Tanzania> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/Tanzania> ;
-    lab6:lat "-6.8"^^xsd:float ;
-    lab6:long "39.2833"^^xsd:float ;
+    lab6:latitude "-6.8"^^xsd:float ;
+    lab6:longitude "39.2833"^^xsd:float ;
     lab6:name "Dar es Salaam"^^xsd:string ;
     lab6:name_ascii "Dar es Salaam"^^xsd:string ;
     lab6:population "6698000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Dar_es_Salaam> .
 
-<http://dbpedia.org/resource/Delhi> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Delhi> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -2190,14 +2197,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/India> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/India> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/India> ;
-    lab6:lat "28.66"^^xsd:float ;
-    lab6:long "77.23"^^xsd:float ;
+    lab6:latitude "28.66"^^xsd:float ;
+    lab6:longitude "77.23"^^xsd:float ;
     lab6:name "Delhi"^^xsd:string ;
     lab6:name_ascii "Delhi"^^xsd:string ;
     lab6:population "29617000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Delhi> .
 
-<http://dbpedia.org/resource/Dhaka> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Dhaka> a _:ub1bL146C34,
+        _:ub1bL155C27,
         lab6:CapitalCity,
         lab6:City,
         owl:Thing ;
@@ -2205,14 +2213,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/Bangladesh> ;
     lab6:isCapitalOf <http://dbpedia.org/resource/Bangladesh> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/Bangladesh> ;
-    lab6:lat "23.7161"^^xsd:float ;
-    lab6:long "90.3961"^^xsd:float ;
+    lab6:latitude "23.7161"^^xsd:float ;
+    lab6:longitude "90.3961"^^xsd:float ;
     lab6:name "Dhaka"^^xsd:string ;
     lab6:name_ascii "Dhaka"^^xsd:string ;
     lab6:population "15443000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Dhaka> .
 
-<http://dbpedia.org/resource/Dongguan> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Dongguan> a _:ub1bL155C27,
+        _:ub1bL182C50,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:SecondLevelAdminCapitalCity,
@@ -2222,14 +2231,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:lat "23.0475"^^xsd:float ;
-    lab6:long "113.7493"^^xsd:float ;
+    lab6:latitude "23.0475"^^xsd:float ;
+    lab6:longitude "113.7493"^^xsd:float ;
     lab6:name "Dongguan"^^xsd:string ;
     lab6:name_ascii "Dongguan"^^xsd:string ;
     lab6:population "7981000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Dongguan> .
 
-<http://dbpedia.org/resource/Foshan> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Foshan> a _:ub1bL155C27,
+        _:ub1bL182C50,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:SecondLevelAdminCapitalCity,
@@ -2239,14 +2249,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:lat "23.0292"^^xsd:float ;
-    lab6:long "113.1056"^^xsd:float ;
+    lab6:latitude "23.0292"^^xsd:float ;
+    lab6:longitude "113.1056"^^xsd:float ;
     lab6:name "Foshan"^^xsd:string ;
     lab6:name_ascii "Foshan"^^xsd:string ;
     lab6:population "7194311"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Foshan> .
 
-<http://dbpedia.org/resource/Ganzhou> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Ganzhou> a _:ub1bL155C27,
+        _:ub1bL182C50,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:SecondLevelAdminCapitalCity,
@@ -2256,14 +2267,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:lat "25.8292"^^xsd:float ;
-    lab6:long "114.9336"^^xsd:float ;
+    lab6:latitude "25.8292"^^xsd:float ;
+    lab6:longitude "114.9336"^^xsd:float ;
     lab6:name "Ganzhou"^^xsd:string ;
     lab6:name_ascii "Ganzhou"^^xsd:string ;
     lab6:population "8677600"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Ganzhou> .
 
-<http://dbpedia.org/resource/Guangzhou> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Guangzhou> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -2273,14 +2285,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "23.1288"^^xsd:float ;
-    lab6:long "113.259"^^xsd:float ;
+    lab6:latitude "23.1288"^^xsd:float ;
+    lab6:longitude "113.259"^^xsd:float ;
     lab6:name "Guangzhou"^^xsd:string ;
     lab6:name_ascii "Guangzhou"^^xsd:string ;
     lab6:population "20902000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Guangzhou> .
 
-<http://dbpedia.org/resource/Hangzhou> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Hangzhou> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -2290,14 +2303,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "30.25"^^xsd:float ;
-    lab6:long "120.1675"^^xsd:float ;
+    lab6:latitude "30.25"^^xsd:float ;
+    lab6:longitude "120.1675"^^xsd:float ;
     lab6:name "Hangzhou"^^xsd:string ;
     lab6:name_ascii "Hangzhou"^^xsd:string ;
     lab6:population "6446000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Hangzhou> .
 
-<http://dbpedia.org/resource/Hanoi> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Hanoi> a _:ub1bL146C34,
+        _:ub1bL155C27,
         lab6:CapitalCity,
         lab6:City,
         owl:Thing ;
@@ -2305,14 +2319,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/Vietnam> ;
     lab6:isCapitalOf <http://dbpedia.org/resource/Vietnam> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/Vietnam> ;
-    lab6:lat "21.0245"^^xsd:float ;
-    lab6:long "105.8412"^^xsd:float ;
+    lab6:latitude "21.0245"^^xsd:float ;
+    lab6:longitude "105.8412"^^xsd:float ;
     lab6:name "Hanoi"^^xsd:string ;
     lab6:name_ascii "Hanoi"^^xsd:string ;
     lab6:population "7785000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Hanoi> .
 
-<http://dbpedia.org/resource/Hefei> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Hefei> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -2322,14 +2337,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "31.8639"^^xsd:float ;
-    lab6:long "117.2808"^^xsd:float ;
+    lab6:latitude "31.8639"^^xsd:float ;
+    lab6:longitude "117.2808"^^xsd:float ;
     lab6:name "Hefei"^^xsd:string ;
     lab6:name_ascii "Hefei"^^xsd:string ;
     lab6:population "7457027"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Hefei> .
 
-<http://dbpedia.org/resource/Heze> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Heze> a _:ub1bL155C27,
+        _:ub1bL182C50,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:SecondLevelAdminCapitalCity,
@@ -2339,14 +2355,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:lat "35.2333"^^xsd:float ;
-    lab6:long "115.4333"^^xsd:float ;
+    lab6:latitude "35.2333"^^xsd:float ;
+    lab6:longitude "115.4333"^^xsd:float ;
     lab6:name "Heze"^^xsd:string ;
     lab6:name_ascii "Heze"^^xsd:string ;
     lab6:population "8750000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Heze> .
 
-<http://dbpedia.org/resource/Huanggang> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Huanggang> a _:ub1bL155C27,
+        _:ub1bL182C50,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:SecondLevelAdminCapitalCity,
@@ -2356,14 +2373,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:lat "30.45"^^xsd:float ;
-    lab6:long "114.875"^^xsd:float ;
+    lab6:latitude "30.45"^^xsd:float ;
+    lab6:longitude "114.875"^^xsd:float ;
     lab6:name "Huanggang"^^xsd:string ;
     lab6:name_ascii "Huanggang"^^xsd:string ;
     lab6:population "6667000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Huanggang> .
 
-<http://dbpedia.org/resource/Hyderabad> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Hyderabad> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -2373,14 +2391,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/India> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/India> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/India> ;
-    lab6:lat "17.3667"^^xsd:float ;
-    lab6:long "78.4667"^^xsd:float ;
+    lab6:latitude "17.3667"^^xsd:float ;
+    lab6:longitude "78.4667"^^xsd:float ;
     lab6:name "Hyderābād"^^xsd:string ;
     lab6:name_ascii "Hyderabad"^^xsd:string ;
     lab6:population "9746000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Hyderabad> .
 
-<http://dbpedia.org/resource/Istanbul> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Istanbul> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -2390,14 +2409,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/Turkey> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/Turkey> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/Turkey> ;
-    lab6:lat "41.01"^^xsd:float ;
-    lab6:long "28.9603"^^xsd:float ;
+    lab6:latitude "41.01"^^xsd:float ;
+    lab6:longitude "28.9603"^^xsd:float ;
     lab6:name "Istanbul"^^xsd:string ;
     lab6:name_ascii "Istanbul"^^xsd:string ;
     lab6:population "15154000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Istanbul> .
 
-<http://dbpedia.org/resource/Jakarta> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Jakarta> a _:ub1bL146C34,
+        _:ub1bL155C27,
         lab6:CapitalCity,
         lab6:City,
         owl:Thing ;
@@ -2405,14 +2425,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/Indonesia> ;
     lab6:isCapitalOf <http://dbpedia.org/resource/Indonesia> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/Indonesia> ;
-    lab6:lat "-6.2146"^^xsd:float ;
-    lab6:long "106.8451"^^xsd:float ;
+    lab6:latitude "-6.2146"^^xsd:float ;
+    lab6:longitude "106.8451"^^xsd:float ;
     lab6:name "Jakarta"^^xsd:string ;
     lab6:name_ascii "Jakarta"^^xsd:string ;
     lab6:population "34540000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Jakarta> .
 
-<http://dbpedia.org/resource/Karachi> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Karachi> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -2422,14 +2443,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/Pakistan> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/Pakistan> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/Pakistan> ;
-    lab6:lat "24.86"^^xsd:float ;
-    lab6:long "67.01"^^xsd:float ;
+    lab6:latitude "24.86"^^xsd:float ;
+    lab6:longitude "67.01"^^xsd:float ;
     lab6:name "Karachi"^^xsd:string ;
     lab6:name_ascii "Karachi"^^xsd:string ;
     lab6:population "14835000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Karachi> .
 
-<http://dbpedia.org/resource/Khartoum> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Khartoum> a _:ub1bL146C34,
+        _:ub1bL155C27,
         lab6:CapitalCity,
         lab6:City,
         owl:Thing ;
@@ -2437,14 +2459,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/Sudan> ;
     lab6:isCapitalOf <http://dbpedia.org/resource/Sudan> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/Sudan> ;
-    lab6:lat "15.6031"^^xsd:float ;
-    lab6:long "32.5265"^^xsd:float ;
+    lab6:latitude "15.6031"^^xsd:float ;
+    lab6:longitude "32.5265"^^xsd:float ;
     lab6:name "Khartoum"^^xsd:string ;
     lab6:name_ascii "Khartoum"^^xsd:string ;
     lab6:population "7282000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Khartoum> .
 
-<http://dbpedia.org/resource/Kolkata> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Kolkata> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -2454,14 +2477,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/India> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/India> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/India> ;
-    lab6:lat "22.5411"^^xsd:float ;
-    lab6:long "88.3378"^^xsd:float ;
+    lab6:latitude "22.5411"^^xsd:float ;
+    lab6:longitude "88.3378"^^xsd:float ;
     lab6:name "Kolkāta"^^xsd:string ;
     lab6:name_ascii "Kolkata"^^xsd:string ;
     lab6:population "17560000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Kolkata> .
 
-<http://dbpedia.org/resource/Kuala_Lumpur> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Kuala_Lumpur> a _:ub1bL146C34,
+        _:ub1bL155C27,
         lab6:CapitalCity,
         lab6:City,
         owl:Thing ;
@@ -2469,14 +2493,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/Malaysia> ;
     lab6:isCapitalOf <http://dbpedia.org/resource/Malaysia> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/Malaysia> ;
-    lab6:lat "3.1478"^^xsd:float ;
-    lab6:long "101.6953"^^xsd:float ;
+    lab6:latitude "3.1478"^^xsd:float ;
+    lab6:longitude "101.6953"^^xsd:float ;
     lab6:name "Kuala Lumpur"^^xsd:string ;
     lab6:name_ascii "Kuala Lumpur"^^xsd:string ;
     lab6:population "8285000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Kuala_Lumpur> .
 
-<http://dbpedia.org/resource/Kunming> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Kunming> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -2486,14 +2511,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "25.0433"^^xsd:float ;
-    lab6:long "102.7061"^^xsd:float ;
+    lab6:latitude "25.0433"^^xsd:float ;
+    lab6:longitude "102.7061"^^xsd:float ;
     lab6:name "Kunming"^^xsd:string ;
     lab6:name_ascii "Kunming"^^xsd:string ;
     lab6:population "6250000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Kunming> .
 
-<http://dbpedia.org/resource/Lagos> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Lagos> a _:ub1bL155C27,
+        _:ub1bL182C50,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:SecondLevelAdminCapitalCity,
@@ -2503,14 +2529,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/Nigeria> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/Nigeria> ;
     lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/Nigeria> ;
-    lab6:lat "6.45"^^xsd:float ;
-    lab6:long "3.4"^^xsd:float ;
+    lab6:latitude "6.45"^^xsd:float ;
+    lab6:longitude "3.4"^^xsd:float ;
     lab6:name "Lagos"^^xsd:string ;
     lab6:name_ascii "Lagos"^^xsd:string ;
     lab6:population "15279000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Lagos> .
 
-<http://dbpedia.org/resource/Lahore> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Lahore> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -2520,14 +2547,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/Pakistan> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/Pakistan> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/Pakistan> ;
-    lab6:lat "31.5497"^^xsd:float ;
-    lab6:long "74.3436"^^xsd:float ;
+    lab6:latitude "31.5497"^^xsd:float ;
+    lab6:longitude "74.3436"^^xsd:float ;
     lab6:name "Lahore"^^xsd:string ;
     lab6:name_ascii "Lahore"^^xsd:string ;
     lab6:population "11021000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Lahore> .
 
-<http://dbpedia.org/resource/Lima> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Lima> a _:ub1bL146C34,
+        _:ub1bL155C27,
         lab6:CapitalCity,
         lab6:City,
         owl:Thing ;
@@ -2535,14 +2563,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/Peru> ;
     lab6:isCapitalOf <http://dbpedia.org/resource/Peru> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/Peru> ;
-    lab6:lat "-12.05"^^xsd:float ;
-    lab6:long "-77.0333"^^xsd:float ;
+    lab6:latitude "-12.05"^^xsd:float ;
+    lab6:longitude "-77.0333"^^xsd:float ;
     lab6:name "Lima"^^xsd:string ;
     lab6:name_ascii "Lima"^^xsd:string ;
     lab6:population "9848000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Lima> .
 
-<http://dbpedia.org/resource/London> a _:ub1bL165C27,
+<http://dbpedia.org/resource/London> a _:ub1bL146C34,
+        _:ub1bL155C27,
         lab6:CapitalCity,
         lab6:City,
         owl:Thing ;
@@ -2550,14 +2579,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/United_Kingdom> ;
     lab6:isCapitalOf <http://dbpedia.org/resource/United_Kingdom> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/United_Kingdom> ;
-    lab6:lat "51.5072"^^xsd:float ;
-    lab6:long "-0.1275"^^xsd:float ;
+    lab6:latitude "51.5072"^^xsd:float ;
+    lab6:longitude "-0.1275"^^xsd:float ;
     lab6:name "London"^^xsd:string ;
     lab6:name_ascii "London"^^xsd:string ;
     lab6:population "10979000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/London> .
 
-<http://dbpedia.org/resource/Lu'an> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Lu'an> a _:ub1bL155C27,
+        _:ub1bL182C50,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:SecondLevelAdminCapitalCity,
@@ -2567,14 +2597,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:lat "31.7542"^^xsd:float ;
-    lab6:long "116.5078"^^xsd:float ;
+    lab6:latitude "31.7542"^^xsd:float ;
+    lab6:longitude "116.5078"^^xsd:float ;
     lab6:name "Lu’an"^^xsd:string ;
     lab6:name_ascii "Lu'an"^^xsd:string ;
     lab6:population "6090000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Lu'an> .
 
-<http://dbpedia.org/resource/Luanda> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Luanda> a _:ub1bL146C34,
+        _:ub1bL155C27,
         lab6:CapitalCity,
         lab6:City,
         owl:Thing ;
@@ -2582,14 +2613,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/Angola> ;
     lab6:isCapitalOf <http://dbpedia.org/resource/Angola> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/Angola> ;
-    lab6:lat "-8.8383"^^xsd:float ;
-    lab6:long "13.2344"^^xsd:float ;
+    lab6:latitude "-8.8383"^^xsd:float ;
+    lab6:longitude "13.2344"^^xsd:float ;
     lab6:name "Luanda"^^xsd:string ;
     lab6:name_ascii "Luanda"^^xsd:string ;
     lab6:population "8417000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Luanda> .
 
-<http://dbpedia.org/resource/Manila> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Manila> a _:ub1bL146C34,
+        _:ub1bL155C27,
         lab6:CapitalCity,
         lab6:City,
         owl:Thing ;
@@ -2597,14 +2629,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/Philippines> ;
     lab6:isCapitalOf <http://dbpedia.org/resource/Philippines> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/Philippines> ;
-    lab6:lat "14.5958"^^xsd:float ;
-    lab6:long "120.9772"^^xsd:float ;
+    lab6:latitude "14.5958"^^xsd:float ;
+    lab6:longitude "120.9772"^^xsd:float ;
     lab6:name "Manila"^^xsd:string ;
     lab6:name_ascii "Manila"^^xsd:string ;
     lab6:population "23088000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Manila> .
 
-<http://dbpedia.org/resource/Maoming> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Maoming> a _:ub1bL155C27,
+        _:ub1bL182C50,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:SecondLevelAdminCapitalCity,
@@ -2614,14 +2647,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:lat "21.6618"^^xsd:float ;
-    lab6:long "110.9178"^^xsd:float ;
+    lab6:latitude "21.6618"^^xsd:float ;
+    lab6:longitude "110.9178"^^xsd:float ;
     lab6:name "Maoming"^^xsd:string ;
     lab6:name_ascii "Maoming"^^xsd:string ;
     lab6:population "6706000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Maoming> .
 
-<http://dbpedia.org/resource/Mexico_City> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Mexico_City> a _:ub1bL146C34,
+        _:ub1bL155C27,
         lab6:CapitalCity,
         lab6:City,
         owl:Thing ;
@@ -2629,14 +2663,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/Mexico> ;
     lab6:isCapitalOf <http://dbpedia.org/resource/Mexico> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/Mexico> ;
-    lab6:lat "19.4333"^^xsd:float ;
-    lab6:long "-99.1333"^^xsd:float ;
+    lab6:latitude "19.4333"^^xsd:float ;
+    lab6:longitude "-99.1333"^^xsd:float ;
     lab6:name "Mexico City"^^xsd:string ;
     lab6:name_ascii "Mexico City"^^xsd:string ;
     lab6:population "20996000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Mexico_City> .
 
-<http://dbpedia.org/resource/Moscow> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Moscow> a _:ub1bL146C34,
+        _:ub1bL155C27,
         lab6:CapitalCity,
         lab6:City,
         owl:Thing ;
@@ -2644,14 +2679,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/Russia> ;
     lab6:isCapitalOf <http://dbpedia.org/resource/Russia> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/Russia> ;
-    lab6:lat "55.7558"^^xsd:float ;
-    lab6:long "37.6178"^^xsd:float ;
+    lab6:latitude "55.7558"^^xsd:float ;
+    lab6:longitude "37.6178"^^xsd:float ;
     lab6:name "Moscow"^^xsd:string ;
     lab6:name_ascii "Moscow"^^xsd:string ;
     lab6:population "17125000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Moscow> .
 
-<http://dbpedia.org/resource/Mumbai> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Mumbai> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -2661,14 +2697,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/India> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/India> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/India> ;
-    lab6:lat "18.9667"^^xsd:float ;
-    lab6:long "72.8333"^^xsd:float ;
+    lab6:latitude "18.9667"^^xsd:float ;
+    lab6:longitude "72.8333"^^xsd:float ;
     lab6:name "Mumbai"^^xsd:string ;
     lab6:name_ascii "Mumbai"^^xsd:string ;
     lab6:population "23355000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Mumbai> .
 
-<http://dbpedia.org/resource/Nagoya> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Nagoya> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -2678,14 +2715,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/Japan> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/Japan> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/Japan> ;
-    lab6:lat "35.1167"^^xsd:float ;
-    lab6:long "136.9333"^^xsd:float ;
+    lab6:latitude "35.1167"^^xsd:float ;
+    lab6:longitude "136.9333"^^xsd:float ;
     lab6:name "Nagoya"^^xsd:string ;
     lab6:name_ascii "Nagoya"^^xsd:string ;
     lab6:population "9113000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Nagoya> .
 
-<http://dbpedia.org/resource/Nanchong> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Nanchong> a _:ub1bL155C27,
+        _:ub1bL182C50,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:SecondLevelAdminCapitalCity,
@@ -2695,14 +2733,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:lat "30.7991"^^xsd:float ;
-    lab6:long "106.0784"^^xsd:float ;
+    lab6:latitude "30.7991"^^xsd:float ;
+    lab6:longitude "106.0784"^^xsd:float ;
     lab6:name "Nanchong"^^xsd:string ;
     lab6:name_ascii "Nanchong"^^xsd:string ;
     lab6:population "6183000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Nanchong> .
 
-<http://dbpedia.org/resource/Nanjing> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Nanjing> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -2712,14 +2751,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "32.05"^^xsd:float ;
-    lab6:long "118.7667"^^xsd:float ;
+    lab6:latitude "32.05"^^xsd:float ;
+    lab6:longitude "118.7667"^^xsd:float ;
     lab6:name "Nanjing"^^xsd:string ;
     lab6:name_ascii "Nanjing"^^xsd:string ;
     lab6:population "7496000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Nanjing> .
 
-<http://dbpedia.org/resource/Nanning> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Nanning> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -2729,14 +2769,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "22.8192"^^xsd:float ;
-    lab6:long "108.315"^^xsd:float ;
+    lab6:latitude "22.8192"^^xsd:float ;
+    lab6:longitude "108.315"^^xsd:float ;
     lab6:name "Nanning"^^xsd:string ;
     lab6:name_ascii "Nanning"^^xsd:string ;
     lab6:population "7153300"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Nanning> .
 
-<http://dbpedia.org/resource/Nantong> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Nantong> a _:ub1bL155C27,
+        _:ub1bL182C50,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:SecondLevelAdminCapitalCity,
@@ -2746,14 +2787,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:lat "31.9829"^^xsd:float ;
-    lab6:long "120.8873"^^xsd:float ;
+    lab6:latitude "31.9829"^^xsd:float ;
+    lab6:longitude "120.8873"^^xsd:float ;
     lab6:name "Nantong"^^xsd:string ;
     lab6:name_ascii "Nantong"^^xsd:string ;
     lab6:population "7282835"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Nantong> .
 
-<http://dbpedia.org/resource/Ningbo> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Ningbo> a _:ub1bL155C27,
+        _:ub1bL182C50,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:SecondLevelAdminCapitalCity,
@@ -2763,14 +2805,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:lat "29.875"^^xsd:float ;
-    lab6:long "121.5492"^^xsd:float ;
+    lab6:latitude "29.875"^^xsd:float ;
+    lab6:longitude "121.5492"^^xsd:float ;
     lab6:name "Ningbo"^^xsd:string ;
     lab6:name_ascii "Ningbo"^^xsd:string ;
     lab6:population "7639000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Ningbo> .
 
-<http://dbpedia.org/resource/Onitsha> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Onitsha> a _:ub1bL155C27,
+        _:ub1bL182C50,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:SecondLevelAdminCapitalCity,
@@ -2780,14 +2823,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/Nigeria> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/Nigeria> ;
     lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/Nigeria> ;
-    lab6:lat "6.1667"^^xsd:float ;
-    lab6:long "6.7833"^^xsd:float ;
+    lab6:latitude "6.1667"^^xsd:float ;
+    lab6:longitude "6.7833"^^xsd:float ;
     lab6:name "Onitsha"^^xsd:string ;
     lab6:name_ascii "Onitsha"^^xsd:string ;
     lab6:population "7635000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Onitsha> .
 
-<http://dbpedia.org/resource/Osaka> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Osaka> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -2797,14 +2841,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/Japan> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/Japan> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/Japan> ;
-    lab6:lat "34.6936"^^xsd:float ;
-    lab6:long "135.5019"^^xsd:float ;
+    lab6:latitude "34.6936"^^xsd:float ;
+    lab6:longitude "135.5019"^^xsd:float ;
     lab6:name "Ōsaka"^^xsd:string ;
     lab6:name_ascii "Osaka"^^xsd:string ;
     lab6:population "14977000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Osaka> .
 
-<http://dbpedia.org/resource/Paris> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Paris> a _:ub1bL146C34,
+        _:ub1bL155C27,
         lab6:CapitalCity,
         lab6:City,
         owl:Thing ;
@@ -2812,14 +2857,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/France> ;
     lab6:isCapitalOf <http://dbpedia.org/resource/France> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/France> ;
-    lab6:lat "48.8566"^^xsd:float ;
-    lab6:long "2.3522"^^xsd:float ;
+    lab6:latitude "48.8566"^^xsd:float ;
+    lab6:longitude "2.3522"^^xsd:float ;
     lab6:name "Paris"^^xsd:string ;
     lab6:name_ascii "Paris"^^xsd:string ;
     lab6:population "11020000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Paris> .
 
-<http://dbpedia.org/resource/Quanzhou> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Quanzhou> a _:ub1bL155C27,
+        _:ub1bL182C50,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:SecondLevelAdminCapitalCity,
@@ -2829,14 +2875,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:lat "24.9139"^^xsd:float ;
-    lab6:long "118.5858"^^xsd:float ;
+    lab6:latitude "24.9139"^^xsd:float ;
+    lab6:longitude "118.5858"^^xsd:float ;
     lab6:name "Quanzhou"^^xsd:string ;
     lab6:name_ascii "Quanzhou"^^xsd:string ;
     lab6:population "6480000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Quanzhou> .
 
-<http://dbpedia.org/resource/Rio_de_Janeiro> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Rio_de_Janeiro> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -2846,14 +2893,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/Brazil> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/Brazil> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/Brazil> ;
-    lab6:lat "-22.9083"^^xsd:float ;
-    lab6:long "-43.1964"^^xsd:float ;
+    lab6:latitude "-22.9083"^^xsd:float ;
+    lab6:longitude "-43.1964"^^xsd:float ;
     lab6:name "Rio de Janeiro"^^xsd:string ;
     lab6:name_ascii "Rio de Janeiro"^^xsd:string ;
     lab6:population "12272000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Rio_de_Janeiro> .
 
-<http://dbpedia.org/resource/Riyadh> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Riyadh> a _:ub1bL146C34,
+        _:ub1bL155C27,
         lab6:CapitalCity,
         lab6:City,
         owl:Thing ;
@@ -2861,14 +2909,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/Saudi_Arabia> ;
     lab6:isCapitalOf <http://dbpedia.org/resource/Saudi_Arabia> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/Saudi_Arabia> ;
-    lab6:lat "24.65"^^xsd:float ;
-    lab6:long "46.71"^^xsd:float ;
+    lab6:latitude "24.65"^^xsd:float ;
+    lab6:longitude "46.71"^^xsd:float ;
     lab6:name "Riyadh"^^xsd:string ;
     lab6:name_ascii "Riyadh"^^xsd:string ;
     lab6:population "6881000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Riyadh> .
 
-<http://dbpedia.org/resource/Roman_Catholic_Archdiocese_of_Ho_Chi_Minh_City> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Roman_Catholic_Archdiocese_of_Ho_Chi_Minh_City> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -2878,14 +2927,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/Vietnam> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/Vietnam> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/Vietnam> ;
-    lab6:lat "10.8167"^^xsd:float ;
-    lab6:long "106.6333"^^xsd:float ;
+    lab6:latitude "10.8167"^^xsd:float ;
+    lab6:longitude "106.6333"^^xsd:float ;
     lab6:name "Ho Chi Minh City"^^xsd:string ;
     lab6:name_ascii "Ho Chi Minh City"^^xsd:string ;
     lab6:population "13312000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Roman_Catholic_Archdiocese_of_Ho_Chi_Minh_City> .
 
-<http://dbpedia.org/resource/Santiago> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Santiago> a _:ub1bL146C34,
+        _:ub1bL155C27,
         lab6:CapitalCity,
         lab6:City,
         owl:Thing ;
@@ -2893,14 +2943,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/Chile> ;
     lab6:isCapitalOf <http://dbpedia.org/resource/Chile> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/Chile> ;
-    lab6:lat "-33.45"^^xsd:float ;
-    lab6:long "-70.6667"^^xsd:float ;
+    lab6:latitude "-33.45"^^xsd:float ;
+    lab6:longitude "-70.6667"^^xsd:float ;
     lab6:name "Santiago"^^xsd:string ;
     lab6:name_ascii "Santiago"^^xsd:string ;
     lab6:population "7007000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Santiago> .
 
-<http://dbpedia.org/resource/Seoul> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Seoul> a _:ub1bL146C34,
+        _:ub1bL155C27,
         lab6:CapitalCity,
         lab6:City,
         owl:Thing ;
@@ -2908,14 +2959,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/South_Korea> ;
     lab6:isCapitalOf <http://dbpedia.org/resource/South_Korea> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/South_Korea> ;
-    lab6:lat "37.5833"^^xsd:float ;
-    lab6:long "127.0"^^xsd:float ;
+    lab6:latitude "37.5833"^^xsd:float ;
+    lab6:longitude "127.0"^^xsd:float ;
     lab6:name "Seoul"^^xsd:string ;
     lab6:name_ascii "Seoul"^^xsd:string ;
     lab6:population "21794000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Seoul> .
 
-<http://dbpedia.org/resource/Shanghai> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Shanghai> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -2925,14 +2977,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "31.1667"^^xsd:float ;
-    lab6:long "121.4667"^^xsd:float ;
+    lab6:latitude "31.1667"^^xsd:float ;
+    lab6:longitude "121.4667"^^xsd:float ;
     lab6:name "Shanghai"^^xsd:string ;
     lab6:name_ascii "Shanghai"^^xsd:string ;
     lab6:population "22120000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Shanghai> .
 
-<http://dbpedia.org/resource/Shangrao> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Shangrao> a _:ub1bL155C27,
+        _:ub1bL182C50,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:SecondLevelAdminCapitalCity,
@@ -2942,14 +2995,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:lat "28.4419"^^xsd:float ;
-    lab6:long "117.9633"^^xsd:float ;
+    lab6:latitude "28.4419"^^xsd:float ;
+    lab6:longitude "117.9633"^^xsd:float ;
     lab6:name "Shangrao"^^xsd:string ;
     lab6:name_ascii "Shangrao"^^xsd:string ;
     lab6:population "6579714"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Shangrao> .
 
-<http://dbpedia.org/resource/Shenyang> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Shenyang> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -2959,14 +3013,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "41.8039"^^xsd:float ;
-    lab6:long "123.4258"^^xsd:float ;
+    lab6:latitude "41.8039"^^xsd:float ;
+    lab6:longitude "123.4258"^^xsd:float ;
     lab6:name "Shenyang"^^xsd:string ;
     lab6:name_ascii "Shenyang"^^xsd:string ;
     lab6:population "7105000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Shenyang> .
 
-<http://dbpedia.org/resource/Shenzhen> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Shenzhen> a _:ub1bL155C27,
+        _:ub1bL182C50,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:SecondLevelAdminCapitalCity,
@@ -2976,14 +3031,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:lat "22.535"^^xsd:float ;
-    lab6:long "114.054"^^xsd:float ;
+    lab6:latitude "22.535"^^xsd:float ;
+    lab6:longitude "114.054"^^xsd:float ;
     lab6:name "Shenzhen"^^xsd:string ;
     lab6:name_ascii "Shenzhen"^^xsd:string ;
     lab6:population "15929000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Shenzhen> .
 
-<http://dbpedia.org/resource/Shijiazhuang> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Shijiazhuang> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -2993,14 +3049,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "38.0422"^^xsd:float ;
-    lab6:long "114.5086"^^xsd:float ;
+    lab6:latitude "38.0422"^^xsd:float ;
+    lab6:longitude "114.5086"^^xsd:float ;
     lab6:name "Shijiazhuang"^^xsd:string ;
     lab6:name_ascii "Shijiazhuang"^^xsd:string ;
     lab6:population "10784600"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Shijiazhuang> .
 
-<http://dbpedia.org/resource/São_Paulo> a _:ub1bL165C27,
+<http://dbpedia.org/resource/São_Paulo> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -3010,14 +3067,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/Brazil> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/Brazil> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/Brazil> ;
-    lab6:lat "-23.5504"^^xsd:float ;
-    lab6:long "-46.6339"^^xsd:float ;
+    lab6:latitude "-23.5504"^^xsd:float ;
+    lab6:longitude "-46.6339"^^xsd:float ;
     lab6:name "São Paulo"^^xsd:string ;
     lab6:name_ascii "Sao Paulo"^^xsd:string ;
     lab6:population "22046000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/São_Paulo> .
 
-<http://dbpedia.org/resource/Tianjin> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Tianjin> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -3027,14 +3085,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "39.1467"^^xsd:float ;
-    lab6:long "117.2056"^^xsd:float ;
+    lab6:latitude "39.1467"^^xsd:float ;
+    lab6:longitude "117.2056"^^xsd:float ;
     lab6:name "Tianjin"^^xsd:string ;
     lab6:name_ascii "Tianjin"^^xsd:string ;
     lab6:population "10800000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Tianjin> .
 
-<http://dbpedia.org/resource/Tokyo> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Tokyo> a _:ub1bL146C34,
+        _:ub1bL155C27,
         lab6:CapitalCity,
         lab6:City,
         owl:Thing ;
@@ -3042,14 +3101,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:cityIsLocatedIn <http://dbpedia.org/resource/Japan> ;
     lab6:isCapitalOf <http://dbpedia.org/resource/Japan> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/Japan> ;
-    lab6:lat "35.6897"^^xsd:float ;
-    lab6:long "139.6922"^^xsd:float ;
+    lab6:latitude "35.6897"^^xsd:float ;
+    lab6:longitude "139.6922"^^xsd:float ;
     lab6:name "Tokyo"^^xsd:string ;
     lab6:name_ascii "Tokyo"^^xsd:string ;
     lab6:population "37977000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Tokyo> .
 
-<http://dbpedia.org/resource/Tongshan> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Tongshan> a _:ub1bL155C27,
+        _:ub1bL182C50,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:SecondLevelAdminCapitalCity,
@@ -3059,14 +3119,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:lat "34.260999999999996"^^xsd:float ;
-    lab6:long "117.1859"^^xsd:float ;
+    lab6:latitude "34.260999999999996"^^xsd:float ;
+    lab6:longitude "117.1859"^^xsd:float ;
     lab6:name "Tongshan"^^xsd:string ;
     lab6:name_ascii "Tongshan"^^xsd:string ;
     lab6:population "8669000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Tongshan> .
 
-<http://dbpedia.org/resource/Wuhan> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Wuhan> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -3076,14 +3137,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "30.5872"^^xsd:float ;
-    lab6:long "114.2881"^^xsd:float ;
+    lab6:latitude "30.5872"^^xsd:float ;
+    lab6:longitude "114.2881"^^xsd:float ;
     lab6:name "Wuhan"^^xsd:string ;
     lab6:name_ascii "Wuhan"^^xsd:string ;
     lab6:population "8962000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Wuhan> .
 
-<http://dbpedia.org/resource/Xi'an> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Xi'an> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -3093,14 +3155,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "34.2667"^^xsd:float ;
-    lab6:long "108.9"^^xsd:float ;
+    lab6:latitude "34.2667"^^xsd:float ;
+    lab6:longitude "108.9"^^xsd:float ;
     lab6:name "Xi’an"^^xsd:string ;
     lab6:name_ascii "Xi'an"^^xsd:string ;
     lab6:population "7135000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Xi'an> .
 
-<http://dbpedia.org/resource/Yancheng> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Yancheng> a _:ub1bL155C27,
+        _:ub1bL182C50,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:SecondLevelAdminCapitalCity,
@@ -3110,14 +3173,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:lat "33.3936"^^xsd:float ;
-    lab6:long "120.1339"^^xsd:float ;
+    lab6:latitude "33.3936"^^xsd:float ;
+    lab6:longitude "120.1339"^^xsd:float ;
     lab6:name "Yancheng"^^xsd:string ;
     lab6:name_ascii "Yancheng"^^xsd:string ;
     lab6:population "7260240"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Yancheng> .
 
-<http://dbpedia.org/resource/Yichun> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Yichun> a _:ub1bL155C27,
+        _:ub1bL182C50,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:SecondLevelAdminCapitalCity,
@@ -3127,14 +3191,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:lat "27.8041"^^xsd:float ;
-    lab6:long "114.383"^^xsd:float ;
+    lab6:latitude "27.8041"^^xsd:float ;
+    lab6:longitude "114.383"^^xsd:float ;
     lab6:name "Yichun"^^xsd:string ;
     lab6:name_ascii "Yichun"^^xsd:string ;
     lab6:population "6048700"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Yichun> .
 
-<http://dbpedia.org/resource/Zhanjiang> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Zhanjiang> a _:ub1bL155C27,
+        _:ub1bL182C50,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:SecondLevelAdminCapitalCity,
@@ -3144,14 +3209,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:lat "21.1967"^^xsd:float ;
-    lab6:long "110.4031"^^xsd:float ;
+    lab6:latitude "21.1967"^^xsd:float ;
+    lab6:longitude "110.4031"^^xsd:float ;
     lab6:name "Zhanjiang"^^xsd:string ;
     lab6:name_ascii "Zhanjiang"^^xsd:string ;
     lab6:population "6900000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Zhanjiang> .
 
-<http://dbpedia.org/resource/Zhengzhou> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Zhengzhou> a _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -3161,14 +3227,15 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isFirstLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
-    lab6:lat "34.7492"^^xsd:float ;
-    lab6:long "113.6605"^^xsd:float ;
+    lab6:latitude "34.7492"^^xsd:float ;
+    lab6:longitude "113.6605"^^xsd:float ;
     lab6:name "Zhengzhou"^^xsd:string ;
     lab6:name_ascii "Zhengzhou"^^xsd:string ;
     lab6:population "7005000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Zhengzhou> .
 
-<http://dbpedia.org/resource/Zhoukou> a _:ub1bL165C27,
+<http://dbpedia.org/resource/Zhoukou> a _:ub1bL155C27,
+        _:ub1bL182C50,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:SecondLevelAdminCapitalCity,
@@ -3178,18 +3245,18 @@ owl:Ontology owl:sameAs owl:Ontology .
     lab6:isAdminCapitalOf <http://dbpedia.org/resource/China> ;
     lab6:isLocatedIn <http://dbpedia.org/resource/China> ;
     lab6:isSecondLevelAdminCapitalOf <http://dbpedia.org/resource/China> ;
-    lab6:lat "33.625"^^xsd:float ;
-    lab6:long "114.6418"^^xsd:float ;
+    lab6:latitude "33.625"^^xsd:float ;
+    lab6:longitude "114.6418"^^xsd:float ;
     lab6:name "Zhoukou"^^xsd:string ;
     lab6:name_ascii "Zhoukou"^^xsd:string ;
     lab6:population "9901000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Zhoukou> .
 
 lab6:hasAdminCapital a owl:ObjectProperty ;
-    rdfs:domain _:ub1bL173C30,
+    rdfs:domain _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
-    rdfs:range _:ub1bL165C27,
+    rdfs:range _:ub1bL155C27,
         lab6:AdminCapitalCity,
         lab6:City,
         owl:Thing ;
@@ -3198,38 +3265,6 @@ lab6:hasAdminCapital a owl:ObjectProperty ;
     owl:equivalentProperty lab6:hasAdminCapital ;
     owl:inverseOf lab6:isAdminCapitalOf ;
     owl:sameAs lab6:hasAdminCapital .
-
-lab6:isFirstLevelAdminCapitalOf a owl:ObjectProperty ;
-    rdfs:domain _:ub1bL165C27,
-        lab6:AdminCapitalCity,
-        lab6:City,
-        lab6:FirstLevelAdminCapitalCity,
-        owl:Thing ;
-    rdfs:range _:ub1bL173C30,
-        lab6:Country,
-        owl:Thing ;
-    rdfs:subPropertyOf lab6:cityIsLocatedIn,
-        lab6:isAdminCapitalOf,
-        lab6:isFirstLevelAdminCapitalOf,
-        lab6:isLocatedIn ;
-    owl:equivalentProperty lab6:isFirstLevelAdminCapitalOf ;
-    owl:sameAs lab6:isFirstLevelAdminCapitalOf .
-
-lab6:isSecondLevelAdminCapitalOf a owl:ObjectProperty ;
-    rdfs:domain _:ub1bL165C27,
-        lab6:AdminCapitalCity,
-        lab6:City,
-        lab6:SecondLevelAdminCapitalCity,
-        owl:Thing ;
-    rdfs:range _:ub1bL173C30,
-        lab6:Country,
-        owl:Thing ;
-    rdfs:subPropertyOf lab6:cityIsLocatedIn,
-        lab6:isAdminCapitalOf,
-        lab6:isLocatedIn,
-        lab6:isSecondLevelAdminCapitalOf ;
-    owl:equivalentProperty lab6:isSecondLevelAdminCapitalOf ;
-    owl:sameAs lab6:isSecondLevelAdminCapitalOf .
 
 lab6:iso2code a owl:DatatypeProperty ;
     rdfs:comment "ISO 3166-1 code with 2 characters: https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes" ;
@@ -3252,7 +3287,8 @@ lab6:latitude a owl:DatatypeProperty ;
     owl:equivalentProperty lab6:latitude ;
     owl:sameAs lab6:latitude .
 
-lab6:london a _:ub1bL165C27,
+lab6:london a _:ub1bL146C34,
+        _:ub1bL155C27,
         lab6:CapitalCity,
         lab6:City,
         owl:NamedIndividual,
@@ -3261,11 +3297,11 @@ lab6:london a _:ub1bL165C27,
     lab6:cityIsLocatedIn lab6:united_kingdom ;
     lab6:isCapitalOf lab6:united_kingdom ;
     lab6:isLocatedIn lab6:united_kingdom ;
-    lab6:lat "51.5072"^^xsd:float ;
-    lab6:long "-0.1275"^^xsd:float ;
+    lab6:latitude "51.5072"^^xsd:float ;
+    lab6:longitude "-0.1275"^^xsd:float ;
     lab6:name "London"^^xsd:string ;
     lab6:name_ascii "London"^^xsd:string ;
-    lab6:population "10979000"^^xsd:long ;
+    lab6:pupulation "10979000"^^xsd:long ;
     owl:sameAs lab6:london .
 
 lab6:longitude a owl:DatatypeProperty ;
@@ -3297,8 +3333,11 @@ lab6:pupulation a owl:DatatypeProperty ;
     owl:sameAs lab6:pupulation .
 
 owl:Nothing a owl:Class ;
-    rdfs:subClassOf _:ub1bL165C27,
-        _:ub1bL173C30,
+    rdfs:subClassOf _:ub1bL146C34,
+        _:ub1bL155C27,
+        _:ub1bL163C30,
+        _:ub1bL172C49,
+        _:ub1bL182C50,
         lab6:AdminCapitalCity,
         lab6:CapitalCity,
         lab6:City,
@@ -3309,8 +3348,6 @@ owl:Nothing a owl:Class ;
         owl:Thing ;
     owl:equivalentClass owl:Nothing ;
     owl:sameAs owl:Nothing .
-
-owl:Restriction owl:sameAs owl:Restriction .
 
 "-0.1275"^^xsd:float a xsd:float ;
     owl:sameAs "-0.1275"^^xsd:float .
@@ -3578,7 +3615,7 @@ owl:Restriction owl:sameAs owl:Restriction .
 "Ōsaka"^^xsd:string a xsd:string ;
     owl:sameAs "Ōsaka"^^xsd:string .
 
-<http://dbpedia.org/resource/Angola> a _:ub1bL173C30,
+<http://dbpedia.org/resource/Angola> a _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     lab6:hasCapital <http://dbpedia.org/resource/Luanda> ;
@@ -3588,7 +3625,7 @@ owl:Restriction owl:sameAs owl:Restriction .
     lab6:name "Angola"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Angola> .
 
-<http://dbpedia.org/resource/Argentina> a _:ub1bL173C30,
+<http://dbpedia.org/resource/Argentina> a _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     lab6:hasCapital <http://dbpedia.org/resource/Buenos_Aires> ;
@@ -3598,7 +3635,7 @@ owl:Restriction owl:sameAs owl:Restriction .
     lab6:name "Argentina"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Argentina> .
 
-<http://dbpedia.org/resource/Bangladesh> a _:ub1bL173C30,
+<http://dbpedia.org/resource/Bangladesh> a _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     lab6:hasCapital <http://dbpedia.org/resource/Dhaka> ;
@@ -3608,8 +3645,8 @@ owl:Restriction owl:sameAs owl:Restriction .
     lab6:name "Bangladesh"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Bangladesh> .
 
-<http://dbpedia.org/resource/British_Hong_Kong> a _:ub1bL165C27,
-        _:ub1bL173C30,
+<http://dbpedia.org/resource/British_Hong_Kong> a _:ub1bL155C27,
+        _:ub1bL163C30,
         lab6:City,
         lab6:Country,
         owl:Thing ;
@@ -3618,14 +3655,14 @@ owl:Restriction owl:sameAs owl:Restriction .
     lab6:isLocatedIn <http://dbpedia.org/resource/British_Hong_Kong> ;
     lab6:iso2code "HK"^^xsd:string ;
     lab6:iso3code "HKG"^^xsd:string ;
-    lab6:lat "22.305"^^xsd:float ;
-    lab6:long "114.185"^^xsd:float ;
+    lab6:latitude "22.305"^^xsd:float ;
+    lab6:longitude "114.185"^^xsd:float ;
     lab6:name "Hong Kong"^^xsd:string ;
     lab6:name_ascii "Hong Kong"^^xsd:string ;
     lab6:population "7347000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/British_Hong_Kong> .
 
-<http://dbpedia.org/resource/Chile> a _:ub1bL173C30,
+<http://dbpedia.org/resource/Chile> a _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     lab6:hasCapital <http://dbpedia.org/resource/Santiago> ;
@@ -3635,7 +3672,7 @@ owl:Restriction owl:sameAs owl:Restriction .
     lab6:name "Chile"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Chile> .
 
-<http://dbpedia.org/resource/Colombia> a _:ub1bL173C30,
+<http://dbpedia.org/resource/Colombia> a _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     lab6:hasCapital <http://dbpedia.org/resource/Bogota,_New_Jersey> ;
@@ -3645,7 +3682,7 @@ owl:Restriction owl:sameAs owl:Restriction .
     lab6:name "Colombia"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Colombia> .
 
-<http://dbpedia.org/resource/Egypt> a _:ub1bL173C30,
+<http://dbpedia.org/resource/Egypt> a _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     lab6:hasCapital <http://dbpedia.org/resource/Cairo> ;
@@ -3655,7 +3692,7 @@ owl:Restriction owl:sameAs owl:Restriction .
     lab6:name "Egypt"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Egypt> .
 
-<http://dbpedia.org/resource/France> a _:ub1bL173C30,
+<http://dbpedia.org/resource/France> a _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     lab6:hasCapital <http://dbpedia.org/resource/Paris> ;
@@ -3665,7 +3702,7 @@ owl:Restriction owl:sameAs owl:Restriction .
     lab6:name "France"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/France> .
 
-<http://dbpedia.org/resource/Indonesia> a _:ub1bL173C30,
+<http://dbpedia.org/resource/Indonesia> a _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     lab6:hasCapital <http://dbpedia.org/resource/Jakarta> ;
@@ -3675,7 +3712,7 @@ owl:Restriction owl:sameAs owl:Restriction .
     lab6:name "Indonesia"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Indonesia> .
 
-<http://dbpedia.org/resource/Malaysia> a _:ub1bL173C30,
+<http://dbpedia.org/resource/Malaysia> a _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     lab6:hasCapital <http://dbpedia.org/resource/Kuala_Lumpur> ;
@@ -3685,7 +3722,7 @@ owl:Restriction owl:sameAs owl:Restriction .
     lab6:name "Malaysia"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Malaysia> .
 
-<http://dbpedia.org/resource/Mexico> a _:ub1bL173C30,
+<http://dbpedia.org/resource/Mexico> a _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     lab6:hasCapital <http://dbpedia.org/resource/Mexico_City> ;
@@ -3695,7 +3732,7 @@ owl:Restriction owl:sameAs owl:Restriction .
     lab6:name "Mexico"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Mexico> .
 
-<http://dbpedia.org/resource/Peru> a _:ub1bL173C30,
+<http://dbpedia.org/resource/Peru> a _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     lab6:hasCapital <http://dbpedia.org/resource/Lima> ;
@@ -3705,7 +3742,7 @@ owl:Restriction owl:sameAs owl:Restriction .
     lab6:name "Peru"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Peru> .
 
-<http://dbpedia.org/resource/Philippines> a _:ub1bL173C30,
+<http://dbpedia.org/resource/Philippines> a _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     lab6:hasCapital <http://dbpedia.org/resource/Manila> ;
@@ -3715,7 +3752,7 @@ owl:Restriction owl:sameAs owl:Restriction .
     lab6:name "Philippines"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Philippines> .
 
-<http://dbpedia.org/resource/Russia> a _:ub1bL173C30,
+<http://dbpedia.org/resource/Russia> a _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     lab6:hasCapital <http://dbpedia.org/resource/Moscow> ;
@@ -3725,7 +3762,7 @@ owl:Restriction owl:sameAs owl:Restriction .
     lab6:name "Russia"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Russia> .
 
-<http://dbpedia.org/resource/Saudi_Arabia> a _:ub1bL173C30,
+<http://dbpedia.org/resource/Saudi_Arabia> a _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     lab6:hasCapital <http://dbpedia.org/resource/Riyadh> ;
@@ -3735,7 +3772,7 @@ owl:Restriction owl:sameAs owl:Restriction .
     lab6:name "Saudi Arabia"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Saudi_Arabia> .
 
-<http://dbpedia.org/resource/South_Korea> a _:ub1bL173C30,
+<http://dbpedia.org/resource/South_Korea> a _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     lab6:hasCapital <http://dbpedia.org/resource/Seoul> ;
@@ -3745,7 +3782,7 @@ owl:Restriction owl:sameAs owl:Restriction .
     lab6:name "Korea, South"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/South_Korea> .
 
-<http://dbpedia.org/resource/Sudan> a _:ub1bL173C30,
+<http://dbpedia.org/resource/Sudan> a _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     lab6:hasCapital <http://dbpedia.org/resource/Khartoum> ;
@@ -3755,7 +3792,7 @@ owl:Restriction owl:sameAs owl:Restriction .
     lab6:name "Sudan"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Sudan> .
 
-<http://dbpedia.org/resource/Tanzania> a _:ub1bL173C30,
+<http://dbpedia.org/resource/Tanzania> a _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     lab6:hasCapital <http://dbpedia.org/resource/Dar_es_Salaam> ;
@@ -3765,7 +3802,7 @@ owl:Restriction owl:sameAs owl:Restriction .
     lab6:name "Tanzania"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Tanzania> .
 
-<http://dbpedia.org/resource/Thailand> a _:ub1bL173C30,
+<http://dbpedia.org/resource/Thailand> a _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     lab6:hasCapital <http://dbpedia.org/resource/Bangkok> ;
@@ -3775,7 +3812,7 @@ owl:Restriction owl:sameAs owl:Restriction .
     lab6:name "Thailand"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Thailand> .
 
-<http://dbpedia.org/resource/United_Kingdom> a _:ub1bL173C30,
+<http://dbpedia.org/resource/United_Kingdom> a _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     lab6:hasCapital <http://dbpedia.org/resource/London> ;
@@ -3794,10 +3831,11 @@ lab6:admin_name a owl:DatatypeProperty ;
 
 lab6:hasCapital a owl:FunctionalProperty,
         owl:ObjectProperty ;
-    rdfs:domain _:ub1bL173C30,
+    rdfs:domain _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
-    rdfs:range _:ub1bL165C27,
+    rdfs:range _:ub1bL146C34,
+        _:ub1bL155C27,
         lab6:CapitalCity,
         lab6:City,
         owl:Thing ;
@@ -3807,20 +3845,39 @@ lab6:hasCapital a owl:FunctionalProperty,
     owl:inverseOf lab6:isCapitalOf ;
     owl:sameAs lab6:hasCapital .
 
-lab6:isCapitalOf a owl:FunctionalProperty,
-        owl:ObjectProperty ;
-    rdfs:domain _:ub1bL165C27,
-        lab6:CapitalCity,
+lab6:isFirstLevelAdminCapitalOf a owl:ObjectProperty ;
+    rdfs:domain _:ub1bL155C27,
+        _:ub1bL172C49,
+        lab6:AdminCapitalCity,
         lab6:City,
+        lab6:FirstLevelAdminCapitalCity,
         owl:Thing ;
-    rdfs:range _:ub1bL173C30,
+    rdfs:range _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     rdfs:subPropertyOf lab6:cityIsLocatedIn,
-        lab6:isCapitalOf,
+        lab6:isAdminCapitalOf,
+        lab6:isFirstLevelAdminCapitalOf,
         lab6:isLocatedIn ;
-    owl:equivalentProperty lab6:isCapitalOf ;
-    owl:sameAs lab6:isCapitalOf .
+    owl:equivalentProperty lab6:isFirstLevelAdminCapitalOf ;
+    owl:sameAs lab6:isFirstLevelAdminCapitalOf .
+
+lab6:isSecondLevelAdminCapitalOf a owl:ObjectProperty ;
+    rdfs:domain _:ub1bL155C27,
+        _:ub1bL182C50,
+        lab6:AdminCapitalCity,
+        lab6:City,
+        lab6:SecondLevelAdminCapitalCity,
+        owl:Thing ;
+    rdfs:range _:ub1bL163C30,
+        lab6:Country,
+        owl:Thing ;
+    rdfs:subPropertyOf lab6:cityIsLocatedIn,
+        lab6:isAdminCapitalOf,
+        lab6:isLocatedIn,
+        lab6:isSecondLevelAdminCapitalOf ;
+    owl:equivalentProperty lab6:isSecondLevelAdminCapitalOf ;
+    owl:sameAs lab6:isSecondLevelAdminCapitalOf .
 
 owl:FunctionalProperty owl:sameAs owl:FunctionalProperty .
 
@@ -3889,7 +3946,7 @@ owl:NamedIndividual owl:sameAs owl:NamedIndividual .
 "Tianjin"^^xsd:string a xsd:string ;
     owl:sameAs "Tianjin"^^xsd:string .
 
-<http://dbpedia.org/resource/Turkey> a _:ub1bL173C30,
+<http://dbpedia.org/resource/Turkey> a _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     lab6:hasAdminCapital <http://dbpedia.org/resource/Istanbul> ;
@@ -3899,14 +3956,31 @@ owl:NamedIndividual owl:sameAs owl:NamedIndividual .
     lab6:name "Turkey"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Turkey> .
 
+lab6:isCapitalOf a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain _:ub1bL146C34,
+        _:ub1bL155C27,
+        lab6:CapitalCity,
+        lab6:City,
+        owl:Thing ;
+    rdfs:range _:ub1bL163C30,
+        lab6:Country,
+        owl:Thing ;
+    rdfs:subPropertyOf lab6:cityIsLocatedIn,
+        lab6:isCapitalOf,
+        lab6:isLocatedIn ;
+    owl:equivalentProperty lab6:isCapitalOf ;
+    owl:sameAs lab6:isCapitalOf .
+
 "Jiangsu"^^xsd:string a xsd:string ;
     owl:sameAs "Jiangsu"^^xsd:string .
 
 "London"^^xsd:string a xsd:string ;
     owl:sameAs "London"^^xsd:string .
 
-<http://dbpedia.org/resource/Kinshasa> a _:ub1bL165C27,
-        _:ub1bL173C30,
+<http://dbpedia.org/resource/Kinshasa> a _:ub1bL146C34,
+        _:ub1bL155C27,
+        _:ub1bL163C30,
         lab6:CapitalCity,
         lab6:City,
         lab6:Country,
@@ -3919,16 +3993,17 @@ owl:NamedIndividual owl:sameAs owl:NamedIndividual .
     lab6:isLocatedIn <http://dbpedia.org/resource/Kinshasa> ;
     lab6:iso2code "CD"^^xsd:string ;
     lab6:iso3code "COD"^^xsd:string ;
-    lab6:lat "-4.3317"^^xsd:float ;
-    lab6:long "15.3139"^^xsd:float ;
+    lab6:latitude "-4.3317"^^xsd:float ;
+    lab6:longitude "15.3139"^^xsd:float ;
     lab6:name "Congo (Kinshasa)"^^xsd:string,
         "Kinshasa"^^xsd:string ;
     lab6:name_ascii "Kinshasa"^^xsd:string ;
     lab6:population "13528000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Kinshasa> .
 
-<http://dbpedia.org/resource/Tehran> a _:ub1bL165C27,
-        _:ub1bL173C30,
+<http://dbpedia.org/resource/Tehran> a _:ub1bL146C34,
+        _:ub1bL155C27,
+        _:ub1bL163C30,
         lab6:CapitalCity,
         lab6:City,
         lab6:Country,
@@ -3941,8 +4016,8 @@ owl:NamedIndividual owl:sameAs owl:NamedIndividual .
     lab6:isLocatedIn <http://dbpedia.org/resource/Tehran> ;
     lab6:iso2code "IR"^^xsd:string ;
     lab6:iso3code "IRN"^^xsd:string ;
-    lab6:lat "35.7"^^xsd:float ;
-    lab6:long "51.4167"^^xsd:float ;
+    lab6:latitude "35.7"^^xsd:float ;
+    lab6:longitude "51.4167"^^xsd:float ;
     lab6:name "Iran"^^xsd:string,
         "Tehran"^^xsd:string ;
     lab6:name_ascii "Tehran"^^xsd:string ;
@@ -3950,10 +4025,10 @@ owl:NamedIndividual owl:sameAs owl:NamedIndividual .
     owl:sameAs <http://dbpedia.org/resource/Tehran> .
 
 lab6:hasCity a owl:ObjectProperty ;
-    rdfs:domain _:ub1bL173C30,
+    rdfs:domain _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
-    rdfs:range _:ub1bL165C27,
+    rdfs:range _:ub1bL155C27,
         lab6:City,
         owl:Thing ;
     rdfs:subPropertyOf lab6:hasCity ;
@@ -3961,11 +4036,11 @@ lab6:hasCity a owl:ObjectProperty ;
     owl:sameAs lab6:hasCity .
 
 lab6:isAdminCapitalOf a owl:ObjectProperty ;
-    rdfs:domain _:ub1bL165C27,
+    rdfs:domain _:ub1bL155C27,
         lab6:AdminCapitalCity,
         lab6:City,
         owl:Thing ;
-    rdfs:range _:ub1bL173C30,
+    rdfs:range _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     rdfs:subPropertyOf lab6:cityIsLocatedIn,
@@ -3974,7 +4049,7 @@ lab6:isAdminCapitalOf a owl:ObjectProperty ;
     owl:equivalentProperty lab6:isAdminCapitalOf ;
     owl:sameAs lab6:isAdminCapitalOf .
 
-lab6:united_kingdom a _:ub1bL173C30,
+lab6:united_kingdom a _:ub1bL163C30,
         lab6:Country,
         owl:NamedIndividual,
         owl:Thing ;
@@ -3985,6 +4060,8 @@ lab6:united_kingdom a _:ub1bL173C30,
     lab6:iso3code "GBR"^^xsd:string ;
     lab6:name "United Kingdom"^^xsd:string ;
     owl:sameAs lab6:united_kingdom .
+
+owl:Restriction owl:sameAs owl:Restriction .
 
 "Hebei"^^xsd:string a xsd:string ;
     owl:sameAs "Hebei"^^xsd:string .
@@ -3998,7 +4075,7 @@ lab6:united_kingdom a _:ub1bL173C30,
 "Henan"^^xsd:string a xsd:string ;
     owl:sameAs "Henan"^^xsd:string .
 
-<http://dbpedia.org/resource/Vietnam> a _:ub1bL173C30,
+<http://dbpedia.org/resource/Vietnam> a _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     lab6:hasAdminCapital <http://dbpedia.org/resource/Roman_Catholic_Archdiocese_of_Ho_Chi_Minh_City> ;
@@ -4012,10 +4089,10 @@ lab6:united_kingdom a _:ub1bL173C30,
 
 lab6:cityIsLocatedIn a owl:FunctionalProperty,
         owl:ObjectProperty ;
-    rdfs:domain _:ub1bL165C27,
+    rdfs:domain _:ub1bL155C27,
         lab6:City,
         owl:Thing ;
-    rdfs:range _:ub1bL173C30,
+    rdfs:range _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     rdfs:subPropertyOf lab6:cityIsLocatedIn,
@@ -4029,7 +4106,7 @@ lab6:isLocatedIn a owl:ObjectProperty ;
     owl:equivalentProperty lab6:isLocatedIn ;
     owl:sameAs lab6:isLocatedIn .
 
-<http://dbpedia.org/resource/Brazil> a _:ub1bL173C30,
+<http://dbpedia.org/resource/Brazil> a _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     lab6:hasAdminCapital <http://dbpedia.org/resource/Rio_de_Janeiro>,
@@ -4041,7 +4118,7 @@ lab6:isLocatedIn a owl:ObjectProperty ;
     lab6:name "Brazil"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Brazil> .
 
-<http://dbpedia.org/resource/Nigeria> a _:ub1bL173C30,
+<http://dbpedia.org/resource/Nigeria> a _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     lab6:hasAdminCapital <http://dbpedia.org/resource/Lagos>,
@@ -4053,7 +4130,7 @@ lab6:isLocatedIn a owl:ObjectProperty ;
     lab6:name "Nigeria"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Nigeria> .
 
-<http://dbpedia.org/resource/Pakistan> a _:ub1bL173C30,
+<http://dbpedia.org/resource/Pakistan> a _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     lab6:hasAdminCapital <http://dbpedia.org/resource/Karachi>,
@@ -4065,7 +4142,7 @@ lab6:isLocatedIn a owl:ObjectProperty ;
     lab6:name "Pakistan"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Pakistan> .
 
-<http://dbpedia.org/resource/United_States> a _:ub1bL173C30,
+<http://dbpedia.org/resource/United_States> a _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     lab6:hasCity <http://dbpedia.org/resource/Chicago>,
@@ -4081,9 +4158,11 @@ owl:Class owl:sameAs owl:Class .
 
 owl:DatatypeProperty owl:sameAs owl:DatatypeProperty .
 
+owl:AnnotationProperty owl:sameAs owl:AnnotationProperty .
+
 owl:ObjectProperty owl:sameAs owl:ObjectProperty .
 
-<http://dbpedia.org/resource/Japan> a _:ub1bL173C30,
+<http://dbpedia.org/resource/Japan> a _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     lab6:hasAdminCapital <http://dbpedia.org/resource/Nagoya>,
@@ -4097,11 +4176,10 @@ owl:ObjectProperty owl:sameAs owl:ObjectProperty .
     lab6:name "Japan"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Japan> .
 
-owl:AnnotationProperty owl:sameAs owl:AnnotationProperty .
-
 lab6:SecondLevelAdminCapitalCity a owl:Class ;
     rdfs:comment "minor - lower-level admin capital (e.g. Fayetteville, AR)" ;
-    rdfs:subClassOf _:ub1bL165C27,
+    rdfs:subClassOf _:ub1bL155C27,
+        _:ub1bL182C50,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:SecondLevelAdminCapitalCity,
@@ -4109,7 +4187,7 @@ lab6:SecondLevelAdminCapitalCity a owl:Class ;
     owl:equivalentClass lab6:SecondLevelAdminCapitalCity ;
     owl:sameAs lab6:SecondLevelAdminCapitalCity .
 
-<http://dbpedia.org/resource/India> a _:ub1bL173C30,
+<http://dbpedia.org/resource/India> a _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     lab6:hasAdminCapital <http://dbpedia.org/resource/Ahmadabad>,
@@ -4134,7 +4212,8 @@ lab6:SecondLevelAdminCapitalCity a owl:Class ;
 
 lab6:CapitalCity a owl:Class ;
     rdfs:comment "primary - country's capital (e.g. Washington D.C.)" ;
-    rdfs:subClassOf _:ub1bL165C27,
+    rdfs:subClassOf _:ub1bL146C34,
+        _:ub1bL155C27,
         lab6:CapitalCity,
         lab6:City,
         owl:Thing ;
@@ -4143,7 +4222,8 @@ lab6:CapitalCity a owl:Class ;
 
 lab6:FirstLevelAdminCapitalCity a owl:Class ;
     rdfs:comment "admin - first-level admin capital (e.g. Little Rock, AR)" ;
-    rdfs:subClassOf _:ub1bL165C27,
+    rdfs:subClassOf _:ub1bL155C27,
+        _:ub1bL172C49,
         lab6:AdminCapitalCity,
         lab6:City,
         lab6:FirstLevelAdminCapitalCity,
@@ -4154,14 +4234,14 @@ lab6:FirstLevelAdminCapitalCity a owl:Class ;
 rdfs:Datatype owl:sameAs rdfs:Datatype .
 
 lab6:Country a owl:Class ;
-    rdfs:subClassOf _:ub1bL173C30,
+    rdfs:subClassOf _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     owl:equivalentClass lab6:Country ;
     owl:sameAs lab6:Country .
 
 lab6:AdminCapitalCity a owl:Class ;
-    rdfs:subClassOf _:ub1bL165C27,
+    rdfs:subClassOf _:ub1bL155C27,
         lab6:AdminCapitalCity,
         lab6:City,
         owl:Thing ;
@@ -4180,7 +4260,7 @@ xsd:long a rdfs:Datatype ;
     owl:sameAs xsd:long .
 
 lab6:City a owl:Class ;
-    rdfs:subClassOf _:ub1bL165C27,
+    rdfs:subClassOf _:ub1bL155C27,
         lab6:City,
         owl:Thing ;
     owl:equivalentClass lab6:City ;
@@ -4191,7 +4271,7 @@ owl:Thing a owl:Class ;
     owl:equivalentClass owl:Thing ;
     owl:sameAs owl:Thing .
 
-<http://dbpedia.org/resource/China> a _:ub1bL173C30,
+<http://dbpedia.org/resource/China> a _:ub1bL163C30,
         lab6:Country,
         owl:Thing ;
     lab6:hasAdminCapital <http://dbpedia.org/resource/Changchun>,
@@ -4295,17 +4375,41 @@ xsd:float a rdfs:Datatype ;
 xsd:string a rdfs:Datatype ;
     owl:sameAs xsd:string .
 
-_:ub1bL173C30 a owl:Restriction ;
-    rdfs:subClassOf _:ub1bL173C30 ;
-    owl:equivalentClass _:ub1bL173C30 ;
+_:ub1bL182C50 a owl:Restriction ;
+    rdfs:subClassOf _:ub1bL155C27,
+        _:ub1bL182C50 ;
+    owl:equivalentClass _:ub1bL182C50 ;
+    owl:onProperty lab6:isSecondLevelAdminCapitalOf ;
+    owl:sameAs _:ub1bL182C50 ;
+    owl:someValuesFrom lab6:Country .
+
+_:ub1bL146C34 a owl:Restriction ;
+    rdfs:subClassOf _:ub1bL146C34,
+        _:ub1bL155C27 ;
+    owl:equivalentClass _:ub1bL146C34 ;
+    owl:onProperty lab6:isCapitalOf ;
+    owl:sameAs _:ub1bL146C34 ;
+    owl:someValuesFrom lab6:Country .
+
+_:ub1bL172C49 a owl:Restriction ;
+    rdfs:subClassOf _:ub1bL155C27,
+        _:ub1bL172C49 ;
+    owl:equivalentClass _:ub1bL172C49 ;
+    owl:onProperty lab6:isFirstLevelAdminCapitalOf ;
+    owl:sameAs _:ub1bL172C49 ;
+    owl:someValuesFrom lab6:Country .
+
+_:ub1bL163C30 a owl:Restriction ;
+    rdfs:subClassOf _:ub1bL163C30 ;
+    owl:equivalentClass _:ub1bL163C30 ;
     owl:onProperty lab6:hasCapital ;
-    owl:sameAs _:ub1bL173C30 ;
+    owl:sameAs _:ub1bL163C30 ;
     owl:someValuesFrom lab6:City .
 
-_:ub1bL165C27 a owl:Restriction ;
-    rdfs:subClassOf _:ub1bL165C27 ;
-    owl:equivalentClass _:ub1bL165C27 ;
+_:ub1bL155C27 a owl:Restriction ;
+    rdfs:subClassOf _:ub1bL155C27 ;
+    owl:equivalentClass _:ub1bL155C27 ;
     owl:onProperty lab6:cityIsLocatedIn ;
-    owl:sameAs _:ub1bL165C27 ;
+    owl:sameAs _:ub1bL155C27 ;
     owl:someValuesFrom lab6:Country .
 

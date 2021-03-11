@@ -40,10 +40,10 @@ class Lab6Solution(object):
         self.g = Graph()
         
         #Note that this is the same namespace used in the ontology "lab6.ttl"
-        self.labe6_ns_str= "http://www.semanticweb.org/ernesto/inm713/lab6/"
+        self.lab6_ns_str= "http://www.semanticweb.org/ernesto/inm713/lab6/"
         
         #Special namspaces class to create directly URIRefs in python.           
-        self.lab6 = Namespace(self.labe6_ns_str)
+        self.lab6 = Namespace(self.lab6_ns_str)
         
         #Prefixes for the serialization
         self.g.bind("lab6", self.lab6) #lab6 is a newly created namespace
@@ -63,6 +63,85 @@ class Lab6Solution(object):
         
     def Task4(self):
         self.CovertCSVToRDF(True)
+
+    
+    def SimpleUniqueMapping(self):
+        #This mapping creates an several transformations (i.e., triples) in one go.
+        #Unlike the modular approach (see ConvertCSVToRDF) this solution is less flexible to adaptations  
+        
+        #Format:
+        #0        1             2    3        4        5        6        7            8         9
+        #city     city_ascii    lat  lng    country    iso2    iso3    admin_name    capital    population                        
+        for row in self.data_frame.itertuples(index=False):
+            #print(row[0])
+                                    
+            #we avoid NaN values, one could add more safety filters. This case is problematic in this dataset                            
+            if (self.is_nan(row[1]) or self.is_nan(row[4])): 
+                continue
+                
+            entity_city_uri = self.lab6_ns_str + row[1].lower().replace(" ", "_")
+            entity_country_uri = self.lab6_ns_str + row[4].lower().replace(" ", "_")
+                                
+            #Types triples
+            #Using self.lab6.City is equivalent to using URIRef(self.lab6_ns_str = "City")
+            self.g.add((URIRef(entity_city_uri), RDF.type, self.lab6.City))     #e.g. lab6:london rdf:type lab6:City
+            self.g.add((URIRef(entity_country_uri), RDF.type, self.lab6.Country))  #e.g. lab6united_kingdom rdf:type lab6:Country
+        
+            #City Names triples            
+            self.g.add((URIRef(entity_city_uri), self.lab6.name_ascii, Literal(row[1], datatype=XSD.string)))
+            if (not self.is_nan(row[0])):
+                self.g.add((URIRef(entity_city_uri), self.lab6.name, Literal(row[0], datatype=XSD.string)))
+            if (not self.is_nan(row[7])):
+                self.g.add((URIRef(entity_city_uri), self.lab6.admin_name, Literal(row[7], datatype=XSD.string)))
+                       
+                       
+            #Lat & long
+            if (not self.is_nan(row[2])):
+                self.g.add((URIRef(entity_city_uri), self.lab6.latitude, Literal(row[2], datatype=XSD.float)))
+            if (not self.is_nan(row[3])):
+                self.g.add((URIRef(entity_city_uri), self.lab6.longitude, Literal(row[3], datatype=XSD.float)))
+            
+            #population
+            if (not self.is_nan(row[9])):
+                self.g.add((URIRef(entity_city_uri), self.lab6.population, Literal(row[9], datatype=XSD.long)))
+                       
+            
+            #Country name triple            
+            self.g.add((URIRef(entity_country_uri), self.lab6.name, Literal(row[4], datatype=XSD.string)))
+            
+        
+            #iso codes
+            if (not self.is_nan(row[5])):
+                self.g.add((URIRef(entity_country_uri), self.lab6.iso2code, Literal(row[5], datatype=XSD.string)))
+            if (not self.is_nan(row[6])):
+                self.g.add((URIRef(entity_country_uri), self.lab6.iso3code, Literal(row[6], datatype=XSD.string)))
+             
+             
+            
+            #Connection between cities and countries
+            
+            #Basic connection ignoring column "capital":                        
+            #self.g.add((URIRef(entity_city_uri), self.lab6.cityIsLocatedIn, URIRef(entity_country_uri)))
+            
+            
+            #Exploiting 'capital' column (it can be empty)            
+                
+            #(default) if value is empty or not expected
+            predicate = self.lab6.cityIsLocatedIn
+                
+            if row[8]=="admin":                      
+                predicate = self.lab6.isFirstLevelAdminCapitalOf
+            elif row[8]=="primary":
+                predicate = self.lab6.isCapitalOf                        
+            elif row[8]=="minor":
+                predicate = self.lab6.isSecondLevelAdminCapitalOf
+                
+            
+            #Note that the ontology in lab6.ttl contains a hierarchy of properties, range and domain axioms and inverses
+            #Via reasoning this triple will lead to several entailments
+            self.g.add((URIRef(entity_city_uri), predicate, URIRef(entity_country_uri)))
+            
+        
 
 
     def CovertCSVToRDF(self, useExternalURI):
@@ -137,7 +216,7 @@ class Lab6Solution(object):
     def createURIForEntity(self, name, useExternalURI):
         
         #We create fresh URI (default option)
-        self.stringToURI[name] = self.labe6_ns_str + name.replace(" ", "_")
+        self.stringToURI[name] = self.lab6_ns_str + name.replace(" ", "_")
         
         if useExternalURI: #We connect to online KG
             uri = self.getExternalKGURI(name)
@@ -187,7 +266,7 @@ class Lab6Solution(object):
             #TYPE TRIPLE
             #For the individuals we use URIRef to create an object "URI" out of the string URIs
             #For the concepts we use the ones in the ontology and we are using the NameSpace class
-            #Alternatively one could use URIRef(self.labe6_ns_str+"City") for example 
+            #Alternatively one could use URIRef(self.lab6_ns_str+"City") for example 
             self.g.add((URIRef(entity_uri), RDF.type, class_type))
         
 
@@ -276,7 +355,7 @@ class Lab6Solution(object):
     
     
         #We should load the ontology first
-        print(guess_format(ontology_file))
+        #print(guess_format(ontology_file))
         self.g.load(ontology_file,  format=guess_format(ontology_file)) #e.g., format=ttl
         
         
@@ -339,14 +418,18 @@ if __name__ == '__main__':
     
     solution = Lab6Solution(file)
     
-    task = "task3"
+    #task = "task3"
     #task = "task4"
+    task = "Simple_Mapping"
     
     #Create RDF triples
     if task == "task3":
         solution.Task3()  #Fresh entity URIs
-    else:
+    elif task == "task4":
         solution.Task4()  #Reusing URIs from DBPedia
+    else:
+        solution.SimpleUniqueMapping()  #Simple and unique mapping/transformation
+        
     
     #Graph with only data
     solution.saveGraph(file.replace(".csv", "-"+task)+".ttl")
@@ -355,7 +438,7 @@ if __name__ == '__main__':
     solution.performReasoning("ontology_lab6.ttl") ##ttl format
     #solution.performReasoning("ontology_lab6.owl") ##owl (rdf/xml) format
     
-    #Graph with ontology triples and entailed triples
+    #Graph with ontology triples and entailed triples       
     solution.saveGraph(file.replace(".csv", "-"+task)+"-reasoning.ttl")
     
     #SPARQL results into CSV
