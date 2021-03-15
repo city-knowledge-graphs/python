@@ -397,6 +397,26 @@ class Lab6Solution(object):
         f_out.close()       
         
         
+    def performSPARQLQueryLab7(self):
+        
+        qres = self.g.query(
+            """SELECT DISTINCT ?country (COUNT(?city) AS ?num_cities) WHERE { 
+              ?country lab6:hasCity ?city .
+        }
+        GROUP BY ?country
+        ORDER BY DESC(?num_cities)
+        """)
+
+
+   
+        for row in qres:
+            #Row is a list of matched RDF terms: URIs, literals or blank nodes
+            line_str = '\"%s\",\"%s\"' % (row.country, row.num_cities)
+            print(line_str)
+
+     
+        
+        
     
     
     def saveGraph(self, file_output):
@@ -418,9 +438,9 @@ if __name__ == '__main__':
     
     solution = Lab6Solution(file)
     
-    #task = "task3"
+    task = "task3"
     #task = "task4"
-    task = "Simple_Mapping"
+    #task = "Simple_Mapping"
     
     #Create RDF triples
     if task == "task3":
@@ -443,6 +463,10 @@ if __name__ == '__main__':
     
     #SPARQL results into CSV
     solution.performSPARQLQuery(file.replace(".csv", "-"+task)+"-query-results.csv")
+    
+    
+    #SPARQL for Lab 7
+    solution.performSPARQLQueryLab7()
     
     
     
