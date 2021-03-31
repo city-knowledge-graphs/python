@@ -41,6 +41,7 @@ def queryGraphDBRepo(endpoint_url, query, attempts=3):
         #print("RAW RESULTS IN JSON FORMAT:")
         #pprint(results)
         
+        print("\tRetrieved tuples: " + str(len(results["results"]["bindings"])))
                    
         #Processed results
         #print("Processed results in CSV format:")
